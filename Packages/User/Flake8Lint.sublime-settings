@@ -1,0 +1,8 @@
+{
+    "use_icons": true,
+    "run_on_save": true,
+    "popup": false,
+    "gutter_marks": "bookmark",
+    "pep8_max_line_length": 0,
+    "ignore": ["E501"]
+}
