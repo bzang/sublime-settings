@@ -9,16 +9,17 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SublimeLinter-jshint",
-		"jQuery",
 		"CodeFormatter",
+		"SublimeLinter-jshint",
 		"JsFormat",
+		"jQuery",
+		"GitGutter",
+		"FileDiffs",
 		"BracketHighlighter",
+		"Python PEP8 Autoformat",
 		"Vintage",
 		"SublimeLinter-csslint",
-		"FileDiffs",
-		"Python PEP8 Autoformat",
-		"GitGutter"
+		"Markdown"
 	],
 	"rulers":
 	[

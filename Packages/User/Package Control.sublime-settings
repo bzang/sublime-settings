@@ -1,7 +1,6 @@
 {
 	"installed_packages":
 	[
-		"Better CoffeeScript",
 		"BracketHighlighter",
 		"CodeFormatter",
 		"Color Highlighter",
@@ -30,6 +29,7 @@
 		"LESS",
 		"List LESS Variables",
 		"Markdown Extended",
+		"MarkdownEditing",
 		"Predawn",
 		"Predawn Monokai",
 		"Pretty JSON",
