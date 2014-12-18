@@ -2,6 +2,8 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"Can I Use",
+		"caniuse_local",
 		"CodeFormatter",
 		"Color Highlighter",
 		"ColorSchemeSelector",
@@ -15,6 +17,7 @@
 		"FileDiffs",
 		"Git",
 		"GitGutter",
+		"Gulp",
 		"Gutter Color",
 		"HTML-CSS-JS Prettify",
 		"Idiomatic-CSS-Comments-Snippets",
@@ -38,6 +41,7 @@
 		"Python PEP8 Autoformat",
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
+		"StyleSorter",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
