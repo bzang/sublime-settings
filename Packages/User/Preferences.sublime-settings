@@ -4,22 +4,23 @@
 	"color_scheme": "Packages/User/Predawn Monokai (SL).tmTheme",
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 15,
+	"font_face": "Inconsolata for Powerline",
+	"font_size": 19,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"jQuery",
-		"JsFormat",
 		"Markdown",
-		"CodeFormatter",
 		"SublimeLinter-jshint",
+		"Python PEP8 Autoformat",
+		"jQuery",
+		"CodeFormatter",
+		"SublimeLinter-csslint",
+		"GitGutter",
+		"JsFormat",
 		"BracketHighlighter",
 		"FileDiffs",
-		"GitGutter",
-		"Python PEP8 Autoformat",
-		"Vintage",
-		"SublimeLinter-csslint"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
