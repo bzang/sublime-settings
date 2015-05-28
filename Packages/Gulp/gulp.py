@@ -1,5 +1,6 @@
 import sys
 import sublime
+import sublime_plugin
 import datetime
 import codecs
 import os, os.path
@@ -141,6 +142,7 @@ class GulpCommand(BaseCommand):
     def task_list_callback(self, task_index):
         if task_index > -1:
             self.task_name = self.tasks[task_index][0]
+            self.task_flag = self.get_flag_from_task_name()
             self.run_gulp_task()
 
     def run_gulp_task(self):
@@ -148,8 +150,8 @@ class GulpCommand(BaseCommand):
         Thread(target = self.run_process, args = (task, )).start() # Option to kill on timeout?
 
     def construct_gulp_task(self):
-        self.show_output_panel("Running '%s'...\n" % self.task_name)
-        return r"gulp %s" % self.task_name
+        self.show_running_status_in_output_panel()
+        return r"gulp %s %s" % (self.task_name, self.task_flag)
 
     def run_process(self, task):
         process = CrossPlatformProcess(self, self.nonblocking)
@@ -158,16 +160,20 @@ class GulpCommand(BaseCommand):
         self.defer_sync(lambda: self.finish(stdout, stderr))
 
     def finish(self, stdout, stderr):
-        finish_message = "gulp %s finished %s" % (self.task_name, "with some errors." if stderr else "!")
+        finish_message = "gulp %s %s finished %s" % (self.task_name, self.task_flag, "with some errors." if stderr else "!")
         self.status_message(finish_message)
         if not self.silent:
             self.set_output_close_on_timeout()
         elif stderr and self.settings.get("show_silent_errors", False):
             self.silent = False
-            self.show_output_panel("Running '%s'...\n" % self.task_name)
+            self.show_running_status_in_output_panel()
             self.append_to_output_view(stdout)
             self.append_to_output_view(stderr)
             self.silent = True
+
+    def show_running_status_in_output_panel(self):
+        with_flag_text = (' with %s' % self.task_flag) if self.task_flag else ''
+        self.show_output_panel("Running '%s'%s...\n" % (self.task_name, with_flag_text))
 
 
 class GulpKillCommand(BaseCommand):
@@ -176,7 +182,7 @@ class GulpKillCommand(BaseCommand):
             self.status_message("There are no running tasks")
         else:
             self.show_output_panel("\nFinishing the following running tasks:\n")
-            ProcessCache.each(lambda process: self.append_to_output_view("$ %s\n" % process.last_command))
+            ProcessCache.each(lambda process: self.append_to_output_view("$ %s\n" % process.last_command.rstrip()))
             ProcessCache.kill_all()
             self.append_to_output_view("\nAll running tasks killed!\n")
 
@@ -198,20 +204,55 @@ class GulpPluginsCommand(BaseCommand):
         self.handle_thread(thread, progress)
 
     def handle_thread(self, thread, progress):
-         if thread.is_alive() or thread.result == False:
+        if thread.is_alive() and not thread.error:
             sublime.set_timeout(lambda: self.handle_thread(thread, progress), 100)
-         else:
+        else:
             progress.stop()
-            plugin_response = json.loads(thread.result.decode('utf-8'))
-            if plugin_response["timed_out"]:
-                self.error_message("Sadly the request timed out, try again later.")
-            else:
+            if thread.result:
+                plugin_response = json.loads(thread.result.decode('utf-8'))
                 self.plugins = PluginList(plugin_response)
                 self.show_quick_panel(self.plugins.quick_panel_list(), self.open_in_browser, font = 0)
+            else:
+                self.error_message(self.error_text_for(thread))
+
+    def error_text_for(self, thread):
+        tuple = (
+            "The plugin repository seems to be down.",
+            "If the site at http://gulpjs.com/plugins is working, please report this issue at the Sublime Gulp repo.",
+            "Thanks!",
+            thread.error
+        )
+        return "\n\n%s\n\n%s\n\n%s\n\n%s" % tuple
 
     def open_in_browser(self, index = -1):
         if index >= 0 and index < self.plugins.length:
             webbrowser.open_new(self.plugins.get(index).get('homepage'))
+
+class GulpDeleteCacheCommand(GulpCommand):
+    def choose_file(self):
+        if len(self.gulp_files) == 1:
+            self.delete_cache(0)
+        else:
+            self.show_quick_panel(self.gulp_files, self.delete_cache)
+
+    def delete_cache(self, file_index):
+        if file_index > -1:
+            self.working_dir = os.path.dirname(self.gulp_files[file_index])
+            try:
+                jsonfilename = os.path.join(self.working_dir, GulpCommand.cache_file_name)
+                if os.path.exists(jsonfilename):
+                    os.remove(jsonfilename)
+                    self.status_message('Cache removed successfully')
+            except Exception as e:
+                self.status_message("Could not remove cache: %s" % str(e))
+
+
+class GulpExitCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        try:
+            self.window.run_command("gulp_kill")
+        finally:
+            self.window.run_command("exit")
 
 class CrossPlatformProcess():
     def __init__(self, command, nonblocking=True):
@@ -344,7 +385,7 @@ class Security():
 
 class PluginList():
     def __init__(self, plugins_response):
-        self.plugins = [Plugin(plugin_json) for plugin_json in plugins_response["hits"]["hits"]]
+        self.plugins = [Plugin(plugin_json) for plugin_json in plugins_response["results"]]
         self.length = len(self.plugins)
 
     def get(self, index):
@@ -352,25 +393,32 @@ class PluginList():
             return self.plugins[index]
 
     def quick_panel_list(self):
-        return [ [plugin.get('name') + ' (v' + plugin.get('version') + ')', plugin.get('description')] for plugin in self.plugins ]
+        return [ [plugin.name + ' (' + plugin.version + ')', plugin.description] for plugin in self.plugins ]
 
 class Plugin():
     def __init__(self, plugin_json):
         self.plugin = plugin_json
+        self.set_attributes()
+
+    def set_attributes(self):
+        self.name = self.get('name')
+        self.version = "v" + self.get('version')
+        self.description = self.get('description')
 
     def get(self, property):
-        return self.plugin['fields'][property][0] if self.has(property) else ''
+        return self.plugin[property] if self.has(property) else ''
 
     def has(self, property):
-        return 'fields' in self.plugin and property in self.plugin['fields']
+        return property in self.plugin
 
 
 class PluginRegistryCall(Thread):
-    url = "http://registry.gulpjs.com/_search?fields=name,description,author,homepage,version&from=20&q=keywords:gulpplugin,gulpfriendly&size=750"
+    url = "http://npmsearch.com/query?fields=name,description,homepage,version,rating&q=keywords:gulpfriendly&q=keywords:gulpplugin&size=1755&sort=rating:desc&start=20"
 
     def __init__(self, timeout = 5):
         self.timeout = timeout
         self.result = None
+        self.error = None
         Thread.__init__(self)
 
     def run(self):
@@ -381,12 +429,12 @@ class PluginRegistryCall(Thread):
             return
 
         except urllib2.HTTPError as e:
-            err = 'Gulp: HTTP error %s contacting gulpjs registry' % (str(e.code))
+            err = 'Error: HTTP error %s contacting gulpjs registry' % (str(e.code))
         except urllib2.URLError as e:
-            err = 'Gulp: URL error %s contacting gulpjs registry' % (str(e.reason))
+            err = 'Error: URL error %s contacting gulpjs registry' % (str(e.reason))
 
-        sublime.error_message(err)
-        self.result = False
+        self.error = err
+        self.result = None
 
 class ThreadWithResult(Thread):
     def __init__(self, target, args):

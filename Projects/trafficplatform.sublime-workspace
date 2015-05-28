@@ -1,0 +1,736 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rec",
+				"rec_bid_text	(statement)"
+			],
+			[
+				"failed",
+				"failed_negative_targets"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 163.0,
+		"last_filter": "reveal",
+		"selected_items":
+		[
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/berniezang/Projects/trafficplatform",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/templates",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/onboarding/static",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/onboarding/templates",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/onboarding/views",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/onboarding/views/ajax",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/forms",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/templates/pops",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/templates/pops/campaign",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/templates/pops/partials",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/templates/pops/partials/forms",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/product",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/product/campaigns",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/blueprints",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/product",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/support",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/support/templates",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/support/templates/support",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns/campaign",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns/partials",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns/partials/forms"
+	],
+	"file_history":
+	[
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/templates/pops/partials/forms/create_campaign.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/support/templates/support/base.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/blueprints/support.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/forms/campaign.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/product/campaigns/create_campaign_form.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/forms/campaign.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/forms/__init__.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/product/create_campaign.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns/partials/forms/create_campaign.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/autobots/pages/common/campaigns.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/base.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/public/css/trafficplatform.9e0d7929.css",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/base.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/templates/search/base.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/assets_config.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/assets_config.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/templates/search/partials/wells/search_sunset_well.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/partials/modals/search_sunset_modal.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/product/search_sunset.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/product/search_sunset_modal.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/static/js/search_sunset.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/overview.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/views/overview.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/onboarding/templates/onboarding/campaigns/index.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/onboarding/views/onboarding.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns/index.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/display/static/js/add_creative_form.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/jobs/desk_helper.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/partials/thirdparty/desk_contact_us.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/partials/thirdparty/desk_contact_us_script.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/vendor/filepicker/filepicker.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/views/endpoint_base.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/forms/identity.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/components/form/report_form.js",
+		"/Users/berniezang/Projects/trafficplatform/components/bootstrap/less/mixins/reset-filter.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/core.py",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/uglify-js/node_modules/optimist/example/line_count_options.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/connections.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/macros/forms.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/admin/views/admin.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/intext/forms/creative_edit_form.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/endpoint.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/models/creative.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/forms/creative.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/templates/pops/creatives.html",
+		"/Users/berniezang/Projects/trafficplatform/misc/migrations/0067_alter_pop_creatives_add_pop_type.sql",
+		"/Users/berniezang/Projects/trafficplatform/misc/migrations/0156_alter_pop_campaigns_add_rating.sql",
+		"/Users/berniezang/Projects/trafficplatform/misc/migrations/0137_pops_category_targeting.sql",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/intext/jobs/postback_processor.py",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/less/test/browser/runner-production-options.js",
+		"/Users/berniezang/Projects/trafficplatform/package.json",
+		"/Users/berniezang/Projects/trafficplatform/components/bootstrap/less/forms.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/forms.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/models/filter_option.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/display/templates/display/campaign/settings.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/display/forms/campaign.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/globals/responsive.less",
+		"/Users/berniezang/Projects/trafficplatform/components/bootstrap/less/responsive-utilities.less",
+		"/Users/berniezang/Projects/trafficplatform/components/bootstrap/less/responsive-embed.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/report_utils.py",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/less/build/require-rhino.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/less/test/browser/runner-relative-urls-options.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/less/node_modules/graceful-fs/test/readdir-sort.js",
+		"/Users/berniezang/Projects/trafficplatform/misc/migrations/0174_add_display_tables.sql",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/admin/static/js/admin_advertiser_overview.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/fifty/components/datepicker.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/fifty/forked_libraries/daterangepicker-bs3.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/partials/daterange_picker.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/components/daterange_picker.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/forked_libraries/bootstrap-daterangepicker.js",
+		"/Users/berniezang/Projects/trafficplatform/components/bootstrap/less/bootstrap.less",
+		"/Users/berniezang/Projects/trafficplatform/bower.json",
+		"/Users/berniezang/Projects/trafficplatform/components/fuelux/js/dropdown-autoflip.js",
+		"/Users/berniezang/Projects/trafficplatform/dump.rdb",
+		"/Users/berniezang/Projects/trafficplatform/components/fuelux/less/datepicker.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/message.js",
+		"/Users/berniezang/Projects/trafficplatform/components/fuelux/markup/datepicker.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/elements/datepicker.js",
+		"/Users/berniezang/Projects/trafficplatform/components/x-editable/dist/jquery-editable/jquery-ui-datepicker/js/jquery-ui-1.10.3.custom.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/pjax.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/app.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/product/overview/overview.js",
+		"/Users/berniezang/Projects/trafficplatform/wsgi_app.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/forms/administrator_profile.py",
+		"/Users/berniezang/Projects/trafficplatform/start_all.sh",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/email/message.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/components/mass_edit_action.js",
+		"/Users/berniezang/Projects/trafficplatform/manage.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/fifty/components/flash_messages.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/forked_libraries/old_fuelux_search.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/less/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/uglify-js/node_modules/async/lib/async.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/uglify-js/lib/ast.js",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/less/node_modules/request/node_modules/form-data/node_modules/async/lib/async.js",
+		"/Users/berniezang/Projects/trafficplatform/components/d3/src/format/format-locale.js",
+		"/Users/berniezang/Projects/trafficplatform/fabfile.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/admin/templates/admin/partials/pjax/advertiser_overview_data.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/templates/search/overview.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/models/product_registry.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/templates/core/hive/pops-domain-impact-report.sql",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/blueprints/admin.less",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/jobs/advertiser_dump.py",
+		"/Users/berniezang/Projects/trafficplatform/components/jquery/src/ajax/parseJSON.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/admin/views/advertiser.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/admin/templates/admin/reports/recent_actions.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/models/user.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/forms/admin_pending_accounts.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/js/components/charts/chart.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/admin/__init__.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/trafficplatform/product/reports.less",
+		"/Users/berniezang/Projects/trafficplatform/components/bootstrap/less/mixins/responsive-visibility.less",
+		"/Users/berniezang/Projects/trafficplatform/node_modules/less/test/browser/runner-errors-spec.js",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/user_account.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns/campaign/keywords.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/views/campaigns.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/tables/columns/generic.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/tables/templates/tables/cells/keyword_approval_cell.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/templates/search/adgroups.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/templates/search/campaign/adgroups.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/core/models/recent_actions.py",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/tables/templates/tables/cells/referral_email_cell.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/templates/search/adgroup/creatives.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/pops/templates/pops/campaign/creatives.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/templates/product/campaigns/base.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/search/templates/search/adgroup/keywords.html",
+		"/Users/berniezang/Projects/trafficplatform/trafficplatform/static/less/fifty/globals/layout.less"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"*.less",
+			"*.py",
+			"*",
+			"*.js",
+			"*.py",
+			"*",
+			"*.html",
+			"*.js",
+			"*.py",
+			"*.less",
+			"*.js",
+			"*.sql",
+			"*.html",
+			"*.html, *.js",
+			"*",
+			"*.js",
+			"*.py",
+			"*.html",
+			"*.py",
+			"*.js",
+			"*.less",
+			"*.py",
+			"",
+			"/Users/berniezang/Projects/trafficplatform/trafficplatform/search",
+			"search/*",
+			"*",
+			"*.less",
+			"*.py",
+			"*.html",
+			"*.py",
+			"*.html",
+			"*.less",
+			"*.py",
+			"*.sql",
+			"*.html",
+			"*.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"language-",
+			"initCPVT",
+			"change",
+			"os_target",
+			"BaseCampaignForm",
+			"os_target",
+			"sunset",
+			"all_search_pages",
+			"sunset",
+			">>>>>",
+			"_handleFPAssetUploadError",
+			"_filepickerPick",
+			"_filepickerStore",
+			"escape",
+			"store",
+			"_filepicker_error_text",
+			"Something went wrong while trying to upload your file.",
+			"encode",
+			"filepicker",
+			"filepicker.js",
+			"alternate_email",
+			"DESK",
+			"DESK.widget",
+			"DESK.",
+			"identity",
+			"_log_message",
+			"CampaignMassEditView(",
+			"campaigns",
+			"RecentActions",
+			"recent_action",
+			"CreativeForm(",
+			"CreativeForm",
+			"radiofield",
+			"populate_obj",
+			"input",
+			"radio",
+			"11px",
+			"halveDefaultBid",
+			"rating",
+			"bid_id",
+			"this.opens",
+			"pull-left",
+			"pull-righ",
+			"border-right",
+			"pull-right",
+			"pull-left",
+			"opens",
+			"right",
+			"DRPTemplate",
+			"opens",
+			"debugger",
+			"app.js",
+			"loadAllTables",
+			"fiftyTable",
+			"{\n",
+			"AllTables",
+			"allTables",
+			"daterange_picker",
+			"daterange_opens",
+			"opens",
+			"left:",
+			"table_settings_base",
+			".route",
+			"$.proxy",
+			"series",
+			"xaxis_interval",
+			"load",
+			"update(",
+			" update(",
+			"update",
+			"load",
+			"filter-extra-actions",
+			"search",
+			"Pop",
+			"should_show_rocket",
+			"KeywordApprovalColumn",
+			"keyword_approval_cell",
+			"below smart bid",
+			"smartbid",
+			"filter_status_name",
+			"all but archived",
+			"campaign keywords",
+			"keyword_text",
+			"has-admin-menu",
+			"e-mail address",
+			"count",
+			"ENV",
+			"SEGMENTIO_ID",
+			"all but archived",
+			"(this)",
+			"collapse",
+			"clearAllForms",
+			"editable",
+			"edit_creative_well",
+			"Edit creative",
+			"Update creative",
+			"add_creative_image_only",
+			"creative_form_actions",
+			"add_creative_image_only",
+			"add creative",
+			"update creative",
+			"well_header_text",
+			"add creative",
+			"campaign keywords",
+			"add keyword",
+			"keyword_text",
+			"intext",
+			"tab_items",
+			"tabs-wrapper",
+			"wrapper",
+			"tab-wrap",
+			"tab-wrapper",
+			"admin-sidebar-toggle",
+			"admin-sidebar",
+			"format_failed_negative_targets",
+			"Pop",
+			"add_negative_targets_helper",
+			"display_format_stats_values",
+			"update_target_bids_helper",
+			"add_negative_targets_helper",
+			"get_queue",
+			"build_table_object",
+			"pop",
+			"Pop",
+			"pop",
+			"result_to_list",
+			"RecentActions",
+			"has_p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trafficplatform.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"formcampai",
+				"trafficplatform/core/forms/campaign.py"
+			],
+			[
+				"campaign_js",
+				"trafficplatform/static/js/product/campaigns/create_campaign_form.js"
+			],
+			[
+				"product/base",
+				"trafficplatform/templates/product/base.html"
+			],
+			[
+				"product/base.",
+				"trafficplatform/templates/product/base.html"
+			],
+			[
+				"sunset",
+				"trafficplatform/search/templates/search/partials/wells/search_sunset_well.html"
+			],
+			[
+				"searchsuns",
+				"trafficplatform/static/less/trafficplatform/product/search_sunset.less"
+			],
+			[
+				"searchsun",
+				"trafficplatform/static/js/product/search_sunset_modal.js"
+			],
+			[
+				"search_sunset",
+				"trafficplatform/search/static/js/search_sunset.js"
+			],
+			[
+				"campaign/index",
+				"trafficplatform/templates/product/campaigns/index.html"
+			],
+			[
+				"filepicker",
+				"trafficplatform/static/vendor/filepicker/filepicker.js"
+			],
+			[
+				"deskcontact",
+				"trafficplatform/templates/partials/thirdparty/desk_contact_us_script.html"
+			],
+			[
+				"desk.ht",
+				"trafficplatform/templates/partials/thirdparty/desk_contact_us.html"
+			],
+			[
+				"desk",
+				"trafficplatform/core/jobs/desk_helper.py"
+			],
+			[
+				"coreformiden",
+				"trafficplatform/core/forms/identity.py"
+			],
+			[
+				"popcreative",
+				"trafficplatform/pops/models/creative.py"
+			],
+			[
+				"form",
+				"trafficplatform/templates/macros/forms.html"
+			],
+			[
+				"responsiveless",
+				"trafficplatform/static/less/trafficplatform/globals/responsive.less"
+			],
+			[
+				"bootstrapdan",
+				"trafficplatform/static/js/forked_libraries/bootstrap-daterangepicker.js"
+			],
+			[
+				"date",
+				"trafficplatform/static/less/fifty/forked_libraries/daterangepicker-bs3.less"
+			],
+			[
+				"datepicker",
+				"trafficplatform/static/less/fifty/components/datepicker.less"
+			],
+			[
+				"daterange",
+				"trafficplatform/static/js/components/daterange_picker.js"
+			],
+			[
+				"app.js",
+				"trafficplatform/static/js/app.js"
+			],
+			[
+				"messjs",
+				"trafficplatform/static/js/message.js"
+			],
+			[
+				"productoverview",
+				"trafficplatform/templates/product/overview.html"
+			],
+			[
+				"overview",
+				"trafficplatform/search/templates/search/overview.html"
+			],
+			[
+				"adminoverview",
+				"trafficplatform/admin/templates/admin/partials/pjax/advertiser_overview_data.html"
+			],
+			[
+				"pjax",
+				"trafficplatform/static/js/pjax.js"
+			],
+			[
+				"overviewjs",
+				"trafficplatform/static/js/product/overview/overview.js"
+			],
+			[
+				"adminadvertiser",
+				"trafficplatform/admin/static/js/admin_advertiser_overview.js"
+			],
+			[
+				"dateran",
+				"trafficplatform/static/js/forked_libraries/bootstrap-daterangepicker.js"
+			],
+			[
+				"productbase",
+				"trafficplatform/templates/product/base.html"
+			],
+			[
+				"responsive",
+				"trafficplatform/static/less/trafficplatform/globals/responsive.less"
+			],
+			[
+				"daterange_",
+				"trafficplatform/templates/partials/daterange_picker.html"
+			],
+			[
+				"recent",
+				"trafficplatform/admin/templates/admin/reports/recent_actions.html"
+			],
+			[
+				"dat",
+				"trafficplatform/static/js/components/daterange_picker.js"
+			],
+			[
+				"adminless",
+				"trafficplatform/static/less/trafficplatform/blueprints/admin.less"
+			],
+			[
+				"base_aut",
+				"trafficplatform/templates/base_authenticated.html"
+			],
+			[
+				"creatives.ht",
+				"trafficplatform/pops/templates/pops/creatives.html"
+			],
+			[
+				"wells/base",
+				"trafficplatform/templates/partials/wells/base.html"
+			],
+			[
+				"intextcreativejs",
+				"trafficplatform/intext/static/js/add_creative.js"
+			],
+			[
+				"util",
+				"trafficplatform/utility.py"
+			],
+			[
+				"reportu",
+				"trafficplatform/report_utils.py"
+			],
+			[
+				"todo",
+				"DISPLAY_TODO.md"
+			],
+			[
+				"popsjobhelp",
+				"trafficplatform/pops/jobs/helpers.py"
+			],
+			[
+				"popscampaign",
+				"trafficplatform/pops/views/campaigns.py"
+			],
+			[
+				"utilitpy",
+				"trafficplatform/utility.py"
+			],
+			[
+				"campaign_help",
+				"trafficplatform/core/jobs/campaign_helper.py"
+			],
+			[
+				"intextmodelscampai",
+				"trafficplatform/intext/models/campaign.py"
+			],
+			[
+				"intextmodelcampa",
+				"trafficplatform/intext/models/campaign.py"
+			],
+			[
+				"coremodelcampai",
+				"trafficplatform/core/models/campaign.py"
+			],
+			[
+				"campaignhelper",
+				"trafficplatform/core/jobs/campaign_helper.py"
+			],
+			[
+				"jobscampaign",
+				"trafficplatform/core/jobs/campaign_helper.py"
+			],
+			[
+				"geo",
+				"trafficplatform/core/models/geo.py"
+			],
+			[
+				"product",
+				"trafficplatform/core/models/product_registry.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 402.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

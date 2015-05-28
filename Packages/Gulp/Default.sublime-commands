@@ -19,5 +19,13 @@
     {
       "caption": "Gulp: List plugins",
       "command": "gulp_plugins"
+    },
+    {
+      "caption": "Gulp: Delete cache",
+      "command": "gulp_delete_cache"
+    },
+    {
+      "caption": "Gulp: Exit editor killing running tasks",
+      "command": "gulp_exit"
     }
 ]

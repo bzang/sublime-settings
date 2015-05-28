@@ -2,11 +2,6 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
 		"BracketHighlighter",
@@ -20,6 +15,7 @@
 		"CSScomb",
 		"CSSLint",
 		"DashDoc",
+		"Diffy",
 		"Dotfiles Syntax Highlighting",
 		"Emmet",
 		"FileDiffs",
@@ -56,8 +52,11 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
+		"SublimePythonIDE",
+		"SublimeServer",
 		"Theme - Cobalt2",
 		"Theme - Soda",
+		"Theme - Toxin",
 		"Twitter Recess",
 		"VCS Gutter"
 	]

@@ -1,25 +1,25 @@
 {
 	"always_show_minimap_viewport": true,
 	"auto_complete_delay": 500,
-	"color_scheme": "Packages/User/Predawn Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/Toxin (SL) (SublimePythonIDE).tmTheme",
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Inconsolata for Powerline",
-	"font_size": 19,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"JsFormat",
 		"Markdown",
+		"jQuery",
+		"FileDiffs",
+		"GitGutter",
+		"BracketHighlighter",
 		"SublimeLinter-jshint",
 		"Python PEP8 Autoformat",
-		"jQuery",
-		"CodeFormatter",
 		"SublimeLinter-csslint",
-		"GitGutter",
-		"JsFormat",
-		"BracketHighlighter",
-		"FileDiffs",
+		"CodeFormatter",
 		"Vintage"
 	],
 	"indent_guide_options":

@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/berniezang/Projects/trafficplatform"
+		}
+	],
+    "settings":
+    {
+        "python_interpreter": "/Users/berniezang/.virtualenvs/trafficplatform/bin/python"
+    }
+}
