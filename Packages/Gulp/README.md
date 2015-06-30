@@ -2,7 +2,7 @@
 
 A Gulp task runner with snippets for Sublime Text.
 
-This package is a merge between [Gulp Snippets](https://github.com/filipelinhares/gulp-sublime-snippets) from [@filipelinhares](https://github.com/filipelinhares) and [Gulp](https://github.com/NicoSantangelo/sublime-gulp) from [NicoSantangelo](https://github.com/NicoSantangelo) (this last one, based of the awesome [sublime-grunt](https://github.com/tvooo/sublime-grunt)).
+This package is a merge between [Gulp Snippets](https://github.com/filipelinhares/gulp-sublime-snippets) from [@filipelinhares](https://github.com/filipelinhares) and [Gulp](https://github.com/NicoSantangelo/sublime-gulp) from [NicoSantangelo](https://github.com/NicoSantangelo) (this last one, inspired by the awesome [sublime-grunt](https://github.com/tvooo/sublime-grunt)).
 
 ## Usage
 
@@ -145,6 +145,10 @@ You may override your `PATH` environment variable as follows (from [sublime-grun
     }
 }
 ````
+
+##### gulp installed locally
+
+If gulp is installed locally in the project, you have to specify the path to the gulp executable. Threfore, adjust the path to `/bin:/usr/bin:/usr/local/bin:node_modules/.bin`
 
 #### results_in_new_tab
 

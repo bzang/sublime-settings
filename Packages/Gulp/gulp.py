@@ -1,4 +1,5 @@
 import sys
+import traceback
 import sublime
 import sublime_plugin
 import datetime
@@ -9,6 +10,7 @@ import signal, subprocess
 import json
 import webbrowser
 from hashlib import sha1 
+from contextlib import contextmanager
 
 is_sublime_text_3 = int(sublime.version()) >= 3000
 
@@ -80,6 +82,7 @@ class GulpCommand(BaseCommand):
         except TypeError as e:
             self.error_message("Could not read available tasks.\nMaybe the JSON cache (.sublime-gulp.cache) is malformed?")
         except Exception as e:
+            print(traceback.format_exc())
             self.error_message(str(e))
         else:
             tasks = [[name, self.dependencies_text(task)] for name, task in json_result.items()]
@@ -96,7 +99,7 @@ class GulpCommand(BaseCommand):
 
         if os.path.exists(jsonfilename):
             filesha1 = Security.hashfile(gulpfile)
-            json_data = open(jsonfilename)
+            json_data = codecs.open(jsonfilename, "r", "utf-8", errors='replace')
 
             try:
                 data = json.load(json_data)
@@ -120,8 +123,9 @@ class GulpCommand(BaseCommand):
 
         args = r'node "%s/write_tasks_to_cache.js"' % package_path
 
-        process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=self.env.get_path_with_exec_args(), cwd=self.working_dir, shell=True)
-        (stdout, stderr) = process.communicate()
+        with Dir.cd(self.working_dir):
+            process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=self.env.get_path_with_exec_args(), shell=True)
+            (stdout, stderr) = process.communicate()
 
         if 127 == process.returncode:
             raise Exception("\"node\" command not found.\nPlease be sure to have nodejs installed on your system and in your PATH (more info in the README).")
@@ -136,7 +140,7 @@ class GulpCommand(BaseCommand):
             return
         log_path = self.working_dir + "/" + self.log_file_name
         header = "Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp" if not os.path.isfile(log_path) else ""
-        with codecs.open(log_path, 'a', "utf-8") as log_file:
+        with codecs.open(log_path, "a", "utf-8", errors='replace') as log_file:
             log_file.write(header + "\n\n" + str(datetime.datetime.now().strftime("%m-%d-%Y %H:%M")) + ":\n" + text.decode('utf-8'))
 
     def task_list_callback(self, task_index):
@@ -262,7 +266,9 @@ class CrossPlatformProcess():
         self.nonblocking = nonblocking
 
     def run(self, command):
-        self.process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=self.path, cwd=self.working_dir, shell=True, preexec_fn=self._preexec_val())
+        with Dir.cd(self.working_dir):
+            self.process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=self.path, shell=True, preexec_fn=self._preexec_val())
+
         self.last_command = command
         ProcessCache.add(self)
         return self
@@ -299,7 +305,8 @@ class CrossPlatformProcess():
 
     def decode_line(self, line):
         line = line.rstrip()
-        return str(line.decode('utf-8') if sys.version_info >= (3, 0) else line) + "\n"
+        decoded_line = codecs.decode(line, 'utf-8', 'replace') if sys.version_info >= (3, 0) else line
+        return str(decoded_line) + "\n"
 
     def read(self, stream):
         return stream.read().decode('utf-8')
@@ -320,6 +327,18 @@ class CrossPlatformProcess():
         else:
             os.killpg(pid, signal.SIGTERM)
         ProcessCache.remove(self)
+
+
+class Dir():
+    @classmethod
+    @contextmanager
+    def cd(cls, newdir):
+        prevdir = os.getcwd()
+        os.chdir(newdir)
+        try:
+            yield
+        finally:
+            os.chdir(prevdir)
 
 
 class ProcessCache():
@@ -406,7 +425,7 @@ class Plugin():
         self.description = self.get('description')
 
     def get(self, property):
-        return self.plugin[property] if self.has(property) else ''
+        return self.plugin[property][0] if self.has(property) else ''
 
     def has(self, property):
         return property in self.plugin

@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/bzang/Projects/haystack/dev",
+			"folder_exclude_patterns": ["node_modules", "bower_components", ".idea", ".vagrant", "app/site/js", "app/site/css"],
+			"file_exclude_patterns": ["templates.js", "*.iml"]
+		}
+	],
+	"settings": {
+		"tab_size": 2,
+		"translate_tabs_to_spaces": false
+	}
+}
