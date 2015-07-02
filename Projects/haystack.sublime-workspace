@@ -8,58 +8,66 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/main.less",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
 			"settings":
 			{
-				"buffer_size": 1410,
+				"buffer_size": 16735,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/header.ejs",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
 			"settings":
 			{
-				"buffer_size": 2134,
+				"buffer_size": 1612,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/h-server/start.js",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
 			"settings":
 			{
-				"buffer_size": 5546,
+				"buffer_size": 1989,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/page.ejs",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
 			"settings":
 			{
-				"buffer_size": 185,
+				"buffer_size": 105,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/header.js",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/validator.js",
 			"settings":
 			{
-				"buffer_size": 3357,
+				"buffer_size": 8411,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/base/header.less",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/package.json",
 			"settings":
 			{
-				"buffer_size": 674,
+				"buffer_size": 2353,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/variables.less",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
 			"settings":
 			{
-				"buffer_size": 739,
+				"buffer_size": 868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/overlay.js",
+			"settings":
+			{
+				"buffer_size": 2439,
 				"line_ending": "Unix"
 			}
 		}
@@ -76,11 +84,103 @@
 		"selected_items":
 		[
 			[
+				"gitdiff",
+				"Git: Diff All Files"
+			],
+			[
+				"renaem",
+				"File: Rename"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"jshint",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter:",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package re",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				"jshin",
+				"JSHint: Set `node` Path"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"sublimelint",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"locate",
+				"File: Locate"
+			],
+			[
+				"jslin",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"checkou",
+				"Git: Checkout Current File"
+			],
+			[
+				"diff",
+				"Git: Diff All Files"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"chekcout",
+				"Git: Checkout Tag"
+			],
+			[
+				"checko",
+				"Git: Checkout Current File"
+			],
+			[
 				"dele",
 				"File: Delete"
 			],
 			[
-				"checkout",
+				"check",
 				"Git: Checkout Current File"
 			],
 			[
@@ -92,23 +192,7 @@
 				"File: Rename"
 			],
 			[
-				"move",
-				"File: Move"
-			],
-			[
-				"rename",
-				"File: Rename"
-			],
-			[
-				"checkou",
-				"Git: Checkout Current File"
-			],
-			[
 				"chec",
-				"Git: Checkout Current File"
-			],
-			[
-				"check",
 				"Git: Checkout Current File"
 			],
 			[
@@ -124,10 +208,6 @@
 				"Run CSScomb"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"jslint",
 				"JSHint: Set Linting Preferences"
 			],
@@ -140,10 +220,6 @@
 				"Project: Edit"
 			],
 			[
-				"project",
-				"Project: Edit Project"
-			],
-			[
 				"install them",
 				"Colorsublime: Install Theme"
 			],
@@ -154,10 +230,6 @@
 			[
 				"reveal",
 				"File: Reveal"
-			],
-			[
-				"package",
-				"Package Control: List Packages"
 			],
 			[
 				"inst",
@@ -187,137 +259,142 @@
 		"/Users/bzang/Projects/haystack/dev",
 		"/Users/bzang/Projects/haystack/dev/source",
 		"/Users/bzang/Projects/haystack/dev/source/app",
-		"/Users/bzang/Projects/haystack/dev/source/app/site/fonts",
-		"/Users/bzang/Projects/haystack/dev/source/app/site/fonts/proxima-nova",
 		"/Users/bzang/Projects/haystack/dev/source/app/web",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui"
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets"
 	],
 	"file_history":
 	[
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/page.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/page.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/scaffolding.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/footer.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/footer.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/header.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/overlay.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/router.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/router.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/header.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/header.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/authenticate.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/medium-editor.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/browse-happy.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/authenticate.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/forms.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/typography.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/mixins/type.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/histogram.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/histogram.less",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Projects/haystack.sublime-project",
-		"/Users/bzang/Projects/haystack/dev/source/app/site/fonts/proxima-nova/font-face.css",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/fonts.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/pagination.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/risk-list.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/buttons.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/validator.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/popovers.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/main.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/mixins.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/investigation.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/select.less",
-		"/Users/bzang/Projects/haystack/dev/source/core/schema/event.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/cards.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/vendor.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/package.json",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/bower.json",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/authenticate.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/site/css/site.css",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/recover.password.gather.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/index.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/body.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/body.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/recover.password.wait.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/lib.js",
+		"/Users/bzang/Projects/haystack/dev/source/db/tasks/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/live-rte.js",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema/model.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/template-module.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/templates.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/watch.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/scripts.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/vip-list.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/layouts.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/summary-metric.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/typography.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/charts.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/iconography.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/header.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/_variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/daterangepicker.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/exploration.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/controls.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tabs.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/modals.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/switches.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/timeline-event-detail.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/core/tutorials/Technology Stack.md",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-list-row.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/_vendor.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/input.switch.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/panes.less",
-		"/Users/bzang/Projects/haystack/dev/source/h-server/identity/passwords.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/layout.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/panels.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/site/hs.multi-panes.html",
-		"/Users/bzang/Projects/haystack/dev/source/app/site/fixst.html",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/notice-actions.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editlist.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/involved-parties.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/search-bar.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/patient-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/pairing.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/loader.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/base.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editor.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/risk-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/overview-stats.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/tasks.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/participants.by.day.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/vip-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/vip-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/risk-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/mainzone.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/detail-host.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/context-zone.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/contact.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/network.graph.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/input.date.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/input.daterange.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/table-host.js-stupid",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/auto-person-type.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/admin.password.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/components/note-editor.ejs",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/event.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editor.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/layout.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/validator.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/pager.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/loader.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/provider.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/relationships.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/timeline.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/edit.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/recover.password.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/description.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/document-properties.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/files.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/name-and-status.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/provider-summary.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/incident-info.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/notice-actions.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/finalize.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editor.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/note.view.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/status-box.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/search-box.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/search-box.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/search-box.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/notifications.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/template-module.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/zone.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/layout.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/page.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/patient-search.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/provider.count.type.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/summary-metric.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/dock/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/body.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/header.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/buttons.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/view.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/empty.collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/data.binder.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/router.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/authenticate.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/header.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/footer.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/body.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/watch.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/Gruntfile.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/scroller.js",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Projects/haystack.sublime-project",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/overview-stats.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/summary-metric.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/select.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/panels.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/histogram-details.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/histogram.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/layout.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/involved-parties.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editlist.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/controls.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/typography.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/collection.js",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/bzang/Projects/haystack/dev/source/app/Gruntfile.js",
-		"/Users/bzang/Projects/haystack/dev/containers/app/create",
-		"/Users/bzang/Projects/haystack/dev/containers/web/create",
-		"/Users/bzang/Projects/haystack/dev/containers/i18n/create",
-		"/Users/bzang/Documents/Haystack/Development/db/haystack model.sql",
-		"/Users/bzang/Downloads/haystack model.sql",
-		"/Users/bzang/Projects/haystack/dev/source/core/node_modules/async/lib/async.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/bower_components/vis/gulpfile.js",
-		"/Users/bzang/Projects/haystack/dev/source/h-server/start.js",
-		"/Users/bzang/Projects/haystack/dev/Vagrantfile",
-		"/Users/bzang/Projects/haystack/dev/get.source.js",
-		"/Users/bzang/Projects/haystack/dev/build.all.source.js",
-		"/etc/hosts",
-		"/Users/bzang/Projects/haystack/package.json"
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/loader.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/view.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/body.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/scaffolding.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.ejs"
 	],
 	"find":
 	{
@@ -328,6 +405,37 @@
 		"height": 154.0,
 		"where_history":
 		[
+			"",
+			"*.js",
+			"",
+			"*.js, *.ejs",
+			"",
+			"*.ejs, *.js",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"*.ejs",
+			"*.less",
+			"",
+			"*.js, *.ejs",
+			"",
+			"*.js, *.ejs",
+			"*",
+			"",
+			"*.ejs, *.js",
+			"*",
+			"*.js",
+			"*",
+			"*.js",
+			"*",
+			"*.css",
+			"*.less",
+			"*.js, *.ejs",
+			"*",
+			"*.js",
+			"",
+			"*.js, *.ejs",
 			"*",
 			"*.less",
 			"*",
@@ -349,134 +457,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"site-header",
-			"header",
-			".navbar",
-			"site-footer",
-			"footer",
-			"header-container",
-			"cb-content",
-			"body-container",
-			"navbar-nav",
-			"ui/controls",
+			"require(\"main\")",
+			"site/js",
+			"js/app",
+			"js/app.js",
+			"overlay",
+			".overlay",
+			"require(\"app",
+			"\"core\"",
+			"core",
+			"core/",
+			"core.js",
+			"app.js",
+			"core.js",
+			"ui/zone",
+			"ui/empty",
+			"ui/layout",
+			"\"core\"",
+			"main",
+			"sys",
+			"main",
+			"require( \"core\" )",
+			"main",
+			"bus",
+			"main",
+			"var dcl",
+			"main",
+			"ui/view",
+			"base",
+			"require(\"base",
+			"require(\"base\"",
 			"ui/",
-			"no-underline",
-			"cache",
-			"no-cache",
-			"no-cahce",
-			"page.ejs",
-			"header-container",
-			"busy-marker",
-			"busy-row",
-			"busy-",
-			"busy",
-			"busyCount",
-			"busy-marker",
-			"busy-row",
-			"page-wrap",
-			"2BDAB3_2_0",
-			"2B95A2_4_0",
-			"Thin",
-			"Thing",
-			"NovaS-",
-			"proximanovaS-",
-			"proximanovaT-",
-			"proximanovaA-",
-			"proximanova-",
-			"ProximaNovaS",
-			"ProximaNovaA",
-			"btn-flat",
-			"login-page",
-			"users.ejs",
-			"user-table",
-			"finalize",
-			"label-danger",
-			"class=\"label",
-			"bg-warning",
-			".bg-warning",
-			"material",
-			"material-input",
-			"gray-base",
-			"gray-dark",
-			"var",
-			"#eff2f1",
-			"text-color",
-			"eff2f1",
-			"#eff2f1",
-			"popover-content",
-			"a9442",
-			"has-error",
-			"error-popover",
-			"validate-popover",
-			"badge-btn",
-			"segment",
-			"paddin",
-			"button",
-			"sm",
-			"md",
-			"span",
-			"btn-login",
-			"md",
-			"login-body",
-			"btn-login",
-			"helvetica",
-			"template",
-			"browse-happy",
-			"browsehappy",
-			"body.ejs",
-			"browser-happy",
-			"/src",
-			"\"ejs",
-			".page ",
-			".page",
-			"login-page",
-			"vip-list-table",
-			"logowhite",
-			"select2",
-			"mdi",
-			"bs-switch",
-			"@blue-400",
-			"@blue-100",
-			"@warning",
-			"@danger",
-			"danger",
-			"@success",
-			"@success\n@success",
-			"fa-mixin-icon",
-			"@blue-grey-200",
-			"@deep-orange-900",
-			"@btn",
-			"warning",
-			"blue-grey-50",
-			"shadow-z",
-			"sideways",
-			"shadow-z",
-			"date-range-input-box",
-			".date-range-input-box",
-			"search-box",
-			"global-search-entry",
-			"popover-title",
-			"behavior-label",
-			"list-unstyled",
-			"expando",
-			"shadow-z",
-			"deeporange",
+			"ui/page",
+			"../bussable",
+			"../body",
+			"../view",
+			"'",
+			"Raphael",
+			"ElemDiagram",
+			"'",
+			"../..",
+			"../../",
+			"../view",
+			"hayapp",
+			"ui/",
+			"i18n",
+			"'",
+			"el",
+			"'",
+			"ui/",
+			"ui/data",
+			"ui/collection",
+			"ui.databinder",
+			"ui/empty",
+			"ui/data.binder",
+			"ui/collection",
+			"that",
+			"Bus",
+			"bus",
+			"Bus",
+			"bus",
+			"ui/bussable",
+			"async",
+			"body",
+			"Body",
+			"ui/",
+			"hayapp",
+			"\"",
+			"ui/",
+			"'",
+			"ui/",
+			"ui/body",
+			"ani-close",
+			"'",
+			"bundles:core",
+			"aniClose",
+			"ani-close",
+			"declaredClass",
+			"ui/",
+			"'",
+			"ui/",
+			"exploration",
+			"components",
+			"ui/",
+			"entities/",
+			"VipList",
+			"momen",
+			"../",
+			"table-host",
+			"TableHost",
+			"table-host",
+			"done",
+			"format",
+			"patient",
+			"Patient",
+			"patient",
+			"Patient",
+			"patient",
+			"Patient",
+			"Layout",
+			"layout",
+			"Layout",
+			"moment",
+			"risk-provider",
+			"provider-name",
+			"col-md-4 ",
+			"workGraph",
+			"overviewStats",
+			"Chart",
+			"templates.js",
+			"fa-",
+			"metric-icon fa",
+			"zonedefinition",
+			"controls/panel",
+			"panel",
+			"ui/panel",
 			"summary-metric",
-			"metric-bar-chart",
-			".summary-chart",
-			"shadow-z",
-			"behavior-edit-panel",
-			"timeline-event-detail",
-			"event-controls",
-			"edit-switch",
-			"bootstrap-switch",
-			"event-list-row",
-			"EventList",
-			"eventlistrow",
-			"event-list-row",
-			"behavior-edit-panel",
-			"edit-switch",
-			"bootstrap-switch"
+			"summary-metric.js",
+			"overview-stats",
+			"controls/panel",
+			"panel",
+			"Chart",
+			"zone-chart",
+			"workGraph",
+			"zone-chart",
+			"watch-list-container",
+			"dashboard.ejs",
+			" panel-flat",
+			"panel-flat"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -484,6 +592,18 @@
 		"regex": false,
 		"replace_history":
 		[
+			"base/zone",
+			"base/empty",
+			"base/layout",
+			"base/view",
+			"base/data.binder",
+			"base/collection",
+			"",
+			"\"icon icon-",
+			"fa fa-chevron-left",
+			"icon-pencil",
+			"icon-eye",
+			"icon-cancel-circle"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -499,150 +619,61 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/main.less",
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1410,
+						"buffer_size": 16735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								16029,
+								16029
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 12697.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/header.ejs",
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2134,
+						"buffer_size": 1612,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								756,
-								756
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/EJS/EJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/bzang/Projects/haystack/dev/source/h-server/start.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5546,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								867,
-								869
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/page.ejs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 185,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/EJS/EJS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/header.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1240,
-								1240
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"history_list_is_closing": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 317.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -655,291 +686,120 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/base/header.less",
+					"buffer": 2,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 674,
+						"buffer_size": 1989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								1046,
+								1046
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"history_list_is_closing": true,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 723.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/validator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/variables.less",
+					"buffer": 5,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 739,
+						"buffer_size": 2353,
 						"regions":
 						{
-							"gutter_color_108":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#E6F7FF.png",
-								"regions":
-								[
-									[
-										108,
-										135
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_136":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6aaac2.png",
-								"regions":
-								[
-									[
-										136,
-										157
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_15":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#252833.png",
-								"regions":
-								[
-									[
-										15,
-										41
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_158":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#d6d9d6.png",
-								"regions":
-								[
-									[
-										158,
-										179
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_180":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										180,
-										193
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_228":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FF5722.png",
-								"regions":
-								[
-									[
-										228,
-										249
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_250":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#eceff1.png",
-								"regions":
-								[
-									[
-										250,
-										273
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_274":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#bf360c.png",
-								"regions":
-								[
-									[
-										274,
-										300
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_301":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#b0bec5.png",
-								"regions":
-								[
-									[
-										301,
-										325
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_326":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#2962ff.png",
-								"regions":
-								[
-									[
-										326,
-										346
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_347":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#bbdefb.png",
-								"regions":
-								[
-									[
-										347,
-										366
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_367":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#42a5f5.png",
-								"regions":
-								[
-									[
-										367,
-										386
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_405":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#4c6b86.png",
-								"regions":
-								[
-									[
-										405,
-										420
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_42":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#414f5f.png",
-								"regions":
-								[
-									[
-										42,
-										62
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_421":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#82A8BB.png",
-								"regions":
-								[
-									[
-										421,
-										441
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_442":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#EFF6F9.png",
-								"regions":
-								[
-									[
-										442,
-										469
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_63":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#29b5e9.png",
-								"regions":
-								[
-									[
-										63,
-										85
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_86":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#7FB6CE.png",
-								"regions":
-								[
-									[
-										86,
-										107
-									]
-								],
-								"scope": "gutter_color"
-							}
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								270,
+								270
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -947,13 +807,73 @@
 					},
 					"stack_index": 5,
 					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/overlay.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 54.0
 	},
 	"input":
 	{
@@ -979,7 +899,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.465832824893,
 			1.0
 		],
 		"rows":
@@ -1011,6 +931,338 @@
 		"selected_items":
 		[
 			[
+				"scrip",
+				"source/app/templates/common/scripts.ejs"
+			],
+			[
+				"index",
+				"source/db/tasks/index.js"
+			],
+			[
+				"main",
+				"source/app/web/src/main.js"
+			],
+			[
+				"validator",
+				"source/app/web/src/ui/validator.js"
+			],
+			[
+				"live-rt",
+				"source/app/web/src/ui/controls/live-rte.js"
+			],
+			[
+				"modal",
+				"source/app/web/src/ui/components/modal.js"
+			],
+			[
+				"model.js",
+				"source/core/schema/model.js"
+			],
+			[
+				"bundle",
+				"source/app/web/etc/tasks/bundles.js"
+			],
+			[
+				"lib",
+				"source/app/web/etc/tasks/lib.js"
+			],
+			[
+				"viprow",
+				"source/app/web/src/dashboard/widgets/vip-list-row.js"
+			],
+			[
+				"input.datra",
+				"source/app/web/src/ui/controls/input.daterange.js"
+			],
+			[
+				"inpu",
+				"source/app/web/src/ui/controls/input.date.js"
+			],
+			[
+				"live",
+				"source/app/web/src/ui/controls/live-rte.js"
+			],
+			[
+				"uisearchbox",
+				"source/app/web/src/ui/search-box.js"
+			],
+			[
+				"searchbox",
+				"source/app/web/src/overview/search-box.js"
+			],
+			[
+				"valida",
+				"source/app/web/src/ui/validator.js"
+			],
+			[
+				"search",
+				"source/app/web/src/overview/search-box.js"
+			],
+			[
+				"template",
+				"source/app/web/etc/tasks/template-module.js"
+			],
+			[
+				"search-box",
+				"source/app/web/src/overview/search-box.ejs"
+			],
+			[
+				"scroller",
+				"source/app/web/src/ui/scroller.js"
+			],
+			[
+				"chart",
+				"source/app/web/src/dashboard/chart.js"
+			],
+			[
+				"dash",
+				"source/app/web/src/dashboard/dashboard.js"
+			],
+			[
+				"summary",
+				"source/app/web/src/ui/controls/charting/summary-metric.js"
+			],
+			[
+				"summarymetri",
+				"source/app/web/src/ui/controls/charting/summary-metric.ejs"
+			],
+			[
+				"select",
+				"source/app/web/less/components/select.less"
+			],
+			[
+				"summarymetr",
+				"source/app/web/src/ui/controls/charting/summary-metric.js"
+			],
+			[
+				"panel",
+				"source/app/web/less/components/panels.less"
+			],
+			[
+				"transl",
+				"source/i18n/etc/translations.json"
+			],
+			[
+				"trans",
+				"source/i18n/etc/translations.json"
+			],
+			[
+				"layout",
+				"source/app/web/src/ui/layout.js"
+			],
+			[
+				"view",
+				"source/app/web/src/ui/view.js"
+			],
+			[
+				"varibal",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"sca",
+				"source/app/web/less/base/scaffolding.less"
+			],
+			[
+				"table",
+				"source/app/web/src/investigation/table.js"
+			],
+			[
+				"table.js",
+				"source/app/web/src/investigation/table.js"
+			],
+			[
+				"eventdetail",
+				"source/app/web/src/exploration/event-detail-panel.js"
+			],
+			[
+				"editindex",
+				"source/app/web/src/investigation/edit/index.js"
+			],
+			[
+				"searchbar",
+				"source/app/web/src/exploration/search-bar.js"
+			],
+			[
+				"providerdeta",
+				"source/app/web/src/exploration/provider-detail-panel.js"
+			],
+			[
+				"patientdeta",
+				"source/app/web/src/exploration/patient-detail-panel.js"
+			],
+			[
+				"databinder",
+				"source/app/web/src/ui/data.binder.js"
+			],
+			[
+				"event-detail",
+				"source/app/web/src/exploration/event-detail-panel.js"
+			],
+			[
+				"riskli",
+				"source/app/web/src/dashboard/risk-list.js"
+			],
+			[
+				"risk-lis",
+				"source/app/web/src/dashboard/risk-list.js"
+			],
+			[
+				"bussa",
+				"source/core/events/bussable.js"
+			],
+			[
+				"providercount",
+				"source/app/web/src/ui/controls/charting/provider.count.type.js"
+			],
+			[
+				"incidentinfo",
+				"source/app/web/src/investigation/incident-details/incident-info.js"
+			],
+			[
+				"collections",
+				"source/app/web/src/ui/collection.js"
+			],
+			[
+				"files.js",
+				"source/app/web/src/investigation/common/files.js"
+			],
+			[
+				"type.js",
+				"source/app/web/src/ui/controls/charting/provider.count.type.js"
+			],
+			[
+				"uiview",
+				"source/app/web/src/ui/view.js"
+			],
+			[
+				"view.",
+				"source/app/web/src/ui/view.js"
+			],
+			[
+				"bussable",
+				"source/app/web/src/ui/bussable.js"
+			],
+			[
+				"collection",
+				"source/app/web/src/notes/collection.js"
+			],
+			[
+				"variable",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"page",
+				"package.json"
+			],
+			[
+				"body",
+				"source/app/web/src/ui/body.js"
+			],
+			[
+				"daterange",
+				"source/app/web/src/ui/controls/input.daterange.js"
+			],
+			[
+				"picker",
+				"source/app/web/src/ui/controls/daterangepicker.js"
+			],
+			[
+				"dater",
+				"source/app/web/src/ui/controls/daterangepicker.js"
+			],
+			[
+				"date",
+				"source/app/web/src/ui/controls/daterangepicker.js"
+			],
+			[
+				"icon-ha",
+				"source/app/web/less/base/icons-haystack.less"
+			],
+			[
+				"daterangepicker",
+				"source/app/web/src/ui/controls/daterangepicker.js"
+			],
+			[
+				"table.ejs",
+				"source/app/web/src/investigation/table.ejs"
+			],
+			[
+				"varial",
+				"source/app/web/less/variables.less"
+			],
+			[
+				"vendor",
+				"source/app/web/less/vendor.less"
+			],
+			[
+				"haystack",
+				"source/app/web/less/components/haystack-glyphs.css"
+			],
+			[
+				"overlay",
+				"source/app/web/less/components/overlay.less"
+			],
+			[
+				"databind",
+				"source/app/web/src/ui/data.binder.js"
+			],
+			[
+				"age.ej",
+				"source/app/web/src/ui/page.ejs"
+			],
+			[
+				"page.",
+				"source/app/web/src/ui/page.js"
+			],
+			[
+				"view.j",
+				"source/app/web/src/ui/view.js"
+			],
+			[
+				"zone",
+				"source/app/web/src/ui/zone.js"
+			],
+			[
+				"icons",
+				"source/app/web/less/base/icons.less"
+			],
+			[
+				"summary-metric",
+				"source/app/web/src/ui/controls/charting/summary-metric.ejs"
+			],
+			[
+				"chart.ejs",
+				"source/app/web/src/dashboard/chart.ejs"
+			],
+			[
+				"chart.js",
+				"source/app/web/src/dashboard/chart.js"
+			],
+			[
+				"dashboard",
+				"source/app/web/src/dashboard/dashboard.ejs"
+			],
+			[
+				"scaffold",
+				"source/app/web/less/base/scaffolding.less"
+			],
+			[
+				"haystack-gl",
+				"source/app/web/less/components/haystack-glyphs.css"
+			],
+			[
+				"bootstra",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"footer.ej",
+				"source/app/web/src/ui/footer.ejs"
+			],
+			[
+				"footer.js",
+				"source/app/web/src/ui/footer.js"
+			],
+			[
 				"page.ej",
 				"source/app/web/src/ui/page.ejs"
 			],
@@ -1029,10 +1281,6 @@
 			[
 				"header.less",
 				"source/app/web/less/base/header.less"
-			],
-			[
-				"dashboard",
-				"source/app/web/src/dashboard/dashboard.js"
 			],
 			[
 				"router",
@@ -1079,10 +1327,6 @@
 				"source/app/web/less/components/forms.less"
 			],
 			[
-				"bootstra",
-				"source/app/web/less/bootstrap/bootstrap.less"
-			],
-			[
 				"bootvar",
 				"source/app/web/less/bootstrap/bootstrap-variables.less"
 			],
@@ -1097,10 +1341,6 @@
 			[
 				"body.ejs",
 				"source/app/web/src/ui/body.ejs"
-			],
-			[
-				"body",
-				"source/app/web/src/ui/body.js"
 			],
 			[
 				"template.js",
@@ -1145,10 +1385,6 @@
 			[
 				"fi",
 				"source/app/site/fixst.html"
-			],
-			[
-				"modal",
-				"source/app/web/src/ui/components/modal.js"
 			],
 			[
 				"jshint",
@@ -1205,10 +1441,6 @@
 			[
 				"vagrant",
 				"Vagrantfile"
-			],
-			[
-				"get",
-				"get.source.js"
 			]
 		],
 		"width": 0.0
@@ -1231,7 +1463,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -1239,7 +1471,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 318.0,
+	"side_bar_width": 281.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

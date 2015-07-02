@@ -10,5 +10,14 @@
 	"settings": {
 		"tab_size": 2,
 		"translate_tabs_to_spaces": false
-	}
+	},
+	"build_systems":
+	[
+		{
+		    "name": "build",
+		    "cmd": ["grunt", "build"],
+		    "working_dir": "${folder}/source/app/web"
+		}
+
+	]
 }
