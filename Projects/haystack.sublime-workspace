@@ -7,70 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
-			"settings":
-			{
-				"buffer_size": 16735,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
-			"settings":
-			{
-				"buffer_size": 1612,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
-			"settings":
-			{
-				"buffer_size": 1989,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
-			"settings":
-			{
-				"buffer_size": 105,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/validator.js",
-			"settings":
-			{
-				"buffer_size": 8411,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/package.json",
-			"settings":
-			{
-				"buffer_size": 2353,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
-			"settings":
-			{
-				"buffer_size": 868,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/overlay.js",
-			"settings":
-			{
-				"buffer_size": 2439,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -79,13 +15,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 368.0,
-		"last_filter": "",
+		"height": 201.0,
+		"last_filter": "isntall",
 		"selected_items":
 		[
 			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"checkou",
+				"Git: Checkout Current File"
+			],
+			[
 				"gitdiff",
 				"Git: Diff All Files"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"check",
+				"Git: Checkout Current File"
 			],
 			[
 				"renaem",
@@ -140,10 +104,6 @@
 				"Preferences: SublimeLinter Settings – Default"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"locate",
 				"File: Locate"
 			],
@@ -152,20 +112,8 @@
 				"JSHint: Set Linting Preferences"
 			],
 			[
-				"move",
-				"File: Move"
-			],
-			[
-				"checkou",
-				"Git: Checkout Current File"
-			],
-			[
 				"diff",
 				"Git: Diff All Files"
-			],
-			[
-				"checkout",
-				"Git: Checkout Current File"
 			],
 			[
 				"chekcout",
@@ -178,10 +126,6 @@
 			[
 				"dele",
 				"File: Delete"
-			],
-			[
-				"check",
-				"Git: Checkout Current File"
 			],
 			[
 				"project ",
@@ -262,139 +206,141 @@
 		"/Users/bzang/Projects/haystack/dev/source/app/web",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/etc",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets"
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components",
+		"/Users/bzang/Projects/haystack/dev/source/core"
 	],
 	"file_history":
 	[
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/lib.js",
-		"/Users/bzang/Projects/haystack/dev/source/db/tasks/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/live-rte.js",
-		"/Users/bzang/Projects/haystack/dev/source/core/schema/model.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/table.searcher.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/risk-list.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tables.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/uilib/ui-pnotify-lib.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/exploration.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/body.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/main.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/table.column.header.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/forms.less",
+		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/widgets/metric-panel.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/panels.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/select.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/metric-panel.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/metric-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/typography.less",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editlist.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/involved-parties.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.js",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/event/query.js",
+		"/Users/bzang/Desktop/stack",
+		"/Users/bzang/Projects/haystack/dev/source/core/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/bussable.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Projects/haystack.sublime-project",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/Gruntfile.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/scroller.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/charts.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/mixins/type.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/view.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/progress-bar.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/core/events/bussable.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/admin.password.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/Gruntfile.js",
+		"/Users/bzang/Projects/haystack/dev/source/core/base/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/watch.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/variables.less",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/search-bar.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/patient-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/pairing.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/risk-list-row.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/overview-stats.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/tasks.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/participants.by.day.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/vip-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/metric-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/metric-panel.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/event/messages.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/event.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/template-module.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/live-rte.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/summary-metric.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/README.md",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/_old/charting/bar-charts-bidirectional.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/lib.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/bar-charts.html",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/provider.count.type.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/network.graph.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/histogram.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/collection.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/vip-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/risk-list.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/mainzone.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/detail-host.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/context-zone.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/contact.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/network.graph.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/input.date.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/input.daterange.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/table-host.js-stupid",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/auto-person-type.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/admin.password.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/validator.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/pager.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/table-host.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/buttons.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/header.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/body.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/dock/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/patient-search.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/search-box.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/zone.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/page.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/loader.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/provider.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/relationships.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/timeline.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/header.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/footer.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/layout.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/empty.collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/edit.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/recover.password.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/files.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/participants.by.day.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/tasks.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/pager.js",
+		"/Users/bzang/Projects/haystack/dev/source/etl/lib/main.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/provider.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/pairing.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/authenticate.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/edit.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/recover.password.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/description.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/document-properties.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/files.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/name-and-status.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/provider-summary.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/search-box.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/status-box.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/patient-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/relationships.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/timeline.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/search-bar.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/incident-info.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/notice-actions.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/finalize.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editor.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/note.view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/status-box.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/search-box.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/search-box.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/search-box.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/notifications.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/template-module.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/zone.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/layout.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/page.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/patient-search.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/provider.count.type.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/summary-metric.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/dock/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/body.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/header.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/buttons.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/empty.collection.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/data.binder.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/authenticate.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/header.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/footer.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/body.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/watch.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/Gruntfile.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/scroller.js",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Projects/haystack.sublime-project",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/widgets/overview-stats.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/summary-metric.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/select.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list-row.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/panels.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/histogram-details.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/histogram.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/layout.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/involved-parties.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editlist.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/loader.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/body.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/scaffolding.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.ejs"
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/involved-parties.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editlist.js"
 	],
 	"find":
 	{
@@ -405,6 +351,12 @@
 		"height": 154.0,
 		"where_history":
 		[
+			"",
+			"*.js",
+			"",
+			"*.js, *.ejs",
+			"",
+			"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui",
 			"",
 			"*.js",
 			"",
@@ -457,134 +409,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"require(\"main\")",
-			"site/js",
-			"js/app",
-			"js/app.js",
-			"overlay",
-			".overlay",
-			"require(\"app",
-			"\"core\"",
+			"'",
+			"div.",
+			"column-searcher",
+			"table-searcher",
+			"'",
+			"sort",
+			"onSortDown",
+			"table-sorter-down",
+			"sort",
+			"{\n",
+			"btn-group-vertical",
+			" colspan=\"1\"",
+			"select2-wrapper",
+			"select2",
+			"border-color",
+			"border",
+			"risk",
+			"type",
+			"risk",
+			"metric-bar",
+			"metric-bar-chart",
+			"select",
+			"160px",
+			"160",
+			"backbone",
+			"getSuspiciousEventsCsv",
+			"risks/export",
+			"select2-container",
+			"onExport",
+			"export-button",
+			"onRiskSearch",
+			"search-for-risk-types",
+			"raw",
+			"select2-wrapper",
+			"suspicion-dropdown-wrapper",
+			"select-drop-arrow",
+			"h1",
+			"risk-list-table",
+			"row-navigation",
+			"metric-icon",
+			"require.config",
 			"core",
-			"core/",
-			"core.js",
-			"app.js",
-			"core.js",
-			"ui/zone",
-			"ui/empty",
-			"ui/layout",
-			"\"core\"",
-			"main",
-			"sys",
+			"ui/scroller",
+			"publish",
+			"core",
+			"base",
+			"dcl",
+			"core",
+			"metric-bar-chart",
+			"nominal",
+			"that",
+			"this",
+			"'",
+			"importMetricsChartZone",
+			"class",
+			"calculatePercentages",
+			"				that.$el.popover( {\n					content   : strings.format( \"{0} {2} out of {1} {3}\",\n						strings.number( that.model.get( \"metricValue\" ) ),\n						strings.number( that.model.get( \"metricTotal\" ) ),\n						that.model.get( \"metricName\" ).toLowerCase(),\n						that.model.get( \"metricNominalName\" ).toLowerCase() ),\n					placement : \"bottom\",\n					trigger   : \"hover\"",
 			"main",
 			"require( \"core\" )",
-			"main",
-			"bus",
-			"main",
-			"var dcl",
-			"main",
-			"ui/view",
-			"base",
-			"require(\"base",
-			"require(\"base\"",
-			"ui/",
-			"ui/page",
-			"../bussable",
-			"../body",
-			"../view",
+			"grunt.initconfig",
+			"core",
+			".base",
+			"require( \"core\" )",
+			"core",
+			"require( \"core\" )",
 			"'",
-			"Raphael",
-			"ElemDiagram",
-			"'",
-			"../..",
-			"../../",
-			"../view",
-			"hayapp",
-			"ui/",
-			"i18n",
-			"'",
-			"el",
-			"'",
-			"ui/",
-			"ui/data",
-			"ui/collection",
-			"ui.databinder",
-			"ui/empty",
-			"ui/data.binder",
-			"ui/collection",
-			"that",
-			"Bus",
-			"bus",
-			"Bus",
-			"bus",
-			"ui/bussable",
-			"async",
-			"body",
-			"Body",
-			"ui/",
-			"hayapp",
-			"\"",
-			"ui/",
-			"'",
-			"ui/",
-			"ui/body",
-			"ani-close",
-			"'",
-			"bundles:core",
 			"aniClose",
-			"ani-close",
-			"declaredClass",
-			"ui/",
+			"core",
+			"\"base/",
+			"Base",
+			"base",
+			"Base",
+			"core",
+			"bussable",
+			"core",
+			"#eff6f9",
 			"'",
-			"ui/",
-			"exploration",
-			"components",
-			"ui/",
-			"entities/",
-			"VipList",
-			"momen",
-			"../",
-			"table-host",
-			"TableHost",
-			"table-host",
-			"done",
-			"format",
-			"patient",
-			"Patient",
-			"patient",
-			"Patient",
-			"patient",
-			"Patient",
-			"Layout",
-			"layout",
-			"Layout",
-			"moment",
-			"risk-provider",
-			"provider-name",
-			"col-md-4 ",
-			"workGraph",
-			"overviewStats",
-			"Chart",
-			"templates.js",
-			"fa-",
-			"metric-icon fa",
-			"zonedefinition",
-			"controls/panel",
-			"panel",
-			"ui/panel",
+			"metricColorClass",
+			"metric-panel",
+			"percenta",
+			"percent",
+			".metric",
+			"metric-bar",
+			"span",
+			"metricIcon",
+			"metric-icon",
+			"SummaryMetric",
 			"summary-metric",
-			"summary-metric.js",
-			"overview-stats",
-			"controls/panel",
-			"panel",
-			"Chart",
-			"zone-chart",
-			"workGraph",
-			"zone-chart",
-			"watch-list-container",
-			"dashboard.ejs",
-			" panel-flat",
-			"panel-flat"
+			"'",
+			"sidebar/",
+			"panels/",
+			"dock",
+			"raphael",
+			"metric-name",
+			"raphael",
+			"charting/summary-metric",
+			"summary-metric",
+			"raphael",
+			"table-host",
+			"raphael",
+			"provider.count",
+			"progress-donut",
+			"donut-chart",
+			"bar-charts.html",
+			"bar-charts",
+			"bar-chart-bidirectional",
+			"charting/",
+			"modalContent",
+			"require( \"main\" )",
+			"require(\"main\")",
+			"core",
+			".t(",
+			".t",
+			"controls",
+			"'",
+			"require(\"main\")",
+			"main",
+			"base/pager",
+			".base/view",
+			".base/bussable",
+			"../.base",
+			"../../collection",
+			"../../data.binder",
+			"./view",
+			"./bussable",
+			"ui/zone",
+			"ui/view",
+			"ui/page"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -592,6 +544,23 @@
 		"regex": false,
 		"replace_history":
 		[
+			"column-searcher",
+			"ui/pager",
+			"base",
+			"base/collection",
+			"base/data.binder",
+			"base/view",
+			"base/bussable",
+			"base/zone",
+			"base/view",
+			"base/page",
+			"base/loader",
+			"base/layout",
+			"base/footer",
+			"base/empty.",
+			"base/data.binder",
+			"base/collection",
+			"base/body",
 			"base/zone",
 			"base/empty",
 			"base/layout",
@@ -614,260 +583,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16735,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16029,
-								16029
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 12697.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1612,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1046,
-								1046
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 723.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 105,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								105,
-								105
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/EJS/EJS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/validator.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								265,
-								265
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2353,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 868,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								703,
-								703
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/overlay.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								331,
-								331
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -899,7 +621,7 @@
 		"cols":
 		[
 			0.0,
-			0.465832824893,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -909,6 +631,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 300.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -917,7 +643,7 @@
 	{
 		"height": 128.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "build",
 	"project": "haystack.sublime-project",
 	"replace":
 	{
@@ -931,16 +657,180 @@
 		"selected_items":
 		[
 			[
+				"risklistjs",
+				"source/app/web/src/dashboard/risk-list.js"
+			],
+			[
+				"boots",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"select",
+				"source/app/web/less/components/select.less"
+			],
+			[
+				"transl",
+				"source/i18n/etc/translations.json"
+			],
+			[
+				"metric",
+				"source/app/web/src/ui/widgets/metric-panel.js"
+			],
+			[
+				"risklist",
+				"source/app/web/src/dashboard/risk-list.js"
+			],
+			[
+				"form",
+				"source/app/web/less/components/forms.less"
+			],
+			[
+				"risk",
+				"source/app/web/less/zones/risk-list.less"
+			],
+			[
+				"risk-lis",
+				"source/app/web/src/dashboard/risk-list.js"
+			],
+			[
+				"risk-list",
+				"source/app/web/src/dashboard/risk-list.js"
+			],
+			[
+				"main",
+				"source/app/web/less/main.less"
+			],
+			[
+				"metric-",
+				"source/app/web/src/ui/widgets/metric-panel.ejs"
+			],
+			[
+				"panels",
+				"source/app/web/less/components/panels.less"
+			],
+			[
+				"bundle",
+				"source/app/web/etc/tasks/bundles.js"
+			],
+			[
+				"bundles",
+				"source/app/web/etc/tasks/bundles.js"
+			],
+			[
+				"basebussa",
+				"source/app/web/src/base/bussable.js"
+			],
+			[
+				"grunt",
+				"source/app/web/Gruntfile.js"
+			],
+			[
+				"bussa",
+				"source/app/web/src/base/bussable.js"
+			],
+			[
+				"charts.less",
+				"source/app/web/less/components/charts.less"
+			],
+			[
+				"view",
+				"source/app/web/src/base/view.js"
+			],
+			[
+				"char",
+				"source/app/web/src/dashboard/chart.js"
+			],
+			[
+				"metri-",
+				"source/app/web/src/ui/widgets/metric-panel.js"
+			],
+			[
+				"type",
+				"source/app/web/less/mixins/type.less"
+			],
+			[
+				"varia",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"bussable",
+				"source/core/events/bussable.js"
+			],
+			[
+				"body",
+				"source/app/web/src/base/body.js"
+			],
+			[
+				"base/body",
+				"source/app/web/src/base/body.js"
+			],
+			[
+				"base/index",
+				"source/core/base/index.js"
+			],
+			[
+				"bundl",
+				"source/app/web/etc/tasks/bundles.js"
+			],
+			[
+				"watch",
+				"source/app/web/etc/tasks/watch.js"
+			],
+			[
+				"metric-pan",
+				"source/app/web/src/ui/widgets/metric-panel.ejs"
+			],
+			[
+				"metricp",
+				"source/app/web/src/ui/widgets/metric-panel.js"
+			],
+			[
+				"template",
+				"source/app/web/etc/tasks/template-module.js"
+			],
+			[
+				"gruntfile",
+				"source/app/web/Gruntfile.js"
+			],
+			[
+				"bund",
+				"source/app/web/etc/tasks/bundles.js"
+			],
+			[
+				"modal.js",
+				"source/app/web/src/ui/components/modal.js"
+			],
+			[
+				"app/index",
+				"source/app/web/src/app/index.js"
+			],
+			[
+				"script",
+				"source/app/templates/common/scripts.ejs"
+			],
+			[
+				"modal",
+				"source/app/web/src/ui/components/modal.js"
+			],
+			[
+				"main.js",
+				"source/etl/lib/main.js"
+			],
+			[
+				"pager.js",
+				"source/app/web/src/ui/pager.js"
+			],
+			[
+				"page.js",
+				"source/app/web/src/base/page.js"
+			],
+			[
 				"scrip",
 				"source/app/templates/common/scripts.ejs"
 			],
 			[
 				"index",
 				"source/db/tasks/index.js"
-			],
-			[
-				"main",
-				"source/app/web/src/main.js"
 			],
 			[
 				"validator",
@@ -951,16 +841,8 @@
 				"source/app/web/src/ui/controls/live-rte.js"
 			],
 			[
-				"modal",
-				"source/app/web/src/ui/components/modal.js"
-			],
-			[
 				"model.js",
 				"source/core/schema/model.js"
-			],
-			[
-				"bundle",
-				"source/app/web/etc/tasks/bundles.js"
 			],
 			[
 				"lib",
@@ -999,10 +881,6 @@
 				"source/app/web/src/overview/search-box.js"
 			],
 			[
-				"template",
-				"source/app/web/etc/tasks/template-module.js"
-			],
-			[
 				"search-box",
 				"source/app/web/src/overview/search-box.ejs"
 			],
@@ -1027,10 +905,6 @@
 				"source/app/web/src/ui/controls/charting/summary-metric.ejs"
 			],
 			[
-				"select",
-				"source/app/web/less/components/select.less"
-			],
-			[
 				"summarymetr",
 				"source/app/web/src/ui/controls/charting/summary-metric.js"
 			],
@@ -1039,20 +913,12 @@
 				"source/app/web/less/components/panels.less"
 			],
 			[
-				"transl",
-				"source/i18n/etc/translations.json"
-			],
-			[
 				"trans",
 				"source/i18n/etc/translations.json"
 			],
 			[
 				"layout",
 				"source/app/web/src/ui/layout.js"
-			],
-			[
-				"view",
-				"source/app/web/src/ui/view.js"
 			],
 			[
 				"varibal",
@@ -1103,14 +969,6 @@
 				"source/app/web/src/dashboard/risk-list.js"
 			],
 			[
-				"risk-lis",
-				"source/app/web/src/dashboard/risk-list.js"
-			],
-			[
-				"bussa",
-				"source/core/events/bussable.js"
-			],
-			[
 				"providercount",
 				"source/app/web/src/ui/controls/charting/provider.count.type.js"
 			],
@@ -1139,10 +997,6 @@
 				"source/app/web/src/ui/view.js"
 			],
 			[
-				"bussable",
-				"source/app/web/src/ui/bussable.js"
-			],
-			[
 				"collection",
 				"source/app/web/src/notes/collection.js"
 			],
@@ -1153,10 +1007,6 @@
 			[
 				"page",
 				"package.json"
-			],
-			[
-				"body",
-				"source/app/web/src/ui/body.js"
 			],
 			[
 				"daterange",
@@ -1267,10 +1117,6 @@
 				"source/app/web/src/ui/page.ejs"
 			],
 			[
-				"varia",
-				"source/app/web/less/variables.less"
-			],
-			[
 				"footer",
 				"source/app/web/src/ui/footer.ejs"
 			],
@@ -1315,132 +1161,12 @@
 				"source/app/site/fonts/proxima-nova/font-face.css"
 			],
 			[
-				"type",
-				"source/app/web/less/mixins/type.less"
-			],
-			[
 				"font",
 				"source/app/web/less/base/fonts.less"
 			],
 			[
 				"form.",
 				"source/app/web/less/components/forms.less"
-			],
-			[
-				"bootvar",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"bootstra-va",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"bootstrap",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"body.ejs",
-				"source/app/web/src/ui/body.ejs"
-			],
-			[
-				"template.js",
-				"source/app/web/etc/tasks/template-module.js"
-			],
-			[
-				"icon",
-				"source/app/web/less/components/iconography.less"
-			],
-			[
-				"tables",
-				"source/app/web/less/components/tables.less"
-			],
-			[
-				"typp",
-				"source/app/web/less/components/typography.less"
-			],
-			[
-				"bootstravar",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"charts",
-				"source/app/web/less/components/charts.less"
-			],
-			[
-				"authenticless",
-				"source/app/web/less/layouts/authenticate.less"
-			],
-			[
-				"main.less",
-				"source/app/web/less/main.less"
-			],
-			[
-				"laoytsha",
-				"source/app/web/less/layouts/header.less"
-			],
-			[
-				"event-list-r",
-				"source/app/web/src/exploration/event-list-row.ejs"
-			],
-			[
-				"fi",
-				"source/app/site/fixst.html"
-			],
-			[
-				"jshint",
-				"~/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc"
-			],
-			[
-				"jshin",
-				"~/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc"
-			],
-			[
-				"base.js",
-				"source/app/web/src/entities/base.js"
-			],
-			[
-				"view.js",
-				"source/app/web/src/ui/view.js"
-			],
-			[
-				"editor",
-				"source/app/web/src/notes/editor.js"
-			],
-			[
-				"editor.ejs",
-				"source/app/web/src/notes/editor.ejs"
-			],
-			[
-				"editorjs",
-				"source/app/web/src/notes/editor.js"
-			],
-			[
-				"modal.ej",
-				"source/app/web/src/ui/components/modal.ejs"
-			],
-			[
-				"eventcard",
-				"source/app/web/src/entities/event-card.js"
-			],
-			[
-				"loader",
-				"source/app/web/src/ui/loader.js"
-			],
-			[
-				"modal.js",
-				"source/app/web/src/ui/components/modal.js"
-			],
-			[
-				"typ",
-				"source/app/web/less/typography.less"
-			],
-			[
-				"coreasync.js",
-				"source/core/node_modules/async/lib/async.js"
-			],
-			[
-				"vagrant",
-				"Vagrantfile"
 			]
 		],
 		"width": 0.0
@@ -1463,7 +1189,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1471,7 +1197,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 281.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
