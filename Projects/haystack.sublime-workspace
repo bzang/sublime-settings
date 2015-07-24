@@ -7,6 +7,237 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-card.js",
+			"settings":
+			{
+				"buffer_size": 1813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card.js",
+			"settings":
+			{
+				"buffer_size": 1217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".card {\n	position: relative;\n\n	.card-icon {\n		position: absolute;\n		color: @icon-color-base;\n		left: 10px;\n		top: 10px;\n		font-size: 64px;\n	}\n\n	.card-body {\n		.dl-horizontal {\n			dt {\n				width: 80px;\n				text-align: left;\n			}\n			dd {\n				margin-left: 90px;\n			}\n		}\n	}\n}\n",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/components/cards.less",
+			"file_size": 273,
+			"file_write_time": 130819626470000000,
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".table {\n	.table-controls th {\n		position: relative;\n	}\n\n	.table-controls .table-sort {\n		position: absolute;\n		right: 10px;\n		bottom: 18px;\n	}\n\n	.table-sort .table-sort-asc,\n	.table-sort .table-sort-desc {\n		display: block;\n		height: 10px;\n	}\n\n	.card {\n		.card-icon {\n			.icon-2x;\n			left: 0;\n			top: 0;\n		}\n		.card-body {\n			margin-left: 40px;\n		}\n	}\n\n	.dl-horizontal {\n		margin-bottom: 0;\n	}\n\n}\n",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tables.less",
+			"file_size": 398,
+			"file_write_time": 130819838050000000,
+			"settings":
+			{
+				"buffer_size": 398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/empty.collection.js",
+			"settings":
+			{
+				"buffer_size": 622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
+			"settings":
+			{
+				"buffer_size": 29173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/contact.js",
+			"settings":
+			{
+				"buffer_size": 4249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
+			"settings":
+			{
+				"buffer_size": 8655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.js",
+			"settings":
+			{
+				"buffer_size": 4127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.js",
+			"settings":
+			{
+				"buffer_size": 3495,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.js",
+			"settings":
+			{
+				"buffer_size": 4643,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.js",
+			"settings":
+			{
+				"buffer_size": 4572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.js",
+			"settings":
+			{
+				"buffer_size": 5289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.js",
+			"settings":
+			{
+				"buffer_size": 3525,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
+			"settings":
+			{
+				"buffer_size": 3717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/files.js",
+			"settings":
+			{
+				"buffer_size": 6641,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/participants.by.day.js",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/tasks.js",
+			"settings":
+			{
+				"buffer_size": 3407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
+			"settings":
+			{
+				"buffer_size": 1592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient-card.ejs",
+			"settings":
+			{
+				"buffer_size": 1518,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient.js",
+			"settings":
+			{
+				"buffer_size": 8527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/provider-card.ejs",
+			"settings":
+			{
+				"buffer_size": 1903,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".dashboard-layout .table {\n	.card-title {\n		.wf-bold;\n		font-size: @font-size-h3;\n	}\n\n\n\n	dt {\n		.wf-bold;\n		font-size: @font-size-small;\n	}\n\n	.patient-card {\n		dt {\n			width: 60px;\n		}\n		dd {\n			margin-left: 60px;\n		}\n	}\n\n	.provider-card {\n		dt {\n			width: 70px;\n		}\n		dd {\n			margin-left: 70px;\n		}\n	}\n}\n",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/dashboard.less",
+			"file_size": 302,
+			"file_write_time": 130819836640000000,
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "//\n// Custom Haystack Bootstrap Variables\n// --------------------------------------------------\n\n//\n// Variables\n// --------------------------------------------------\n\n\n//== Colors\n//\n//## Gray and brand colors for use across Bootstrap.\n\n@gray-base:              #000;\n@gray-darker:            lighten(@gray-base, 13.5%); // #222\n@gray-dark:              lighten(@gray-base, 20%);   // #333\n@gray:                   lighten(@gray-base, 33.5%); // #555\n@gray-light:             lighten(@gray-base, 46.7%); // #777\n@gray-lighter:           lighten(@gray-base, 93.5%); // #eee\n\n@brand-primary:         #4c6b86;\n@brand-success:         #4eb96e;\n@brand-info:            #5bc0de;\n@brand-warning:         #f0ad4e;\n@brand-danger:          #e64c3b;\n\n\n//== Scaffolding\n//\n//## Settings for some of the most global styles.\n\n//** Background color for `<body>`.\n@body-bg:               #fff;\n//** Global text color on `<body>`.\n@text-color:            @gray-dark;\n\n//** Global textual link color.\n@link-color:            @brand-primary;\n//** Link hover color set via `darken()` function.\n@link-hover-color:      darken(@link-color, 15%);\n//** Link hover decoration.\n@link-hover-decoration: underline;\n\n\n//== Typography\n//\n//## Font, line-height, and color for body text, headings, and more.\n\n@font-family-sans-serif:  'ProximaNova-Light', Arial, sans-serif;\n@font-family-serif:       Georgia, \"Times New Roman\", Times, serif;\n//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.\n@font-family-monospace:   Menlo, Monaco, Consolas, \"Courier New\", monospace;\n@font-family-base:        @font-family-sans-serif;\n\n@font-size-base:          14px;\n@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px\n@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px\n\n@font-size-h1:            22px; // floor((@font-size-base * 2.6)); // ~36px\n@font-size-h2:            18px; // floor((@font-size-base * 2.15)); // ~30px\n@font-size-h3:            16px; // ceil((@font-size-base * 1.7)); // ~24px\n@font-size-h4:            14px; // ceil((@font-size-base * 1.25)); // ~18px\n@font-size-h5:            @font-size-base;\n@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px\n\n//** Unit-less `line-height` for use in components like buttons.\n@line-height-base:        1.428571429; // 20/14\n//** Computed \"line-height\" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.\n@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px\n\n//** By default, this inherits from the `<body>`.\n@headings-font-family:    'ProximaNovaS-Regular', Arial, sans-serif,;\n@headings-font-weight:    normal;\n@headings-line-height:    1.1;\n@headings-color:          inherit;\n\n\n//== Iconography\n//\n//## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.\n\n//** Load fonts from this directory.\n@icon-font-path:          \"../fonts/\";\n//** File name for all font files.\n@icon-font-name:          \"glyphicons-halflings-regular\";\n//** Element ID within SVG icon file.\n@icon-font-svg-id:        \"glyphicons_halflingsregular\";\n\n\n//== Components\n//\n//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).\n\n@padding-base-vertical:     6px;\n@padding-base-horizontal:   12px;\n\n@padding-large-vertical:    10px;\n@padding-large-horizontal:  16px;\n\n@padding-small-vertical:    5px;\n@padding-small-horizontal:  10px;\n\n@padding-xs-vertical:       1px;\n@padding-xs-horizontal:     5px;\n\n@line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome\n@line-height-small:         1.5;\n\n@border-radius-base:        4px;\n@border-radius-large:       6px;\n@border-radius-small:       3px;\n\n//** Global color for active items (e.g., navs or dropdowns).\n@component-active-color:    #fff;\n//** Global background color for active items (e.g., navs or dropdowns).\n@component-active-bg:       @brand-primary;\n\n//** Width of the `border` for generating carets that indicator dropdowns.\n@caret-width-base:          4px;\n//** Carets increase slightly in size for larger components.\n@caret-width-large:         5px;\n\n\n//== Tables\n//\n//## Customizes the `.table` component with basic values, each used across all table variations.\n\n//** Padding for `<th>`s and `<td>`s.\n@table-cell-padding:            8px;\n//** Padding for cells in `.table-condensed`.\n@table-condensed-cell-padding:  5px;\n\n//** Default background color used for all tables.\n@table-bg:                      transparent;\n//** Background color used for `.table-striped`.\n@table-bg-accent:               #f9f9f9;\n//** Background color used for `.table-hover`.\n@table-bg-hover:                #f5f5f5;\n@table-bg-active:               @table-bg-hover;\n\n//** Border color for table and cell borders.\n@table-border-color:            #ddd;\n\n\n//== Buttons\n//\n//## For each of Bootstrap's buttons, define text, background and border color.\n\n@btn-font-weight:                normal;\n\n@btn-default-color:              #333;\n@btn-default-bg:                 #fff;\n@btn-default-border:             #ccc;\n\n@btn-primary-color:              #fff;\n@btn-primary-bg:                 @brand-primary;\n@btn-primary-border:             darken(@btn-primary-bg, 5%);\n\n@btn-success-color:              #fff;\n@btn-success-bg:                 @brand-success;\n@btn-success-border:             darken(@btn-success-bg, 5%);\n\n@btn-info-color:                 #fff;\n@btn-info-bg:                    @brand-info;\n@btn-info-border:                darken(@btn-info-bg, 5%);\n\n@btn-warning-color:              #fff;\n@btn-warning-bg:                 @brand-warning;\n@btn-warning-border:             darken(@btn-warning-bg, 5%);\n\n@btn-danger-color:               #fff;\n@btn-danger-bg:                  @brand-danger;\n@btn-danger-border:              darken(@btn-danger-bg, 5%);\n\n@btn-link-disabled-color:        @gray-light;\n\n// Allows for customizing button radius independently from global border radius\n@btn-border-radius-base:         @border-radius-base;\n@btn-border-radius-large:        @border-radius-large;\n@btn-border-radius-small:        @border-radius-small;\n\n\n//== Forms\n//\n//##\n\n//** `<input>` background color\n@input-bg:                       #fff;\n//** `<input disabled>` background color\n@input-bg-disabled:              @gray-lighter;\n\n//** Text color for `<input>`s\n@input-color:                    @gray;\n//** `<input>` border color\n@input-border:                   #ccc;\n\n// TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4\n//** Default `.form-control` border radius\n// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.\n@input-border-radius:            @border-radius-base;\n//** Large `.form-control` border radius\n@input-border-radius-large:      @border-radius-large;\n//** Small `.form-control` border radius\n@input-border-radius-small:      @border-radius-small;\n\n//** Border color for inputs on focus\n@input-border-focus:             #66afe9;\n\n//** Placeholder text color\n@input-color-placeholder:        #999;\n\n//** Default `.form-control` height\n@input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 2);\n//** Large `.form-control` height\n@input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);\n//** Small `.form-control` height\n@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);\n\n//** `.form-group` margin\n@form-group-margin-bottom:       15px;\n\n@legend-color:                   @gray-dark;\n@legend-border-color:            #e5e5e5;\n\n//** Background color for textual input addons\n@input-group-addon-bg:           @gray-lighter;\n//** Border color for textual input addons\n@input-group-addon-border-color: @input-border;\n\n//** Disabled cursor for form controls and buttons.\n@cursor-disabled:                not-allowed;\n\n\n//== Dropdowns\n//\n//## Dropdown menu container and contents.\n\n//** Background for the dropdown menu.\n@dropdown-bg:                    #fff;\n//** Dropdown menu `border-color`.\n@dropdown-border:                rgba(0,0,0,.15);\n//** Dropdown menu `border-color` **for IE8**.\n@dropdown-fallback-border:       #ccc;\n//** Divider color for between dropdown items.\n@dropdown-divider-bg:            #e5e5e5;\n\n//** Dropdown link text color.\n@dropdown-link-color:            @gray-dark;\n//** Hover color for dropdown links.\n@dropdown-link-hover-color:      darken(@gray-dark, 5%);\n//** Hover background for dropdown links.\n@dropdown-link-hover-bg:         #f5f5f5;\n\n//** Active dropdown menu item text color.\n@dropdown-link-active-color:     @component-active-color;\n//** Active dropdown menu item background color.\n@dropdown-link-active-bg:        @component-active-bg;\n\n//** Disabled dropdown menu item background color.\n@dropdown-link-disabled-color:   @gray-light;\n\n//** Text color for headers within dropdown menus.\n@dropdown-header-color:          @gray-light;\n\n//** Deprecated `@dropdown-caret-color` as of v3.1.0\n@dropdown-caret-color:           #000;\n\n\n//-- Z-index master list\n//\n// Warning: Avoid customizing these values. They're used for a bird's eye view\n// of components dependent on the z-axis and are designed to all work together.\n//\n// Note: These variables are not generated into the Customizer.\n\n@zindex-navbar:            1000;\n@zindex-dropdown:          1000;\n@zindex-popover:           1060;\n@zindex-tooltip:           1070;\n@zindex-navbar-fixed:      1030;\n@zindex-modal-background:  1040;\n@zindex-modal:             1050;\n\n\n//== Media queries breakpoints\n//\n//## Define the breakpoints at which your layout will change, adapting to different screen sizes.\n\n// Extra small screen / phone\n//** Deprecated `@screen-xs` as of v3.0.1\n@screen-xs:                  480px;\n//** Deprecated `@screen-xs-min` as of v3.2.0\n@screen-xs-min:              @screen-xs;\n//** Deprecated `@screen-phone` as of v3.0.1\n@screen-phone:               @screen-xs-min;\n\n// Small screen / tablet\n//** Deprecated `@screen-sm` as of v3.0.1\n@screen-sm:                  768px;\n@screen-sm-min:              @screen-sm;\n//** Deprecated `@screen-tablet` as of v3.0.1\n@screen-tablet:              @screen-sm-min;\n\n// Medium screen / desktop\n//** Deprecated `@screen-md` as of v3.0.1\n@screen-md:                  992px;\n@screen-md-min:              @screen-md;\n//** Deprecated `@screen-desktop` as of v3.0.1\n@screen-desktop:             @screen-md-min;\n\n// Large screen / wide desktop\n//** Deprecated `@screen-lg` as of v3.0.1\n@screen-lg:                  1200px;\n@screen-lg-min:              @screen-lg;\n//** Deprecated `@screen-lg-desktop` as of v3.0.1\n@screen-lg-desktop:          @screen-lg-min;\n\n// So media queries don't overlap when required, provide a maximum\n@screen-xs-max:              (@screen-sm-min - 1);\n@screen-sm-max:              (@screen-md-min - 1);\n@screen-md-max:              (@screen-lg-min - 1);\n\n\n//== Grid system\n//\n//## Define your custom responsive grid.\n\n//** Number of columns in the grid.\n@grid-columns:              12;\n//** Padding between columns. Gets divided in half for the left and right.\n@grid-gutter-width:         20px;\n// Navbar collapse\n//** Point at which the navbar becomes uncollapsed.\n@grid-float-breakpoint:     @screen-sm-min;\n//** Point at which the navbar begins collapsing.\n@grid-float-breakpoint-max: (@grid-float-breakpoint - 1);\n\n\n//== Container sizes\n//\n//## Define the maximum width of `.container` for different screen sizes.\n\n// Small screen / tablet\n@container-tablet:             (720px + @grid-gutter-width);\n//** For `@screen-sm-min` and up.\n@container-sm:                 @container-tablet;\n\n// Medium screen / desktop\n@container-desktop:            (940px + @grid-gutter-width);\n//** For `@screen-md-min` and up.\n@container-md:                 @container-desktop;\n\n// Large screen / wide desktop\n@container-large-desktop:      (1140px + @grid-gutter-width);\n//** For `@screen-lg-min` and up.\n@container-lg:                 @container-large-desktop;\n\n\n//== Navbar\n//\n//##\n\n// Basics of a navbar\n@navbar-height:                    50px;\n@navbar-margin-bottom:             @line-height-computed;\n@navbar-border-radius:             @border-radius-base;\n@navbar-padding-horizontal:        floor((@grid-gutter-width / 2));\n@navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);\n@navbar-collapse-max-height:       340px;\n\n@navbar-default-color:             #777;\n@navbar-default-bg:                #f8f8f8;\n@navbar-default-border:            darken(@navbar-default-bg, 6.5%);\n\n// Navbar links\n@navbar-default-link-color:                #777;\n@navbar-default-link-hover-color:          #333;\n@navbar-default-link-hover-bg:             transparent;\n@navbar-default-link-active-color:         #555;\n@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);\n@navbar-default-link-disabled-color:       #ccc;\n@navbar-default-link-disabled-bg:          transparent;\n\n// Navbar brand label\n@navbar-default-brand-color:               @navbar-default-link-color;\n@navbar-default-brand-hover-color:         darken(@navbar-default-brand-color, 10%);\n@navbar-default-brand-hover-bg:            transparent;\n\n// Navbar toggle\n@navbar-default-toggle-hover-bg:           #ddd;\n@navbar-default-toggle-icon-bar-bg:        #888;\n@navbar-default-toggle-border-color:       #ddd;\n\n\n//=== Inverted navbar\n// Reset inverted navbar basics\n@navbar-inverse-color:                      lighten(@gray-light, 15%);\n@navbar-inverse-bg:                         #222;\n@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);\n\n// Inverted navbar links\n@navbar-inverse-link-color:                 lighten(@gray-light, 15%);\n@navbar-inverse-link-hover-color:           #fff;\n@navbar-inverse-link-hover-bg:              transparent;\n@navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;\n@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);\n@navbar-inverse-link-disabled-color:        #444;\n@navbar-inverse-link-disabled-bg:           transparent;\n\n// Inverted navbar brand label\n@navbar-inverse-brand-color:                @navbar-inverse-link-color;\n@navbar-inverse-brand-hover-color:          #fff;\n@navbar-inverse-brand-hover-bg:             transparent;\n\n// Inverted navbar toggle\n@navbar-inverse-toggle-hover-bg:            #333;\n@navbar-inverse-toggle-icon-bar-bg:         #fff;\n@navbar-inverse-toggle-border-color:        #333;\n\n\n//== Navs\n//\n//##\n\n//=== Shared nav styles\n@nav-link-padding:                          10px 15px;\n@nav-link-hover-bg:                         @gray-lighter;\n\n@nav-disabled-link-color:                   @gray-light;\n@nav-disabled-link-hover-color:             @gray-light;\n\n//== Tabs\n@nav-tabs-border-color:                     #ddd;\n\n@nav-tabs-link-hover-border-color:          @gray-lighter;\n\n@nav-tabs-active-link-hover-bg:             @body-bg;\n@nav-tabs-active-link-hover-color:          @gray;\n@nav-tabs-active-link-hover-border-color:   #ddd;\n\n@nav-tabs-justified-link-border-color:            #ddd;\n@nav-tabs-justified-active-link-border-color:     @body-bg;\n\n//== Pills\n@nav-pills-border-radius:                   @border-radius-base;\n@nav-pills-active-link-hover-bg:            @component-active-bg;\n@nav-pills-active-link-hover-color:         @component-active-color;\n\n\n//== Pagination\n//\n//##\n\n@pagination-color:                     @link-color;\n@pagination-bg:                        #fff;\n@pagination-border:                    #ddd;\n\n@pagination-hover-color:               @link-hover-color;\n@pagination-hover-bg:                  @gray-lighter;\n@pagination-hover-border:              #ddd;\n\n@pagination-active-color:              #fff;\n@pagination-active-bg:                 @brand-primary;\n@pagination-active-border:             @brand-primary;\n\n@pagination-disabled-color:            @gray-light;\n@pagination-disabled-bg:               #fff;\n@pagination-disabled-border:           #ddd;\n\n\n//== Pager\n//\n//##\n\n@pager-bg:                             @pagination-bg;\n@pager-border:                         @pagination-border;\n@pager-border-radius:                  15px;\n\n@pager-hover-bg:                       @pagination-hover-bg;\n\n@pager-active-bg:                      @pagination-active-bg;\n@pager-active-color:                   @pagination-active-color;\n\n@pager-disabled-color:                 @pagination-disabled-color;\n\n\n//== Jumbotron\n//\n//##\n\n@jumbotron-padding:              30px;\n@jumbotron-color:                inherit;\n@jumbotron-bg:                   @gray-lighter;\n@jumbotron-heading-color:        inherit;\n@jumbotron-font-size:            ceil((@font-size-base * 1.5));\n@jumbotron-heading-font-size:    ceil((@font-size-base * 4.5));\n\n\n//== Form states and alerts\n//\n//## Define colors for form feedback states and, by default, alerts.\n\n@state-success-text:             #3c763d;\n@state-success-bg:               #dff0d8;\n@state-success-border:           darken(spin(@state-success-bg, -10), 5%);\n\n@state-info-text:                #31708f;\n@state-info-bg:                  #d9edf7;\n@state-info-border:              darken(spin(@state-info-bg, -10), 7%);\n\n@state-warning-text:             #8a6d3b;\n@state-warning-bg:               #fcf8e3;\n@state-warning-border:           darken(spin(@state-warning-bg, -10), 5%);\n\n@state-danger-text:              @brand-danger;\n@state-danger-bg:                #f2dede;\n@state-danger-border:            darken(spin(@state-danger-bg, -10), 5%);\n\n\n//== Tooltips\n//\n//##\n\n//** Tooltip max width\n@tooltip-max-width:           200px;\n//** Tooltip text color\n@tooltip-color:               #fff;\n//** Tooltip background color\n@tooltip-bg:                  #000;\n@tooltip-opacity:             .9;\n\n//** Tooltip arrow width\n@tooltip-arrow-width:         5px;\n//** Tooltip arrow color\n@tooltip-arrow-color:         @tooltip-bg;\n\n\n//== Popovers\n//\n//##\n\n//** Popover body background color\n@popover-bg:                          #fff;\n//** Popover maximum width\n@popover-max-width:                   276px;\n//** Popover border color\n@popover-border-color:                rgba(0,0,0,.2);\n//** Popover fallback border color\n@popover-fallback-border-color:       #ccc;\n\n//** Popover title background color\n@popover-title-bg:                    darken(@popover-bg, 3%);\n\n//** Popover arrow width\n@popover-arrow-width:                 10px;\n//** Popover arrow color\n@popover-arrow-color:                 @popover-bg;\n\n//** Popover outer arrow width\n@popover-arrow-outer-width:           (@popover-arrow-width + 1);\n//** Popover outer arrow color\n@popover-arrow-outer-color:           fadein(@popover-border-color, 5%);\n//** Popover outer arrow fallback color\n@popover-arrow-outer-fallback-color:  darken(@popover-fallback-border-color, 20%);\n\n\n//== Labels\n//\n//##\n\n//** Default label background color\n@label-default-bg:            @gray-light;\n//** Primary label background color\n@label-primary-bg:            @brand-primary;\n//** Success label background color\n@label-success-bg:            @brand-success;\n//** Info label background color\n@label-info-bg:               @brand-info;\n//** Warning label background color\n@label-warning-bg:            @brand-warning;\n//** Danger label background color\n@label-danger-bg:             @brand-danger;\n\n//** Default label text color\n@label-color:                 #fff;\n//** Default text color of a linked label\n@label-link-hover-color:      #fff;\n\n\n//== Modals\n//\n//##\n\n//** Padding applied to the modal body\n@modal-inner-padding:         15px;\n\n//** Padding applied to the modal title\n@modal-title-padding:         15px;\n//** Modal title line-height\n@modal-title-line-height:     @line-height-base;\n\n//** Background color of modal content area\n@modal-content-bg:                             #fff;\n//** Modal content border color\n@modal-content-border-color:                   rgba(0,0,0,.2);\n//** Modal content border color **for IE8**\n@modal-content-fallback-border-color:          #999;\n\n//** Modal backdrop background color\n@modal-backdrop-bg:           #000;\n//** Modal backdrop opacity\n@modal-backdrop-opacity:      .5;\n//** Modal header border color\n@modal-header-border-color:   #e5e5e5;\n//** Modal footer border color\n@modal-footer-border-color:   @modal-header-border-color;\n\n@modal-lg:                    900px;\n@modal-md:                    600px;\n@modal-sm:                    300px;\n\n\n//== Alerts\n//\n//## Define alert colors, border radius, and padding.\n\n@alert-padding:               15px;\n@alert-border-radius:         @border-radius-base;\n@alert-link-font-weight:      bold;\n\n@alert-success-bg:            @state-success-bg;\n@alert-success-text:          @state-success-text;\n@alert-success-border:        @state-success-border;\n\n@alert-info-bg:               @state-info-bg;\n@alert-info-text:             @state-info-text;\n@alert-info-border:           @state-info-border;\n\n@alert-warning-bg:            @state-warning-bg;\n@alert-warning-text:          @state-warning-text;\n@alert-warning-border:        @state-warning-border;\n\n@alert-danger-bg:             @state-danger-bg;\n@alert-danger-text:           @state-danger-text;\n@alert-danger-border:         @state-danger-border;\n\n\n//== Progress bars\n//\n//##\n\n//** Background color of the whole progress component\n@progress-bg:                 #f5f5f5;\n//** Progress bar text color\n@progress-bar-color:          #fff;\n//** Variable for setting rounded corners on progress bar.\n@progress-border-radius:      @border-radius-base;\n\n//** Default progress bar color\n@progress-bar-bg:             @brand-primary;\n//** Success progress bar color\n@progress-bar-success-bg:     @brand-success;\n//** Warning progress bar color\n@progress-bar-warning-bg:     @brand-warning;\n//** Danger progress bar color\n@progress-bar-danger-bg:      @brand-danger;\n//** Info progress bar color\n@progress-bar-info-bg:        @brand-info;\n\n\n//== List group\n//\n//##\n\n//** Background color on `.list-group-item`\n@list-group-bg:                 #fff;\n//** `.list-group-item` border color\n@list-group-border:             #ddd;\n//** List group border radius\n@list-group-border-radius:      @border-radius-base;\n\n//** Background color of single list items on hover\n@list-group-hover-bg:           #f5f5f5;\n//** Text color of active list items\n@list-group-active-color:       @component-active-color;\n//** Background color of active list items\n@list-group-active-bg:          @component-active-bg;\n//** Border color of active list elements\n@list-group-active-border:      @list-group-active-bg;\n//** Text color for content within active list items\n@list-group-active-text-color:  lighten(@list-group-active-bg, 40%);\n\n//** Text color of disabled list items\n@list-group-disabled-color:      @gray-light;\n//** Background color of disabled list items\n@list-group-disabled-bg:         @gray-lighter;\n//** Text color for content within disabled list items\n@list-group-disabled-text-color: @list-group-disabled-color;\n\n@list-group-link-color:         #555;\n@list-group-link-hover-color:   @list-group-link-color;\n@list-group-link-heading-color: #333;\n\n\n//== Panels\n//\n//##\n\n@panel-bg:                    #fff;\n@panel-body-padding:          15px;\n@panel-heading-padding:       10px 15px;\n@panel-footer-padding:        @panel-heading-padding;\n@panel-border-radius:         @border-radius-base;\n\n//** Border color for elements within panels\n@panel-inner-border:          #ddd;\n@panel-footer-bg:             #f5f5f5;\n\n@panel-default-text:          @gray-dark;\n@panel-default-border:        #ddd;\n@panel-default-heading-bg:    #f5f5f5;\n\n@panel-primary-text:          #fff;\n@panel-primary-border:        @brand-primary;\n@panel-primary-heading-bg:    @brand-primary;\n\n@panel-success-text:          @state-success-text;\n@panel-success-border:        @state-success-border;\n@panel-success-heading-bg:    @state-success-bg;\n\n@panel-info-text:             @state-info-text;\n@panel-info-border:           @state-info-border;\n@panel-info-heading-bg:       @state-info-bg;\n\n@panel-warning-text:          @state-warning-text;\n@panel-warning-border:        @state-warning-border;\n@panel-warning-heading-bg:    @state-warning-bg;\n\n@panel-danger-text:           @state-danger-text;\n@panel-danger-border:         @state-danger-border;\n@panel-danger-heading-bg:     @state-danger-bg;\n\n\n//== Thumbnails\n//\n//##\n\n//** Padding around the thumbnail image\n@thumbnail-padding:           4px;\n//** Thumbnail background color\n@thumbnail-bg:                @body-bg;\n//** Thumbnail border color\n@thumbnail-border:            #ddd;\n//** Thumbnail border radius\n@thumbnail-border-radius:     @border-radius-base;\n\n//** Custom text color for thumbnail captions\n@thumbnail-caption-color:     @text-color;\n//** Padding around the thumbnail caption\n@thumbnail-caption-padding:   9px;\n\n\n//== Wells\n//\n//##\n\n@well-bg:                     #f5f5f5;\n@well-border:                 darken(@well-bg, 7%);\n\n\n//== Badges\n//\n//##\n\n@badge-color:                 #fff;\n//** Linked badge text color on hover\n@badge-link-hover-color:      #fff;\n@badge-bg:                    @gray-light;\n\n//** Badge text color in active nav link\n@badge-active-color:          @link-color;\n//** Badge background color in active nav link\n@badge-active-bg:             #fff;\n\n@badge-font-weight:           bold;\n@badge-line-height:           1;\n@badge-border-radius:         10px;\n\n\n//== Breadcrumbs\n//\n//##\n\n@breadcrumb-padding-vertical:   8px;\n@breadcrumb-padding-horizontal: 15px;\n//** Breadcrumb background color\n@breadcrumb-bg:                 #f5f5f5;\n//** Breadcrumb text color\n@breadcrumb-color:              #ccc;\n//** Text color of current page in the breadcrumb\n@breadcrumb-active-color:       @gray-light;\n//** Textual separator for between breadcrumb elements\n@breadcrumb-separator:          \"/\";\n\n\n//== Carousel\n//\n//##\n\n@carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6);\n\n@carousel-control-color:                      #fff;\n@carousel-control-width:                      15%;\n@carousel-control-opacity:                    .5;\n@carousel-control-font-size:                  20px;\n\n@carousel-indicator-active-bg:                #fff;\n@carousel-indicator-border-color:             #fff;\n\n@carousel-caption-color:                      #fff;\n\n\n//== Close\n//\n//##\n\n@close-font-weight:           bold;\n@close-color:                 #000;\n@close-text-shadow:           0 1px 0 #fff;\n\n\n//== Code\n//\n//##\n\n@code-color:                  #c7254e;\n@code-bg:                     #f9f2f4;\n\n@kbd-color:                   #fff;\n@kbd-bg:                      #333;\n\n@pre-bg:                      #f5f5f5;\n@pre-color:                   @gray-dark;\n@pre-border-color:            #ccc;\n@pre-scrollable-max-height:   340px;\n\n\n//== Type\n//\n//##\n\n//** Horizontal offset for forms and lists.\n@component-offset-horizontal: 180px;\n//** Text muted color\n@text-muted:                  @gray-light;\n//** Abbreviations and acronyms border color\n@abbr-border-color:           @gray-light;\n//** Headings small color\n@headings-small-color:        @gray-light;\n//** Blockquote small color\n@blockquote-small-color:      @gray-light;\n//** Blockquote font size\n@blockquote-font-size:        (@font-size-base * 1.25);\n//** Blockquote border color\n@blockquote-border-color:     @gray-lighter;\n//** Page header border color\n@page-header-border-color:    @gray-lighter;\n//** Width of horizontal description list titles\n@dl-horizontal-offset:        @component-offset-horizontal;\n//** Horizontal line color.\n@hr-border:                   @gray-lighter;\n",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
+			"file_size": 27509,
+			"file_write_time": 130819626470000000,
+			"settings":
+			{
+				"buffer_size": 27509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "//fa mixin\n\n.fa-mixin() {\n  display                 : inline-block;\n  font-family             : FontAwesome;\n  font-style              : normal;\n  font-weight             : normal;\n  line-height             : 1;\n  -webkit-font-smoothing  : antialiased;\n  -moz-osx-font-smoothing : grayscale;\n\n  &:before { font-family : FontAwesome; }\n}\n\n.fa-mixin-icon(@icon) {\n  @var: \"fa-var-@{icon}\";\n  &:before { content : @@var; }\n}\n\n.fa-mixin-icon-a(@icon) {\n  @var: \"fa-var-@{icon}\";\n  &:after { content : @@var; }\n}\n\n//icons\n\n.stacked-icons {\n  position       : relative;\n  display        : inline-block;\n  vertical-align : middle;\n\n  .outer {\n	font-size : 42px;\n  }\n\n  .inner {\n	font-size   : 20px;\n	position    : absolute;\n	right       : 0;\n	bottom      : 0;\n	font-weight : 800;\n  }\n\n  .add-star-glyph {\n	right  : 11px;\n	bottom : 16px;\n	color  : @extra-dark-blue;\n  }\n}\n\n.icon-1x {\n  font-size: 18px;\n}\n\n.icon-2x {\n  font-size: 28px;\n}\n",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/base/icons.less",
+			"file_size": 930,
+			"file_write_time": 130819824110000000,
+			"settings":
+			{
+				"buffer_size": 930,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list-row.js",
+			"settings":
+			{
+				"buffer_size": 4412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
+			"settings":
+			{
+				"buffer_size": 1003,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,37 +246,69 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 201.0,
-		"last_filter": "isntall",
+		"height": 368.0,
+		"last_filter": "move",
 		"selected_items":
 		[
 			[
-				"isntall",
-				"Package Control: Install Package"
+				"move",
+				"File: Move"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
+				"dele",
+				"File: Delete"
 			],
 			[
 				"checkout",
 				"Git: Checkout Current File"
 			],
 			[
-				"checkou",
-				"Git: Checkout Current File"
+				"diff",
+				"Git: Diff All Files"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"jsformat",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"git diff",
+				"Git: Diff All Files"
 			],
 			[
 				"gitdiff",
 				"Git: Diff All Files"
 			],
 			[
-				"lower",
-				"Convert Case: Lower Case"
+				"isntall",
+				"Package Control: Install Package"
 			],
 			[
-				"move",
-				"File: Move"
+				"checkou",
+				"Git: Checkout Current File"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
 			],
 			[
 				"check",
@@ -112,20 +375,12 @@
 				"JSHint: Set Linting Preferences"
 			],
 			[
-				"diff",
-				"Git: Diff All Files"
-			],
-			[
 				"chekcout",
 				"Git: Checkout Tag"
 			],
 			[
 				"checko",
 				"Git: Checkout Current File"
-			],
-			[
-				"dele",
-				"File: Delete"
 			],
 			[
 				"project ",
@@ -204,143 +459,149 @@
 		"/Users/bzang/Projects/haystack/dev/source",
 		"/Users/bzang/Projects/haystack/dev/source/app",
 		"/Users/bzang/Projects/haystack/dev/source/app/web",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components",
-		"/Users/bzang/Projects/haystack/dev/source/core"
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/includes",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters",
+		"/Users/bzang/Projects/haystack/dev/source/core/base",
+		"/Users/bzang/Projects/haystack/dev/source/db/events",
+		"/Users/bzang/Projects/haystack/dev/source/db/investigations",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/messaging"
 	],
 	"file_history":
 	[
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/base.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/template-module.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/Gruntfile.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/header.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/layout.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/widgets/encounters.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/variables.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/mixins/type.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/fonts.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/exploration.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/watch.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/main.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/core/base/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/bussable.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/i18n/i18nextWT/index.html",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/pager.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-card.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/contact.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/provider.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/patient-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/edit.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/description.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/document-properties.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/name-and-status.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/provider-summary.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/incident-info.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/notice-actions.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/note.view.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/participants.by.day.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/tasks.js",
+		"/Users/bzang/Projects/haystack/dev/sync.rb",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/metric-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/cards.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/relationships.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/view.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/lists.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/pager.js",
+		"/Users/bzang/Projects/haystack/dev/source/db/events/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-card.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/Vagrantfile",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema/encounter.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/loader.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/db/events/find.sql",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/encounter.js",
+		"/Users/bzang/Projects/haystack/dev/containers/app/create",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/start.js",
+		"/Users/bzang/Projects/haystack/dev/containers/web/conf.d/default.conf",
+		"/Users/bzang/Projects/haystack/dev/source/core/config/configuration.json",
+		"/Users/bzang/Projects/haystack/dev/source/app/configuration.json",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/package.json",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/messaging/event.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema/event.js",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/event/messages.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/Gruntfile.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/event.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/zone.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/detail-host.js",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema/provider.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/drilldown-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient-card.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/patient.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema/patient.js",
+		"/Users/bzang/Projects/haystack/dev/source/db/events/encounter.list.sql",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/data.binder.js",
+		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
+		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/import.js",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/layout.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/scroller.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/histogram.js",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/event/query.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/db/people/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/pairing.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/core/config/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/body.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/table.searcher.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/risk-list.less",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tables.less",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/uilib/ui-pnotify-lib.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/exploration.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/body.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/collection.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/main.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/table.column.header.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/forms.less",
-		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/less/widgets/metric-panel.less",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/panels.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/select.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/metric-panel.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/metric-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/typography.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
-		"/Users/bzang/Projects/haystack/dev/source/h-server/event/query.js",
-		"/Users/bzang/Desktop/stack",
-		"/Users/bzang/Projects/haystack/dev/source/core/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/bussable.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js",
-		"/Users/bzang/Library/Application Support/Sublime Text 3/Projects/haystack.sublime-project",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/Gruntfile.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/scroller.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/charts.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/mixins/type.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/progress-bar.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/core/events/bussable.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/admin.password.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/Gruntfile.js",
-		"/Users/bzang/Projects/haystack/dev/source/core/base/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/watch.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/metric-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/metric-panel.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/h-server/event/messages.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/event.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/template-module.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/live-rte.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/summary-metric.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/README.md",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/_old/charting/bar-charts-bidirectional.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/lib.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/bar-charts.html",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/charting/provider.count.type.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/templates/common/scripts.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/network.graph.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/histogram.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/collection.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/mainzone.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/detail-host.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/context-zone.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/contact.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/auto-person-type.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/table-host.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/sidebar/buttons.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/header.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/panels/body.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/dock/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/patient-search.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/search-box.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/zone.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/page.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/loader.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/header.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/footer.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/layout.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/empty.collection.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/files.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/participants.by.day.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/tasks.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/pager.js",
-		"/Users/bzang/Projects/haystack/dev/source/etl/lib/main.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/provider.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list-row.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/pairing.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/authenticate.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/edit.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/recover.password.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/description.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/document-properties.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/name-and-status.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/provider-summary.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/search-box.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/status-box.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/patient-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/relationships.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/timeline.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/search-bar.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/incident-info.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/notice-actions.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/finalize.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editor.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/note.view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/involved-parties.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/notes/editlist.js"
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/select.less"
 	],
 	"find":
 	{
@@ -351,6 +612,22 @@
 		"height": 154.0,
 		"where_history":
 		[
+			"*",
+			"*.less",
+			"*",
+			"*.js",
+			"*",
+			"*.js",
+			"*",
+			"*.js",
+			"*",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.less",
 			"",
 			"*.js",
 			"",
@@ -409,134 +686,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"'",
-			"div.",
-			"column-searcher",
-			"table-searcher",
-			"'",
-			"sort",
-			"onSortDown",
-			"table-sorter-down",
-			"sort",
-			"{\n",
-			"btn-group-vertical",
-			" colspan=\"1\"",
-			"select2-wrapper",
-			"select2",
-			"border-color",
-			"border",
-			"risk",
-			"type",
-			"risk",
-			"metric-bar",
-			"metric-bar-chart",
-			"select",
-			"160px",
-			"160",
-			"backbone",
-			"getSuspiciousEventsCsv",
-			"risks/export",
-			"select2-container",
-			"onExport",
-			"export-button",
-			"onRiskSearch",
-			"search-for-risk-types",
-			"raw",
-			"select2-wrapper",
-			"suspicion-dropdown-wrapper",
-			"select-drop-arrow",
-			"h1",
-			"risk-list-table",
-			"row-navigation",
-			"metric-icon",
-			"require.config",
+			"EmptyCollection",
+			"defaultEmpty",
+			"no anoma",
+			"entities-button-bar",
+			"entities/base",
+			"entities-button-bar",
+			"wf-bold",
+			"dl-hori",
+			"dt",
+			"zone",
+			"card-icon",
+			"Container",
+			"Conter",
+			"person-zone",
+			"config",
+			"logger",
+			"started",
+			"this.config",
+			"config",
+			"main.config",
 			"core",
-			"ui/scroller",
-			"publish",
-			"core",
-			"base",
-			"dcl",
-			"core",
-			"metric-bar-chart",
-			"nominal",
-			"that",
-			"this",
-			"'",
-			"importMetricsChartZone",
-			"class",
-			"calculatePercentages",
-			"				that.$el.popover( {\n					content   : strings.format( \"{0} {2} out of {1} {3}\",\n						strings.number( that.model.get( \"metricValue\" ) ),\n						strings.number( that.model.get( \"metricTotal\" ) ),\n						that.model.get( \"metricName\" ).toLowerCase(),\n						that.model.get( \"metricNominalName\" ).toLowerCase() ),\n					placement : \"bottom\",\n					trigger   : \"hover\"",
+			"Templates",
+			"widgets",
+			"subscribe",
+			"layout, databinder",
+			"require( \"core\" )",
+			"layout, data",
+			"bundles:core",
+			"bundles:cre",
+			"bundles:ore",
+			"components/card",
 			"main",
-			"require( \"core\" )",
-			"grunt.initconfig",
+			"require(\"main\")",
+			"main",
+			"modal",
+			"components/modal",
 			"core",
-			".base",
-			"require( \"core\" )",
-			"core",
-			"require( \"core\" )",
-			"'",
-			"aniClose",
-			"core",
-			"\"base/",
-			"Base",
+			"ui/pager",
+			"base/zone",
+			"ui/validator",
+			"ui/search-box",
+			"ui/notifications",
+			"pager",
+			"require( \"ui/notifications",
+			"require(\"ui/notifications",
+			"require[.*]notifications",
+			"require(.*)notifications",
+			"notifications",
+			"components",
 			"base",
-			"Base",
-			"core",
-			"bussable",
-			"core",
-			"#eff6f9",
-			"'",
-			"metricColorClass",
-			"metric-panel",
-			"percenta",
-			"percent",
-			".metric",
-			"metric-bar",
+			"compile",
+			"template",
+			"_dev",
+			"data.binder",
+			"renderRootProvider",
+			"row-content",
 			"span",
-			"metricIcon",
-			"metric-icon",
-			"SummaryMetric",
-			"summary-metric",
+			"div",
+			"event-card",
+			"list-group-item",
+			"event-card",
+			"closeEncounter",
+			"EncounterList",
+			"encounterList",
 			"'",
-			"sidebar/",
-			"panels/",
-			"dock",
-			"raphael",
-			"metric-name",
-			"raphael",
-			"charting/summary-metric",
-			"summary-metric",
-			"raphael",
-			"table-host",
-			"raphael",
-			"provider.count",
-			"progress-donut",
-			"donut-chart",
-			"bar-charts.html",
-			"bar-charts",
-			"bar-chart-bidirectional",
-			"charting/",
-			"modalContent",
-			"require( \"main\" )",
-			"require(\"main\")",
+			"this",
+			"refresh",
+			"startDate",
+			"geteventlist",
+			"`id`",
+			"id",
+			"encountet",
+			"encounter",
+			"encountetId",
+			"encounted",
+			"encounter",
+			"8081",
+			"\"port",
+			"8081",
+			"port",
+			"172.28.128.1",
+			"path",
 			"core",
-			".t(",
-			".t",
-			"controls",
+			"patientId",
+			"events/all",
+			"encounter",
+			"patientId",
+			"encounter",
+			"findAll",
+			"composePayload",
+			"required",
+			"encounter",
+			"providerId",
+			"payload",
+			"encounter-card",
+			"zoneDefinitions",
+			"cardBodyViewClass",
+			"EncounterCard",
 			"'",
-			"require(\"main\")",
-			"main",
-			"base/pager",
-			".base/view",
-			".base/bussable",
-			"../.base",
-			"../../collection",
-			"../../data.binder",
-			"./view",
-			"./bussable",
-			"ui/zone",
-			"ui/view",
-			"ui/page"
+			"swap",
+			"zone",
+			"afterrender",
+			"_loadPagedData",
+			"on( \"load",
+			"on(\"load",
+			"on(\"load:data\"",
+			"on( \"load:data\"",
+			"_onDataBusyStart ",
+			"on( \"load:data",
+			"load:data",
+			"'",
+			"options",
+			"zoneoption",
+			"zone",
+			"refresh",
+			"collection,",
+			"layout, collection",
+			".subscribe",
+			"onSaveBehaviors",
+			"setSelectedPairing",
+			"detail-zone",
+			"exports.providers",
+			"subscribe",
+			"subscript",
+			"getPatientProviders",
+			"graftPatient",
+			"PatientDoubleClick",
+			"onPatientDoubleClick"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -544,6 +821,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"base/pager",
+			"data-binder",
 			"column-searcher",
 			"ui/pager",
 			"base",
@@ -583,13 +862,2253 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-card.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								380
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 388.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/components/cards.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/empty.collection.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								172
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1466,
+								1478
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/contact.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								655
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/event-detail-panel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/files.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/participants.by.day.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/overview/tasks.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/bundles.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 19,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient-card.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/patient.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6721,
+								6721
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4568.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/provider-card.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								755
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/dashboard.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"history_list_is_closing": true,
+							"open_with_edit": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27509,
+						"regions":
+						{
+							"gutter_color_12449":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#777.png",
+								"regions":
+								[
+									[
+										12449,
+										12489
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12490":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f8f8f8.png",
+								"regions":
+								[
+									[
+										12490,
+										12533
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12620":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#777.png",
+								"regions":
+								[
+									[
+										12620,
+										12668
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12669":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										12669,
+										12717
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12774":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#555.png",
+								"regions":
+								[
+									[
+										12774,
+										12822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12900":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										12900,
+										12948
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13258":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										13258,
+										13306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13307":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#888.png",
+								"regions":
+								[
+									[
+										13307,
+										13355
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13356":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										13356,
+										13404
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13532":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#222.png",
+								"regions":
+								[
+									[
+										13532,
+										13581
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13756":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										13756,
+										13805
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14018":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#444.png",
+								"regions":
+								[
+									[
+										14018,
+										14067
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14229":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										14229,
+										14278
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14363":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										14363,
+										14412
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14413":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										14413,
+										14462
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14463":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										14463,
+										14512
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14798":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										14798,
+										14847
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15014":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										15014,
+										15063
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15065":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										15065,
+										15120
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15472":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										15472,
+										15516
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15517":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										15517,
+										15561
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15675":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										15675,
+										15719
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15721":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										15721,
+										15765
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15929":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										15929,
+										15973
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15974":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										15974,
+										16018
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_16886":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#3c763d.png",
+								"regions":
+								[
+									[
+										16886,
+										16927
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_16928":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dff0d8.png",
+								"regions":
+								[
+									[
+										16928,
+										16969
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17046":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#31708f.png",
+								"regions":
+								[
+									[
+										17046,
+										17087
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17088":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#d9edf7.png",
+								"regions":
+								[
+									[
+										17088,
+										17129
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17203":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#8a6d3b.png",
+								"regions":
+								[
+									[
+										17203,
+										17244
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17245":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fcf8e3.png",
+								"regions":
+								[
+									[
+										17245,
+										17286
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17411":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f2dede.png",
+								"regions":
+								[
+									[
+										17411,
+										17452
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17636":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										17636,
+										17671
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17702":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										17702,
+										17737
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17961":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										17961,
+										18004
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_18192":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										18192,
+										18235
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19342":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										19342,
+										19377
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19420":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										19420,
+										19455
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19754":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										19754,
+										19806
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19946":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#999.png",
+								"regions":
+								[
+									[
+										19946,
+										19998
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_20037":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										20037,
+										20072
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_20166":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#e5e5e5.png",
+								"regions":
+								[
+									[
+										20166,
+										20204
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_21289":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										21289,
+										21327
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_21357":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										21357,
+										21392
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_21957":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										21957,
+										21994
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_22032":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										22032,
+										22069
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_22206":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										22206,
+										22246
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_22953":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#555.png",
+								"regions":
+								[
+									[
+										22953,
+										22990
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_23047":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										23047,
+										23084
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_23108":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										23108,
+										23143
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_23372":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										23372,
+										23407
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_23408":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										23408,
+										23446
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_23490":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										23490,
+										23525
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_23526":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										23526,
+										23564
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_23566":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										23566,
+										23601
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_238":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										238,
+										268
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_24500":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										24500,
+										24535
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_24805":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										24805,
+										24843
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_24919":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										24919,
+										24954
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_24993":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										24993,
+										25028
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_25204":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										25204,
+										25239
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_25482":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										25482,
+										25522
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_25550":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										25550,
+										25587
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_25873":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										25873,
+										25924
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26079":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										26079,
+										26130
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26131":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										26131,
+										26182
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26184":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										26184,
+										26235
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26294":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										26294,
+										26329
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26330":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										26330,
+										26373
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26395":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#c7254e.png",
+								"regions":
+								[
+									[
+										26395,
+										26433
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26434":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f9f2f4.png",
+								"regions":
+								[
+									[
+										26434,
+										26472
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26474":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										26474,
+										26509
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26510":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										26510,
+										26545
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26547":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										26547,
+										26585
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_26628":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										26628,
+										26663
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_269":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#222.png",
+								"regions":
+								[
+									[
+										269,
+										329
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_330":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										330,
+										390
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3809":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										3809,
+										3842
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_391":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#555.png",
+								"regions":
+								[
+									[
+										391,
+										451
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_452":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#777.png",
+								"regions":
+								[
+									[
+										452,
+										512
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4582":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f9f9f9.png",
+								"regions":
+								[
+									[
+										4582,
+										4622
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4670":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										4670,
+										4710
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4807":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ddd.png",
+								"regions":
+								[
+									[
+										4807,
+										4844
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4986":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										4986,
+										5024
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5025":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										5025,
+										5063
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5064":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										5064,
+										5102
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5104":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										5104,
+										5142
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_513":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#eee.png",
+								"regions":
+								[
+									[
+										513,
+										573
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5255":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										5255,
+										5293
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5406":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										5406,
+										5444
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5551":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										5551,
+										5589
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5702":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										5702,
+										5740
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_575":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4c6b86.png",
+								"regions":
+								[
+									[
+										575,
+										607
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_608":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4eb96e.png",
+								"regions":
+								[
+									[
+										608,
+										640
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_6196":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										6196,
+										6234
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_641":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#5bc0de.png",
+								"regions":
+								[
+									[
+										641,
+										673
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_6424":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										6424,
+										6462
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_674":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f0ad4e.png",
+								"regions":
+								[
+									[
+										674,
+										706
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_6977":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#66afe9.png",
+								"regions":
+								[
+									[
+										6977,
+										7018
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_7048":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#999.png",
+								"regions":
+								[
+									[
+										7048,
+										7086
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_707":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#e64c3b.png",
+								"regions":
+								[
+									[
+										707,
+										739
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_7630":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#e5e5e5.png",
+								"regions":
+								[
+									[
+										7630,
+										7671
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8061":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										8061,
+										8099
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8232":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										8232,
+										8270
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8318":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#e5e5e5.png",
+								"regions":
+								[
+									[
+										8318,
+										8359
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_849":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										849,
+										878
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8573":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										8573,
+										8614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9071":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										9071,
+										9109
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								1188,
+								1188
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/less/base/icons.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list-row.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								539
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								824,
+								824
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -621,7 +3140,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.523820881451,
 			1.0
 		],
 		"rows":
@@ -647,7 +3166,7 @@
 	"project": "haystack.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 104.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -656,6 +3175,434 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"table",
+				"source/app/web/less/components/tables.less"
+			],
+			[
+				"type",
+				"source/app/web/less/mixins/type.less"
+			],
+			[
+				"varia",
+				"source/app/web/less/variables.less"
+			],
+			[
+				"fontless",
+				"source/app/web/less/base/fonts.less"
+			],
+			[
+				"riskrow",
+				"source/app/web/src/dashboard/risk-list-row.js"
+			],
+			[
+				"risklist",
+				"source/app/web/src/dashboard/risk-list.js"
+			],
+			[
+				"dashboard.js",
+				"source/app/web/src/dashboard/dashboard.js"
+			],
+			[
+				"patient.js",
+				"source/app/web/src/entities/patient.js"
+			],
+			[
+				"providercard",
+				"source/app/web/src/entities/provider-card.ejs"
+			],
+			[
+				"icon",
+				"source/app/web/less/base/icons.less"
+			],
+			[
+				"vari",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"card",
+				"source/app/web/less/components/cards.less"
+			],
+			[
+				"exploration",
+				"source/app/web/less/layouts/exploration.less"
+			],
+			[
+				"inde.js",
+				"source/core/base/index.js"
+			],
+			[
+				"main.js",
+				"source/app/web/src/main.js"
+			],
+			[
+				"template",
+				"source/app/web/etc/tasks/template-module.js"
+			],
+			[
+				"watch",
+				"source/app/web/etc/tasks/watch.js"
+			],
+			[
+				"bussa",
+				"source/app/web/src/base/bussable.js"
+			],
+			[
+				"layout",
+				"source/app/web/src/base/layout.js"
+			],
+			[
+				"scrip",
+				"source/app/templates/common/scripts.ejs"
+			],
+			[
+				"index.html",
+				"source/i18n/i18nextWT/index.html"
+			],
+			[
+				"bundl",
+				"source/app/web/etc/tasks/bundles.js"
+			],
+			[
+				"encounterlist",
+				"source/app/web/src/ui/widgets/encounters/encounter-list.js"
+			],
+			[
+				"encounter-li",
+				"source/app/web/src/ui/widgets/encounters/encounter-list.ejs"
+			],
+			[
+				"pager.js",
+				"source/app/web/src/ui/pager.js"
+			],
+			[
+				"bundle",
+				"source/app/web/etc/tasks/bundles.js"
+			],
+			[
+				"card-list",
+				"source/app/web/src/ui/components/card-list.js"
+			],
+			[
+				"compcard",
+				"source/app/web/src/ui/components/card.js"
+			],
+			[
+				"encounterle",
+				"source/app/web/less/widgets/encounters.less"
+			],
+			[
+				"cards.less",
+				"source/app/web/less/cards.less"
+			],
+			[
+				"main.le",
+				"source/app/web/less/main.less"
+			],
+			[
+				"eventcard",
+				"source/app/web/src/entities/event-card.ejs"
+			],
+			[
+				"event-card",
+				"source/app/web/src/entities/event-card.js"
+			],
+			[
+				"var",
+				"source/app/web/less/variables.less"
+			],
+			[
+				"list",
+				"source/app/web/less/lists.less"
+			],
+			[
+				"cardlist",
+				"source/app/web/src/ui/components/card-list.js"
+			],
+			[
+				"encounter-list",
+				"source/app/web/src/ui/widgets/encounters/encounter-list.ejs"
+			],
+			[
+				"pager",
+				"source/app/web/src/ui/pager.js"
+			],
+			[
+				"loader",
+				"source/app/web/src/ui/loader.js"
+			],
+			[
+				"view",
+				"source/app/web/src/ui/view.js"
+			],
+			[
+				"collection",
+				"source/app/web/src/ui/collection.js"
+			],
+			[
+				"event",
+				"source/h-server/messaging/event.js"
+			],
+			[
+				"encounter",
+				"source/app/web/src/app/messages/encounter.js"
+			],
+			[
+				"event-list",
+				"source/app/web/src/entities/event-list.js"
+			],
+			[
+				"vagra",
+				"Vagrantfile"
+			],
+			[
+				"card-",
+				"source/app/web/src/ui/components/card-list.js"
+			],
+			[
+				"ecnoutner-",
+				"source/app/web/src/ui/widgets/encounters/encounter-card.js"
+			],
+			[
+				"encounter-card",
+				"source/app/web/src/ui/widgets/encounters/encounter-card.ejs"
+			],
+			[
+				"crete",
+				"containers/app/create"
+			],
+			[
+				"van",
+				"Vagrantfile"
+			],
+			[
+				"create",
+				"containers/app/create"
+			],
+			[
+				"schemaevent",
+				"source/core/schema/event.js"
+			],
+			[
+				"messageevent",
+				"source/app/web/src/app/messages/event.js"
+			],
+			[
+				"even",
+				"source/h-server/messaging/event.js"
+			],
+			[
+				"eventlist",
+				"source/app/web/src/entities/event-list.js"
+			],
+			[
+				"event-de",
+				"source/app/web/src/exploration/event-detail-panel.js"
+			],
+			[
+				"zone",
+				"source/app/web/src/ui/zone.js"
+			],
+			[
+				"event-ard",
+				"source/app/web/src/entities/event-card.js"
+			],
+			[
+				"patient-card",
+				"source/app/web/src/entities/patient-card.ejs"
+			],
+			[
+				"detailhost",
+				"source/app/web/src/exploration/detail-host.js"
+			],
+			[
+				"messagepatien",
+				"source/app/web/src/app/messages/patient.js"
+			],
+			[
+				"patient",
+				"source/app/web/src/entities/patient.js"
+			],
+			[
+				"relationship",
+				"source/app/web/src/exploration/relationships.js"
+			],
+			[
+				"eventdetail",
+				"source/app/web/src/exploration/event-detail-panel.ejs"
+			],
+			[
+				"envent-detailpan",
+				"source/app/web/src/exploration/event-detail-panel.js"
+			],
+			[
+				"ecnounterlist",
+				"source/db/events/encounter.list.sql"
+			],
+			[
+				"cards.l",
+				"source/app/web/less/cards.less"
+			],
+			[
+				"src/main.js",
+				"source/app/web/src/main.js"
+			],
+			[
+				"noteview",
+				"source/app/web/src/notes/note.view.js"
+			],
+			[
+				"trans",
+				"source/i18n/etc/translations.json"
+			],
+			[
+				"transl",
+				"source/i18n/etc/translations.json"
+			],
+			[
+				"event.js",
+				"source/core/schema/event.js"
+			],
+			[
+				"card.le",
+				"source/app/web/less/cards.less"
+			],
+			[
+				"card.ejs",
+				"source/app/web/src/ui/components/card.ejs"
+			],
+			[
+				"card.js",
+				"source/app/web/src/ui/components/card.js"
+			],
+			[
+				"scroll",
+				"source/app/web/src/ui/scroller.js"
+			],
+			[
+				"view.js",
+				"source/app/web/src/ui/view.js"
+			],
+			[
+				"provider",
+				"source/app/web/src/entities/provider.js"
+			],
+			[
+				"schemaencoun",
+				"source/core/schema/encounter.js"
+			],
+			[
+				"schemaencounter",
+				"source/core/schema/encounter.js"
+			],
+			[
+				"provider.js",
+				"source/app/web/src/entities/provider.js"
+			],
+			[
+				"event-l",
+				"source/app/web/src/entities/event-list.js"
+			],
+			[
+				"encountercard",
+				"source/app/web/src/ui/widgets/encounters/encounter-card.ejs"
+			],
+			[
+				"event-card.ejs",
+				"source/app/web/src/entities/event-card.ejs"
+			],
+			[
+				"encounter-a",
+				"source/app/web/src/ui/widgets/encounters/encounter-card.ejs"
+			],
+			[
+				"appencounter",
+				"source/app/web/src/app/messages/encounter.js"
+			],
+			[
+				"ard.js",
+				"source/app/web/src/ui/components/card.js"
+			],
+			[
+				"db/events/index",
+				"source/db/events/index.js"
+			],
+			[
+				"pager.",
+				"source/app/web/src/ui/pager.js"
+			],
+			[
+				"messageevents",
+				"source/app/web/src/app/messages/event.js"
+			],
+			[
+				"messageencount",
+				"source/app/web/src/app/messages/encounter.js"
+			],
+			[
+				"schema/encount",
+				"source/core/schema/encounter.js"
+			],
+			[
+				"message/encounter",
+				"source/app/web/src/app/messages/encounter.js"
+			],
+			[
+				"colelction",
+				"source/app/web/src/ui/collection.js"
+			],
+			[
+				"event-detailp",
+				"source/app/web/src/exploration/event-detail-panel.ejs"
+			],
+			[
+				"templatemo",
+				"source/app/web/etc/tasks/template-module.js"
+			],
+			[
+				"coreschema",
+				"source/core/schema/encounter.js"
+			],
+			[
+				"eventlist.ejs",
+				"source/app/web/src/entities/event-list.ejs"
+			],
+			[
+				"eventcar",
+				"source/app/web/src/entities/event-card.js"
+			],
+			[
+				"envent-list",
+				"source/app/web/src/entities/event-list.js"
+			],
+			[
+				"tra",
+				"source/i18n/etc/translations.json"
+			],
+			[
+				"messages",
+				"source/h-server/event/messages.js"
+			],
+			[
+				"event-detail-pa",
+				"source/app/web/src/exploration/event-detail-panel.ejs"
+			],
+			[
+				"paring",
+				"source/app/web/src/entities/pairing.js"
+			],
+			[
+				"grunt",
+				"source/app/web/Gruntfile.js"
+			],
+			[
+				"risk-list",
+				"source/app/web/src/dashboard/risk-list.ejs"
+			],
+			[
+				"vip",
+				"source/app/web/src/dashboard/vip-list.ejs"
+			],
 			[
 				"risklistjs",
 				"source/app/web/src/dashboard/risk-list.js"
@@ -669,16 +3616,8 @@
 				"source/app/web/less/components/select.less"
 			],
 			[
-				"transl",
-				"source/i18n/etc/translations.json"
-			],
-			[
 				"metric",
 				"source/app/web/src/ui/widgets/metric-panel.js"
-			],
-			[
-				"risklist",
-				"source/app/web/src/dashboard/risk-list.js"
 			],
 			[
 				"form",
@@ -690,10 +3629,6 @@
 			],
 			[
 				"risk-lis",
-				"source/app/web/src/dashboard/risk-list.js"
-			],
-			[
-				"risk-list",
 				"source/app/web/src/dashboard/risk-list.js"
 			],
 			[
@@ -709,10 +3644,6 @@
 				"source/app/web/less/components/panels.less"
 			],
 			[
-				"bundle",
-				"source/app/web/etc/tasks/bundles.js"
-			],
-			[
 				"bundles",
 				"source/app/web/etc/tasks/bundles.js"
 			],
@@ -721,20 +3652,8 @@
 				"source/app/web/src/base/bussable.js"
 			],
 			[
-				"grunt",
-				"source/app/web/Gruntfile.js"
-			],
-			[
-				"bussa",
-				"source/app/web/src/base/bussable.js"
-			],
-			[
 				"charts.less",
 				"source/app/web/less/components/charts.less"
-			],
-			[
-				"view",
-				"source/app/web/src/base/view.js"
 			],
 			[
 				"char",
@@ -743,14 +3662,6 @@
 			[
 				"metri-",
 				"source/app/web/src/ui/widgets/metric-panel.js"
-			],
-			[
-				"type",
-				"source/app/web/less/mixins/type.less"
-			],
-			[
-				"varia",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
 			],
 			[
 				"bussable",
@@ -769,404 +3680,12 @@
 				"source/core/base/index.js"
 			],
 			[
-				"bundl",
-				"source/app/web/etc/tasks/bundles.js"
-			],
-			[
-				"watch",
-				"source/app/web/etc/tasks/watch.js"
-			],
-			[
 				"metric-pan",
 				"source/app/web/src/ui/widgets/metric-panel.ejs"
 			],
 			[
 				"metricp",
 				"source/app/web/src/ui/widgets/metric-panel.js"
-			],
-			[
-				"template",
-				"source/app/web/etc/tasks/template-module.js"
-			],
-			[
-				"gruntfile",
-				"source/app/web/Gruntfile.js"
-			],
-			[
-				"bund",
-				"source/app/web/etc/tasks/bundles.js"
-			],
-			[
-				"modal.js",
-				"source/app/web/src/ui/components/modal.js"
-			],
-			[
-				"app/index",
-				"source/app/web/src/app/index.js"
-			],
-			[
-				"script",
-				"source/app/templates/common/scripts.ejs"
-			],
-			[
-				"modal",
-				"source/app/web/src/ui/components/modal.js"
-			],
-			[
-				"main.js",
-				"source/etl/lib/main.js"
-			],
-			[
-				"pager.js",
-				"source/app/web/src/ui/pager.js"
-			],
-			[
-				"page.js",
-				"source/app/web/src/base/page.js"
-			],
-			[
-				"scrip",
-				"source/app/templates/common/scripts.ejs"
-			],
-			[
-				"index",
-				"source/db/tasks/index.js"
-			],
-			[
-				"validator",
-				"source/app/web/src/ui/validator.js"
-			],
-			[
-				"live-rt",
-				"source/app/web/src/ui/controls/live-rte.js"
-			],
-			[
-				"model.js",
-				"source/core/schema/model.js"
-			],
-			[
-				"lib",
-				"source/app/web/etc/tasks/lib.js"
-			],
-			[
-				"viprow",
-				"source/app/web/src/dashboard/widgets/vip-list-row.js"
-			],
-			[
-				"input.datra",
-				"source/app/web/src/ui/controls/input.daterange.js"
-			],
-			[
-				"inpu",
-				"source/app/web/src/ui/controls/input.date.js"
-			],
-			[
-				"live",
-				"source/app/web/src/ui/controls/live-rte.js"
-			],
-			[
-				"uisearchbox",
-				"source/app/web/src/ui/search-box.js"
-			],
-			[
-				"searchbox",
-				"source/app/web/src/overview/search-box.js"
-			],
-			[
-				"valida",
-				"source/app/web/src/ui/validator.js"
-			],
-			[
-				"search",
-				"source/app/web/src/overview/search-box.js"
-			],
-			[
-				"search-box",
-				"source/app/web/src/overview/search-box.ejs"
-			],
-			[
-				"scroller",
-				"source/app/web/src/ui/scroller.js"
-			],
-			[
-				"chart",
-				"source/app/web/src/dashboard/chart.js"
-			],
-			[
-				"dash",
-				"source/app/web/src/dashboard/dashboard.js"
-			],
-			[
-				"summary",
-				"source/app/web/src/ui/controls/charting/summary-metric.js"
-			],
-			[
-				"summarymetri",
-				"source/app/web/src/ui/controls/charting/summary-metric.ejs"
-			],
-			[
-				"summarymetr",
-				"source/app/web/src/ui/controls/charting/summary-metric.js"
-			],
-			[
-				"panel",
-				"source/app/web/less/components/panels.less"
-			],
-			[
-				"trans",
-				"source/i18n/etc/translations.json"
-			],
-			[
-				"layout",
-				"source/app/web/src/ui/layout.js"
-			],
-			[
-				"varibal",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"sca",
-				"source/app/web/less/base/scaffolding.less"
-			],
-			[
-				"table",
-				"source/app/web/src/investigation/table.js"
-			],
-			[
-				"table.js",
-				"source/app/web/src/investigation/table.js"
-			],
-			[
-				"eventdetail",
-				"source/app/web/src/exploration/event-detail-panel.js"
-			],
-			[
-				"editindex",
-				"source/app/web/src/investigation/edit/index.js"
-			],
-			[
-				"searchbar",
-				"source/app/web/src/exploration/search-bar.js"
-			],
-			[
-				"providerdeta",
-				"source/app/web/src/exploration/provider-detail-panel.js"
-			],
-			[
-				"patientdeta",
-				"source/app/web/src/exploration/patient-detail-panel.js"
-			],
-			[
-				"databinder",
-				"source/app/web/src/ui/data.binder.js"
-			],
-			[
-				"event-detail",
-				"source/app/web/src/exploration/event-detail-panel.js"
-			],
-			[
-				"riskli",
-				"source/app/web/src/dashboard/risk-list.js"
-			],
-			[
-				"providercount",
-				"source/app/web/src/ui/controls/charting/provider.count.type.js"
-			],
-			[
-				"incidentinfo",
-				"source/app/web/src/investigation/incident-details/incident-info.js"
-			],
-			[
-				"collections",
-				"source/app/web/src/ui/collection.js"
-			],
-			[
-				"files.js",
-				"source/app/web/src/investigation/common/files.js"
-			],
-			[
-				"type.js",
-				"source/app/web/src/ui/controls/charting/provider.count.type.js"
-			],
-			[
-				"uiview",
-				"source/app/web/src/ui/view.js"
-			],
-			[
-				"view.",
-				"source/app/web/src/ui/view.js"
-			],
-			[
-				"collection",
-				"source/app/web/src/notes/collection.js"
-			],
-			[
-				"variable",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"page",
-				"package.json"
-			],
-			[
-				"daterange",
-				"source/app/web/src/ui/controls/input.daterange.js"
-			],
-			[
-				"picker",
-				"source/app/web/src/ui/controls/daterangepicker.js"
-			],
-			[
-				"dater",
-				"source/app/web/src/ui/controls/daterangepicker.js"
-			],
-			[
-				"date",
-				"source/app/web/src/ui/controls/daterangepicker.js"
-			],
-			[
-				"icon-ha",
-				"source/app/web/less/base/icons-haystack.less"
-			],
-			[
-				"daterangepicker",
-				"source/app/web/src/ui/controls/daterangepicker.js"
-			],
-			[
-				"table.ejs",
-				"source/app/web/src/investigation/table.ejs"
-			],
-			[
-				"varial",
-				"source/app/web/less/variables.less"
-			],
-			[
-				"vendor",
-				"source/app/web/less/vendor.less"
-			],
-			[
-				"haystack",
-				"source/app/web/less/components/haystack-glyphs.css"
-			],
-			[
-				"overlay",
-				"source/app/web/less/components/overlay.less"
-			],
-			[
-				"databind",
-				"source/app/web/src/ui/data.binder.js"
-			],
-			[
-				"age.ej",
-				"source/app/web/src/ui/page.ejs"
-			],
-			[
-				"page.",
-				"source/app/web/src/ui/page.js"
-			],
-			[
-				"view.j",
-				"source/app/web/src/ui/view.js"
-			],
-			[
-				"zone",
-				"source/app/web/src/ui/zone.js"
-			],
-			[
-				"icons",
-				"source/app/web/less/base/icons.less"
-			],
-			[
-				"summary-metric",
-				"source/app/web/src/ui/controls/charting/summary-metric.ejs"
-			],
-			[
-				"chart.ejs",
-				"source/app/web/src/dashboard/chart.ejs"
-			],
-			[
-				"chart.js",
-				"source/app/web/src/dashboard/chart.js"
-			],
-			[
-				"dashboard",
-				"source/app/web/src/dashboard/dashboard.ejs"
-			],
-			[
-				"scaffold",
-				"source/app/web/less/base/scaffolding.less"
-			],
-			[
-				"haystack-gl",
-				"source/app/web/less/components/haystack-glyphs.css"
-			],
-			[
-				"bootstra",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"footer.ej",
-				"source/app/web/src/ui/footer.ejs"
-			],
-			[
-				"footer.js",
-				"source/app/web/src/ui/footer.js"
-			],
-			[
-				"page.ej",
-				"source/app/web/src/ui/page.ejs"
-			],
-			[
-				"footer",
-				"source/app/web/src/ui/footer.ejs"
-			],
-			[
-				"header.",
-				"source/app/templates/common/header.ejs"
-			],
-			[
-				"header.less",
-				"source/app/web/less/base/header.less"
-			],
-			[
-				"router",
-				"source/app/web/src/dashboard/router.js"
-			],
-			[
-				"header.js",
-				"source/app/web/src/ui/header.js"
-			],
-			[
-				"header",
-				"source/app/web/src/ui/header.js"
-			],
-			[
-				"auth",
-				"source/app/templates/authenticate.ejs"
-			],
-			[
-				"browshapp",
-				"source/app/templates/common/browse-happy.ejs"
-			],
-			[
-				"authen",
-				"source/app/web/less/layouts/authenticate.less"
-			],
-			[
-				"typeo",
-				"source/app/web/less/base/typography.less"
-			],
-			[
-				"fontface",
-				"source/app/site/fonts/proxima-nova/font-face.css"
-			],
-			[
-				"font",
-				"source/app/web/less/base/fonts.less"
-			],
-			[
-				"form.",
-				"source/app/web/less/components/forms.less"
 			]
 		],
 		"width": 0.0
@@ -1197,7 +3716,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 333.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

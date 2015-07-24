@@ -11,15 +11,15 @@
 	"ignored_packages":
 	[
 		"CodeFormatter",
-		"SublimeLinter-csslint",
-		"Vintage",
-		"Markdown",
-		"Python PEP8 Autoformat",
-		"GitGutter",
-		"FileDiffs",
-		"SublimeLinter-jshint",
 		"BracketHighlighter",
-		"jQuery"
+		"GitGutter",
+		"Markdown",
+		"FileDiffs",
+		"jQuery",
+		"SublimeLinter-jshint",
+		"Python PEP8 Autoformat",
+		"Vintage",
+		"SublimeLinter-csslint"
 	],
 	"indent_guide_options":
 	[
