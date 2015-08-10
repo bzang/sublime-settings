@@ -13,6 +13,7 @@
 		"ColorSchemeSelector",
 		"Colorsublime",
 		"Compare Side-By-Side",
+		"CSS Format",
 		"CSScomb",
 		"CSSLint",
 		"Darkula Color Scheme",
@@ -24,6 +25,7 @@
 		"Evernote",
 		"FileDiffs",
 		"Git",
+		"Git Conflict Resolver",
 		"GitGutter",
 		"Gulp",
 		"Gutter Color",
@@ -57,10 +59,12 @@
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
 		"SublimePythonIDE",
+		"Sublimerge Pro",
 		"SublimeServer",
 		"Theme - Cobalt2",
 		"Theme - Soda",
 		"Theme - Toxin",
+		"TodoReview",
 		"Twitter Recess",
 		"VCS Gutter"
 	]

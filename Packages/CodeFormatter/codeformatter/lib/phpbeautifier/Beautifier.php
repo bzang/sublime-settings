@@ -251,7 +251,6 @@ class PHP_Beautifier implements PHP_Beautifier_Interface
         $this->aControlStructures = array(
             T_CLASS,
             T_TRAIT,
-            T_YIELD,
             T_FUNCTION,
             T_IF,
             T_ELSE,
@@ -355,8 +354,6 @@ class PHP_Beautifier implements PHP_Beautifier_Interface
             T_AND_EQUAL => 'T_ASSIGMENT_PRE',
             T_OR_EQUAL => 'T_ASSIGMENT_PRE',
             T_XOR_EQUAL => 'T_ASSIGMENT_PRE',
-            T_POW => 'T_ASSIGMENT_PRE',
-            T_POW_EQUAL => 'T_ASSIGMENT_PRE',
             T_DOUBLE_ARROW => 'T_ASSIGMENT',
             T_SL_EQUAL => 'T_EQUAL',
             T_SR_EQUAL => 'T_EQUAL',
@@ -392,8 +389,8 @@ class PHP_Beautifier implements PHP_Beautifier_Interface
     }
     public function getTokenName($iToken)
     {
-        if (!$iToken) {
-            throw new Exception('Token "'.$iToken.'" doesn\'t exists');
+        if(!$iToken) {
+            throw new Exception("Token $iToken doesn't exists");
         }
         return $this->aTokenNames[$iToken];
     }
@@ -716,10 +713,6 @@ class PHP_Beautifier implements PHP_Beautifier_Interface
         // getTokens()
         if ($this->sFileType == 'php') {
             $this->aTokens = token_get_all($this->sText);
-		/*foreach($this->aTokens as &$tk) {
-			$tk[3] = token_name($tk[0]);
-		}*/
-
         } else {
             $sClass = 'PHP_Beautifier_Tokenizer_' . ucfirst($this->sFileType);
             if (class_exists($sClass)) {
@@ -729,8 +722,6 @@ class PHP_Beautifier implements PHP_Beautifier_Interface
                 throw new Exception("File type " . $this->sFileType . " not implemented");
             }
         }
-
-
         $this->aOut = array();
         $iTotal = count($this->aTokens);
         $iPrevAssoc = false;
@@ -740,24 +731,17 @@ class PHP_Beautifier implements PHP_Beautifier_Interface
         }
         for ($this->iCount = 0 ; $this->iCount < $iTotal ; $this->iCount++) {
             $aCurrentToken = $this->aTokens[$this->iCount];
-
             if (is_string($aCurrentToken)) {
                 $aCurrentToken = array(
                     0 => $aCurrentToken,
                     1 => $aCurrentToken
                 );
             }
-
-
             // ArrayNested->off();
             $sTextLog = PHP_Beautifier_Common::wsToString($aCurrentToken[1]);
             // ArrayNested->on();
             $sTokenName = (is_numeric($aCurrentToken[0])) ? token_name($aCurrentToken[0]) : '';
-
-            //CFLog($sTokenName);
-
             $this->oLog->log("Token:" . $sTokenName . "[" . $sTextLog . "]", PEAR_LOG_DEBUG);
-
             $this->controlToken($aCurrentToken);
             $iFirstOut = count($this->aOut); //5
             $bError = false;

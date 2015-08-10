@@ -1,7 +1,7 @@
-# @author 			Avtandil Kikabidze
-# @copyright 		Copyright (c) 2008-2015, Avtandil Kikabidze aka LONGMAN (akalongman@gmail.com)
+# @author 		Avtandil Kikabidze
+# @copyright 		Copyright (c) 2008-2014, Avtandil Kikabidze aka LONGMAN (akalongman@gmail.com)
 # @link 			http://long.ge
-# @license 		The MIT License (MIT)
+# @license 		GNU General Public License version 2 or later;
 
 import os, sys, sublime, sublime_plugin
 
