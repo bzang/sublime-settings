@@ -11,9 +11,7 @@
   "jquery": true,
   "node": true,
   "esnext": true,
-  "globals": {
-    "moment": true
-  },
+  "globals": {},
   "globalstrict": true,
   "quotmark": true,
   "undef": true,

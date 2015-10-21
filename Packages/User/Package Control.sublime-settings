@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -27,6 +28,7 @@
 		"Git",
 		"Git Conflict Resolver",
 		"GitGutter",
+		"Grunt",
 		"Gulp",
 		"Gutter Color",
 		"HTML-CSS-JS Prettify",
@@ -59,7 +61,6 @@
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
 		"SublimePythonIDE",
-		"Sublimerge Pro",
 		"SublimeServer",
 		"Theme - Cobalt2",
 		"Theme - Soda",

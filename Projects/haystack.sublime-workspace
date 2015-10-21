@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"import",
+				"importMetricsChartZone"
+			],
+			[
+				"onAfter",
+				"onAfterRendered"
+			],
+			[
 				"border-radius",
 				"border-top-left-radius"
 			]
@@ -12,44 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card-list.js",
+			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/person.js",
 			"settings":
 			{
-				"buffer_size": 1030,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
-			"settings":
-			{
-				"buffer_size": 6050,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 925 files for \"edit behavior\"\n\n/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json:\n  802  			\"event\": {\n  803  				\"edit\": {\n  804: 					\"behavior\": \"edit behavior\"\n  805  				}\n  806  			},\n  ...\n  852  			\"detailPanel\": {\n  853  				\"addNote\": \"Add Note\",\n  854: 				\"editBehavior\": \"Edit Behavior\",\n  855  				\"providerNotes\": \"User Notes\",\n  856  				\"investigatonNotes\": \"Notes\"\n\n2 matches in 1 file\n\n\nSearching 925 files for \"editBehavior\"\n\n/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json:\n  852  			\"detailPanel\": {\n  853  				\"addNote\": \"Add Note\",\n  854: 				\"editBehavior\": \"Edit Behavior\",\n  855  				\"providerNotes\": \"User Notes\",\n  856  				\"investigatonNotes\": \"Notes\"\n\n1 match in 1 file\n\n\nSearching 925 files for \"behavior\"\n\n/Users/bzang/Projects/haystack/dev/source/app/web/less/components/modals.less:\n   23  }\n   24  \n   25: .behavior-dialog fieldset {\n   26  	width : 193px;\n   27  	margin-left: auto;\n\n/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/provider.js:\n 1732  \n 1733  /**\n 1734: * This message served at `/provider/:id/behavior` and is a `PUT`.\n 1735  *\n 1736  * The following parameters are part of the url:\n ....\n 1768  * @param {response} callback.res The raw response object.\n 1769  */\n 1770: exports.saveBehavior = function(id,state,taskId,riskType,callback, _accepts){\n 1771  	var paramPayload = {};\n 1772  	if ( sys.isString( id ) ) {\n ....\n 1783  		bodyPayload.riskType = riskType;\n 1784  	} \n 1785: 	var url = \"/provider/:id/behavior\";\n 1786  	url = url.replace(\":id\", paramPayload.id);\n 1787  	var r = request.put(url);\n ....\n 1800      r.end(function(err, res){\n 1801  				/**\n 1802: 				This will publish to the `saveBehavior.error` on channel `provider` on the main message bus when an error occurs while getting data\n 1803: 				@event module:web/messages/provider.ProviderSaveBehaviorError\n 1804  				*/\n 1805  if (res.error) {\n 1806: bus.publish({ channel: \"provider\", topic:\"saveBehavior.error\", data:{error:res.error} });\n 1807  if (res.error.status === 401){window.location = \"/\";}\n 1808  return callback(res.error);\n 1809  }\n 1810: 			bus.publish({ channel: \"provider\", topic:\"saveBehavior.data\", data:{ res:res } });\n 1811              callback(null, res);\n 1812      });\n 1813  };\n 1814  /**\n 1815: 	This will listen to the `saveBehavior` on channel `provider` on the main message bus. It accepts the same parameters\n 1816:     as module:web/messages/provider.saveBehavior as a hash. Like so:\n 1817  ```\n 1818: bus.publish({channel:\"provider\", topic:\"saveBehavior\", data:{\n 1819  		id: id,\n 1820  		state: state,\n ....\n 1824  }});\n 1825  ```\n 1826: @event module:web/messages/provider.ProviderSaveBehavior\n 1827  */\n 1828  bus.subscribe( {\n 1829  	channel : \"provider\",\n 1830: 	topic   :\"saveBehavior\" ,\n 1831  	callback:function( data ){\n 1832  			if (!sys.isFunction(data.callback)){\n 1833  				data.callback = sys.identity;\n 1834  			}\n 1835: 			exports.saveBehavior(data.id, data.state, data.taskId, data.riskType, data.callback, data._accepts);\n 1836  		}\n 1837  	}\n\n/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/role.js:\n  327  \n  328  /**\n  329: * This message served at `/role/:id/behavior` and is a `PUT`.\n  330  *\n  331  * The following parameters are part of the url:\n  ...\n  363  * @param {response} callback.res The raw response object.\n  364  */\n  365: exports.saveBehavior = function(id,state,taskId,riskType,callback, _accepts){\n  366  	var paramPayload = {};\n  367  	if ( sys.isString( id ) ) {\n  ...\n  378  		bodyPayload.riskType = riskType;\n  379  	} \n  380: 	var url = \"/role/:id/behavior\";\n  381  	url = url.replace(\":id\", paramPayload.id);\n  382  	var r = request.put(url);\n  ...\n  395      r.end(function(err, res){\n  396  				/**\n  397: 				This will publish to the `saveBehavior.error` on channel `role` on the main message bus when an error occurs while getting data\n  398: 				@event module:web/messages/role.RoleSaveBehaviorError\n  399  				*/\n  400  if (res.error) {\n  401: bus.publish({ channel: \"role\", topic:\"saveBehavior.error\", data:{error:res.error} });\n  402  if (res.error.status === 401){window.location = \"/\";}\n  403  return callback(res.error);\n  404  }\n  405: 			bus.publish({ channel: \"role\", topic:\"saveBehavior.data\", data:{ res:res } });\n  406              callback(null, res);\n  407      });\n  408  };\n  409  /**\n  410: 	This will listen to the `saveBehavior` on channel `role` on the main message bus. It accepts the same parameters\n  411:     as module:web/messages/role.saveBehavior as a hash. Like so:\n  412  ```\n  413: bus.publish({channel:\"role\", topic:\"saveBehavior\", data:{\n  414  		id: id,\n  415  		state: state,\n  ...\n  419  }});\n  420  ```\n  421: @event module:web/messages/role.RoleSaveBehavior\n  422  */\n  423  bus.subscribe( {\n  424  	channel : \"role\",\n  425: 	topic   :\"saveBehavior\" ,\n  426  	callback:function( data ){\n  427  			if (!sys.isFunction(data.callback)){\n  428  				data.callback = sys.identity;\n  429  			}\n  430: 			exports.saveBehavior(data.id, data.state, data.taskId, data.riskType, data.callback, data._accepts);\n  431  		}\n  432  	}\n\n/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/speciality.js:\n  327  \n  328  /**\n  329: * This message served at `/speciality/:id/behavior` and is a `PUT`.\n  330  *\n  331  * The following parameters are part of the url:\n  ...\n  363  * @param {response} callback.res The raw response object.\n  364  */\n  365: exports.saveBehavior = function(id,state,taskId,riskType,callback, _accepts){\n  366  	var paramPayload = {};\n  367  	if ( sys.isString( id ) ) {\n  ...\n  378  		bodyPayload.riskType = riskType;\n  379  	} \n  380: 	var url = \"/speciality/:id/behavior\";\n  381  	url = url.replace(\":id\", paramPayload.id);\n  382  	var r = request.put(url);\n  ...\n  395      r.end(function(err, res){\n  396  				/**\n  397: 				This will publish to the `saveBehavior.error` on channel `speciality` on the main message bus when an error occurs while getting data\n  398: 				@event module:web/messages/speciality.SpecialitySaveBehaviorError\n  399  				*/\n  400  if (res.error) {\n  401: bus.publish({ channel: \"speciality\", topic:\"saveBehavior.error\", data:{error:res.error} });\n  402  if (res.error.status === 401){window.location = \"/\";}\n  403  return callback(res.error);\n  404  }\n  405: 			bus.publish({ channel: \"speciality\", topic:\"saveBehavior.data\", data:{ res:res } });\n  406              callback(null, res);\n  407      });\n  408  };\n  409  /**\n  410: 	This will listen to the `saveBehavior` on channel `speciality` on the main message bus. It accepts the same parameters\n  411:     as module:web/messages/speciality.saveBehavior as a hash. Like so:\n  412  ```\n  413: bus.publish({channel:\"speciality\", topic:\"saveBehavior\", data:{\n  414  		id: id,\n  415  		state: state,\n  ...\n  419  }});\n  420  ```\n  421: @event module:web/messages/speciality.SpecialitySaveBehavior\n  422  */\n  423  bus.subscribe( {\n  424  	channel : \"speciality\",\n  425: 	topic   :\"saveBehavior\" ,\n  426  	callback:function( data ){\n  427  			if (!sys.isFunction(data.callback)){\n  428  				data.callback = sys.identity;\n  429  			}\n  430: 			exports.saveBehavior(data.id, data.state, data.taskId, data.riskType, data.callback, data._accepts);\n  431  		}\n  432  	}\n\n/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-card.ejs:\n   29  			</div>\n   30  \n   31: 			<div class=\"event-behaviors\">\n   32  			</div>\n   33  		</div>\n   ..\n   41  			</button>\n   42  			<% if(!utils.sys.isEmpty( riskTypes )) { %>\n   43: 			<button class=\"btn btn-primary btn-sm edit-behavior-button\">\n   44: 				<span><%= t( \"actions:event.edit.behavior\" ) %></span>\n   45  			</button>\n   46  			<% } %>\n\n/Users/bzang/Projects/haystack/dev/source/core/schema/event.js:\n  448  			}\n  449  		},\n  450: 		providerBehaviors      : {\n  451  			type           : \"string\",\n  452: 			selector       : '.provider-behavior',\n  453  			display        : false,\n  454: 			caption        : \"captions:event.provider.behaviors\",\n  455  			displayCaption : false,\n  456: 			fieldName      : \"providerBehaviors\",\n  457  			elAttribute    : \"data-val\",\n  458  			converter      : function ( dir, val, attr, model, els ) {\n  459  				var $el = $( els );\n  460: 				var b = model.get( \"behaviors\" );\n  461  \n  462  				if ( b ) {\n  ...\n  476  			}\n  477  		},\n  478: 		roleBehaviors          : {\n  479  			type           : \"string\",\n  480: 			selector       : '[name=\"role-behavior\"]',\n  481  			display        : false,\n  482: 			caption        : \"captions:event.role.behaviors\",\n  483  			displayCaption : false,\n  484: 			fieldName      : \"roleBehaviors\",\n  485  			elAttribute    : \"data-val\",\n  486  			converter      : function ( dir, val, attr, model, els ) {\n  487  				var $el = $( els );\n  488: 				var b = model.get( \"behaviors\" );\n  489  				sys.defer( function () {\n  490  					if ( b ) {\n  ...\n  503  			}\n  504  		},\n  505: 		specialityBehaviors    : {\n  506  			type           : \"string\",\n  507: 			selector       : '[name=\"speciality-behavior\"]',\n  508  			display        : false,\n  509: 			caption        : \"captions:event.speciality.behaviors\",\n  510  			displayCaption : false,\n  511: 			fieldName      : \"specialityBehaviors\",\n  512  			elAttribute    : \"data-val\",\n  513  			converter      : function ( dir, val, attr, model, els ) {\n  514  				var $el = $( els );\n  515: 				var b = model.get( \"behaviors\" );\n  516  				sys.defer( function () {\n  517  					if ( b ) {\n\n/Users/bzang/Projects/haystack/dev/source/db/test.db.sql:\n  381  \n  382  -- -----------------------------------------------------\n  383: -- Table `haystacktest`.`role.behaviors`\n  384  -- -----------------------------------------------------\n  385: CREATE TABLE IF NOT EXISTS `haystacktest`.`role.behaviors` (\n  386    `id` INT(11) NOT NULL AUTO_INCREMENT,\n  387    `roleId` VARCHAR(128) NOT NULL,\n  ...\n  394    `state` VARCHAR(32) NULL DEFAULT 'normal',\n  395    PRIMARY KEY (`id`),\n  396:   INDEX `role_behavior_role_fk_idx` (`roleId` ASC),\n  397:   UNIQUE INDEX `uq_role_behaviors_idx` (`roleId` ASC, `riskType` ASC, `taskId` ASC),\n  398:   CONSTRAINT `role_behavior_role_fk`\n  399      FOREIGN KEY (`roleId`)\n  400      REFERENCES `haystacktest`.`roles` (`id`)\n  ...\n  407  \n  408  -- -----------------------------------------------------\n  409: -- Table `haystacktest`.`speciality.behaviors`\n  410  -- -----------------------------------------------------\n  411: CREATE TABLE IF NOT EXISTS `haystacktest`.`speciality.behaviors` (\n  412    `id` INT(11) NOT NULL AUTO_INCREMENT,\n  413    `specialityId` VARCHAR(128) NOT NULL,\n  ...\n  420    `state` VARCHAR(32) NULL DEFAULT 'normal',\n  421    PRIMARY KEY (`id`),\n  422:   INDEX `speciality_behaviors_speciality_fk_idx` (`specialityId` ASC),\n  423:   UNIQUE INDEX `uq_speciality_behaviors_idx` (`specialityId` ASC, `riskType` ASC, `taskId` ASC),\n  424:   CONSTRAINT `speciality_behaviors_speciality_fk`\n  425      FOREIGN KEY (`specialityId`)\n  426      REFERENCES `haystacktest`.`specialities` (`id`)\n  ...\n  563  \n  564  -- -----------------------------------------------------\n  565: -- Table `haystacktest`.`provider.behaviors`\n  566  -- -----------------------------------------------------\n  567: CREATE TABLE IF NOT EXISTS `haystacktest`.`provider.behaviors` (\n  568    `id` INT NOT NULL AUTO_INCREMENT,\n  569    `providerId` VARCHAR(128) NOT NULL,\n  ...\n  576    `state` VARCHAR(32) NULL DEFAULT 'normal',\n  577    PRIMARY KEY (`id`),\n  578:   INDEX `fk_provider.behaviors_providers1_idx` (`providerId` ASC),\n  579:   UNIQUE INDEX `uq_provider.behaviors` (`providerId` ASC, `riskType` ASC, `taskId` ASC),\n  580:   CONSTRAINT `fk_provider.behaviors_providers1`\n  581      FOREIGN KEY (`providerId`)\n  582      REFERENCES `haystacktest`.`providers` (`id`)\n\n/Users/bzang/Projects/haystack/dev/source/db/tx.db.sql:\n  381  \n  382  -- -----------------------------------------------------\n  383: -- Table `haystacktx`.`role.behaviors`\n  384  -- -----------------------------------------------------\n  385: CREATE TABLE IF NOT EXISTS `haystacktx`.`role.behaviors` (\n  386    `id` INT(11) NOT NULL AUTO_INCREMENT,\n  387    `roleId` VARCHAR(128) NOT NULL,\n  ...\n  394    `state` VARCHAR(32) NULL DEFAULT 'normal',\n  395    PRIMARY KEY (`id`),\n  396:   INDEX `role_behavior_role_fk_idx` (`roleId` ASC),\n  397:   UNIQUE INDEX `uq_role_behaviors_idx` (`roleId` ASC, `riskType` ASC, `taskId` ASC),\n  398:   CONSTRAINT `role_behavior_role_fk`\n  399      FOREIGN KEY (`roleId`)\n  400      REFERENCES `haystacktx`.`roles` (`id`)\n  ...\n  407  \n  408  -- -----------------------------------------------------\n  409: -- Table `haystacktx`.`speciality.behaviors`\n  410  -- -----------------------------------------------------\n  411: CREATE TABLE IF NOT EXISTS `haystacktx`.`speciality.behaviors` (\n  412    `id` INT(11) NOT NULL AUTO_INCREMENT,\n  413    `specialityId` VARCHAR(128) NOT NULL,\n  ...\n  420    `state` VARCHAR(32) NULL DEFAULT 'normal',\n  421    PRIMARY KEY (`id`),\n  422:   INDEX `speciality_behaviors_speciality_fk_idx` (`specialityId` ASC),\n  423:   UNIQUE INDEX `uq_speciality_behaviors_idx` (`specialityId` ASC, `riskType` ASC, `taskId` ASC),\n  424:   CONSTRAINT `speciality_behaviors_speciality_fk`\n  425      FOREIGN KEY (`specialityId`)\n  426      REFERENCES `haystacktx`.`specialities` (`id`)\n  ...\n  563  \n  564  -- -----------------------------------------------------\n  565: -- Table `haystacktx`.`provider.behaviors`\n  566  -- -----------------------------------------------------\n  567: CREATE TABLE IF NOT EXISTS `haystacktx`.`provider.behaviors` (\n  568    `id` INT NOT NULL AUTO_INCREMENT,\n  569    `providerId` VARCHAR(128) NOT NULL,\n  ...\n  576    `state` VARCHAR(32) NULL DEFAULT 'normal',\n  577    PRIMARY KEY (`id`),\n  578:   INDEX `fk_provider.behaviors_providers1_idx` (`providerId` ASC),\n  579:   UNIQUE INDEX `uq_provider.behaviors` (`providerId` ASC, `riskType` ASC, `taskId` ASC),\n  580:   CONSTRAINT `fk_provider.behaviors_providers1`\n  581      FOREIGN KEY (`providerId`)\n  582      REFERENCES `haystacktx`.`providers` (`id`)\n\n/Users/bzang/Projects/haystack/dev/source/db/events/behaviors.sql:\n    1  <% if (!utils.sys.isEmpty(eventIds)) { %>\n    2  select 	pb.*, risks.eventId,'provider' as _type\n    3: from	`provider.behaviors` as pb\n    4  		inner join risks\n    5          on risks.type = pb.riskType\n    .\n   12  \n   13  select 	rb.*, risks.eventId,'role' as _type\n   14: from	`role.behaviors` as rb\n   15  		inner join risks\n   16          on risks.type = rb.riskType\n   ..\n   24  union\n   25  select 	sb.*, risks.eventId, 'speciality' as _type\n   26: from	`speciality.behaviors` as sb\n   27  		inner join risks\n   28          on risks.type = sb.riskType\n   ..\n   38  <% } else { %>\n   39  \n   40: select 	`speciality.behaviors`.*, '' as eventId, 'speciality' as _type\n   41: from	`speciality.behaviors`\n   42  where   0=1;\n   43  <% } %>\n\n/Users/bzang/Projects/haystack/dev/source/db/events/index.js:\n  186  \n  187  			db.execFile( __dirname,\n  188: 				\"behaviors.sql\",\n  189  				{eventIds : sys.map( ids, function ( item ) {return db.pool.escape( item );} )},\n  190  				[],\n  ...\n  194  		}\n  195  \n  196: 	], function ( err, events, notes, behaviors ) {\n  197  		if ( err ) { return callback( err ); }\n  198  \n  ...\n  208  		} );\n  209  \n  210: 		sys.each( behaviors, function ( n ) {\n  211  			var found = events.find( function ( e ) {\n  212  				return e.get( \"eventId\" ) === n.eventId;\n  ...\n  214  \n  215  			if ( found ) {\n  216: 				found.attributes.behaviors = found.attributes.behaviors || [];\n  217: 				found.attributes.behaviors.push( n );\n  218  			}\n  219  		} );\n\n/Users/bzang/Projects/haystack/dev/source/db/providers/index.js:\n  502   * @param {number} callback.id The id that was created if this was an auto incrementing id.\n  503   */\n  504: exports.saveBehavior = function ( providerId, riskType, taskId, state, who, callback ) {\n  505  \n  506: 	db.execFile( __dirname, \"upsert.behaviors.sql\", {}, [{\n  507  		providerId : providerId,\n  508  		riskType   : riskType,\n\n/Users/bzang/Projects/haystack/dev/source/db/providers/upsert.behaviors.sql:\n    1: insert into `provider.behaviors` set ?\n    2  ON DUPLICATE KEY UPDATE\n    3  `state` = values(state),\n\n/Users/bzang/Projects/haystack/dev/source/db/providers/roles/index.js:\n  301   * @param {number} callback.id The id that was created if this was an auto incrementing id.\n  302   */\n  303: exports.saveBehavior = function ( roleId, riskType, taskId, state, who, callback ) {\n  304  \n  305: 	db.execFile( __dirname, \"upsert.behaviors.sql\", {}, [{\n  306  		                                                     roleId    : roleId,\n  307  		                                                     riskType  : riskType,\n\n/Users/bzang/Projects/haystack/dev/source/db/providers/roles/upsert.behaviors.sql:\n    1: insert into `role.behaviors` set ?\n    2  ON DUPLICATE KEY UPDATE\n    3  `state` = values(state),\n\n/Users/bzang/Projects/haystack/dev/source/db/providers/specialities/index.js:\n  301   * @param {number} callback.id The id that was created if this was an auto incrementing id.\n  302   */\n  303: exports.saveBehavior = function ( specialityId, riskType, taskId, state, who, callback ) {\n  304  \n  305: 	db.execFile( __dirname, \"upsert.behaviors.sql\", {}, [{\n  306  		                                                     specialityId : specialityId,\n  307  		                                                     riskType     : riskType,\n\n/Users/bzang/Projects/haystack/dev/source/db/providers/specialities/upsert.behaviors.sql:\n    1: insert into `speciality.behaviors` set ?\n    2  ON DUPLICATE KEY UPDATE\n    3  `state` = values(state),\n\n/Users/bzang/Projects/haystack/dev/source/h-server/messaging/provider.js:\n  468  \n  469  	},\n  470: 	saveBehavior      : {\n  471: 		url       : \"/provider/:id/behavior\",\n  472  		method    : \"PUT\",\n  473  		responses : {\n\n/Users/bzang/Projects/haystack/dev/source/h-server/messaging/role.js:\n   42  		description : \"Gets all defined roles\"\n   43  	} ,\n   44: 	saveBehavior      : {\n   45: 		url       : \"/role/:id/behavior\",\n   46  		method    : \"PUT\",\n   47  		responses : {\n\n/Users/bzang/Projects/haystack/dev/source/h-server/messaging/speciality.js:\n   42  		description : \"Gets the specialities list\"\n   43  	} ,\n   44: 	saveBehavior      : {\n   45: 		url       : \"/speciality/:id/behavior\",\n   46  		method    : \"PUT\",\n   47  		responses : {\n\n/Users/bzang/Projects/haystack/dev/source/h-server/provider/messages.js:\n  989  \n  990  /**\n  991: * This message served at `/provider/:id/behavior` and is a `PUT`.\n  992  *\n  993  * The following parameters are part of the url:\n  ...\n 1024  * @param {object} callback.next If an error occurs, call this to pass the error to the error handler.\n 1025  */\n 1026: exports.saveBehavior = function(app, callback){\n 1027: app.put( \"/provider/:id/behavior\", function(request, response, next ){\n 1028  var paramPayload = {};\n 1029  	if ( sys.isString( request.params.id ) ) {\n\n/Users/bzang/Projects/haystack/dev/source/h-server/provider/update.js:\n    7  	messages.unstar( router, unstar );\n    8  	messages.addNote( router, addNote );\n    9: 	messages.saveBehavior( router, saveBehavior );\n   10  	messages.editNote( router, editNote );\n   11  	messages.deleteNote( router, deleteNote );\n   ..\n   50  }\n   51  \n   52: function saveBehavior( request, response, next ) {\n   53  	var usr = request.session.identity || {};\n   54  	var p = request.payload;\n   55: 	dbProviders.saveBehavior( p.id, p.riskType, p.taskId, p.state, usr.username, function ( err ) {\n   56  		if ( err ) {return next( err );}\n   57  		response.status( 202 ).end();\n\n/Users/bzang/Projects/haystack/dev/source/h-server/role/messages.js:\n  175  \n  176  /**\n  177: * This message served at `/role/:id/behavior` and is a `PUT`.\n  178  *\n  179  * The following parameters are part of the url:\n  ...\n  210  * @param {object} callback.next If an error occurs, call this to pass the error to the error handler.\n  211  */\n  212: exports.saveBehavior = function(app, callback){\n  213: app.put( \"/role/:id/behavior\", function(request, response, next ){\n  214  var paramPayload = {};\n  215  	if ( sys.isString( request.params.id ) ) {\n\n/Users/bzang/Projects/haystack/dev/source/h-server/role/query.js:\n   14  	messages.having( router, having );\n   15  	messages.havingOverlay( router, havingOverlay );\n   16: 	messages.saveBehavior( router, saveBehavior );\n   17  };\n   18  \n   ..\n   46  }\n   47  \n   48: function saveBehavior( request, response, next ) {\n   49  	var usr = request.session.identity || {};\n   50  	var p = request.payload;\n   51: 	dbRoles.saveBehavior( p.id, p.riskType, p.taskId, p.state, usr.username, function ( err ) {\n   52  		if ( err ) {return next( err );}\n   53  		response.status( 202 ).end();\n\n/Users/bzang/Projects/haystack/dev/source/h-server/speciality/messages.js:\n  175  \n  176  /**\n  177: * This message served at `/speciality/:id/behavior` and is a `PUT`.\n  178  *\n  179  * The following parameters are part of the url:\n  ...\n  210  * @param {object} callback.next If an error occurs, call this to pass the error to the error handler.\n  211  */\n  212: exports.saveBehavior = function(app, callback){\n  213: app.put( \"/speciality/:id/behavior\", function(request, response, next ){\n  214  var paramPayload = {};\n  215  	if ( sys.isString( request.params.id ) ) {\n\n/Users/bzang/Projects/haystack/dev/source/h-server/speciality/query.js:\n   14  	messages.performingOverlay( router, performingOverlay );\n   15  	messages.all( router, all );\n   16: 	messages.saveBehavior( router, saveBehavior );\n   17  };\n   18  \n   ..\n   42  }\n   43  \n   44: function saveBehavior( request, response, next ) {\n   45  	var usr = request.session.identity || {};\n   46  	var p = request.payload;\n   47: 	dbSpecialities.saveBehavior( p.id, p.riskType, p.taskId, p.state, usr.username, function ( err ) {\n   48  		if ( err ) {return next( err );}\n   49  		response.status( 202 ).end();\n\n/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json:\n   88  					\"relationships-content\": \"In the Relationship lens, we visualize users (the person-shaped icon) and the patients (heart icon) whose records they have accessed. The color of the lines between the patients and users denotes the nature of the interaction. Blue = normal. Red = anomalous. \",\n   89  					\"important-details\": \"Important Details\",\n   90: 					\"important-details-content\": \"Here is all the relevant information about the user selected as well as the option to add them to your watch list. The colorful rectangles show the unique behavior fingerprint for the user. The colors represent task groups and their size represents how often that task has been done. At a glance, you can see whether the user’s behavior is consistent with other users in the same role and specialty. Click on one to see a breakdown of the tasks that comprise each task group.\",\n   91  					\"timeline\": \"Timeline Lens\",\n   92  					\"timline-content\": \"The timeline lens shows when the user accessed various patients charts. This helps determine what else they were doing around the time of a anomalous activity.\",\n   ..\n  159  				\"4\": \"Formal Investigation Opened\",\n  160  				\"5\": \"Formal Investigation Closed\",\n  161: 				\"6\": \"Modified Behavior Rule\",\n  162  				\"7\": \"Wrote Note\"\n  163  			},\n  ...\n  208  					\"activities\": \"User Activities\",\n  209  					\"activities-content\": \"These are the interactions between the patient and user listed above. Anomalous events are highlighted in red and will always be displayed at the top of the list.\",\n  210: 					\"behavior\": \"Editing Behavior\",\n  211: 					\"behavior-content\": \"Here you can modify whether this activity is, in fact, anomalous for the user, their role, or their specialty. Just click the “Unlock” button, modify the behavior, and lock it again.\"\n  212  				}\n  213  			},\n  ...\n  218  			\"lastImportDateMask\": \"Records imported: __importDate__ \",\n  219  			\"event\": {\n  220: 				\"behaviors\": {\n  221  					\"save\": {\n  222  						\"success\": \"Change saved\"\n  223  					},\n  224: 					\"allDefault\": \"Default Behavior Settings\"\n  225  				},\n  226  				\"user\": {\n  227: 					\"behavior\": {\n  228  						\"config\": \"This task is now __state__ for this user\"\n  229  					}\n  230  				},\n  231  				\"role\": {\n  232: 					\"behavior\": {\n  233  						\"config\": \"This task is now __state__ for this role\"\n  234  					}\n  235  				},\n  236  				\"speciality\": {\n  237: 					\"behavior\": {\n  238  						\"config\": \"This task is now __state__ for this specialty\"\n  239  					}\n  ...\n  303  				\"speciality\": \"Specialty\"\n  304  			},\n  305: 			\"behavior\": {\n  306: 				\"settings\": \"Behavior Settings\"\n  307  			},\n  308  			\"encounter\": {\n  ...\n  640  				},\n  641  				\"histogram\": {\n  642: 					\"title\": \"User Behavior Map\"\n  643  				},\n  644  				\"searchProvider\": \"User\",\n  ...\n  802  			\"event\": {\n  803  				\"edit\": {\n  804: 					\"behavior\": \"edit behavior\"\n  805  				}\n  806  			},\n  ...\n  852  			\"detailPanel\": {\n  853  				\"addNote\": \"Add Note\",\n  854: 				\"editBehavior\": \"Edit Behavior\",\n  855  				\"providerNotes\": \"User Notes\",\n  856  				\"investigatonNotes\": \"Notes\"\n  ...\n  858  			\"histogram\": {\n  859  				\"general\": {\n  860: 					\"tableTitle\": \"User Behavior Map\"\n  861  				}\n  862  			},\n\n155 matches across 26 files\n",
-			"settings":
-			{
-				"buffer_size": 25365,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-list.js",
-			"settings":
-			{
-				"buffer_size": 2928,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.ejs",
-			"settings":
-			{
-				"buffer_size": 254,
+				"buffer_size": 3704,
 				"line_ending": "Unix"
 			}
 		}
@@ -62,35 +36,27 @@
 	"command_palette":
 	{
 		"height": 368.0,
-		"last_filter": "rename",
+		"last_filter": "project",
 		"selected_items":
 		[
 			[
-				"rename",
-				"File: Rename"
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				"grunt",
+				"Preferences: Grunt - Settings – User"
+			],
+			[
+				"gruntsettings",
+				"Preferences: Grunt - Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"dele",
-				"File: Delete"
-			],
-			[
-				"move",
-				"File: Move"
-			],
-			[
-				"form",
-				"Format: Javascript"
-			],
-			[
-				"checkou",
-				"Git: Checkout Current File"
-			],
-			[
-				"del",
-				"File: Delete"
-			],
-			[
-				"delete",
 				"File: Delete"
 			],
 			[
@@ -102,20 +68,108 @@
 				"Format: Javascript"
 			],
 			[
+				"form",
+				"Format: Javascript"
+			],
+			[
 				"for",
 				"Format: Javascript"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"confli",
+				"Git Conflict Resolver: Show Conflict Files"
+			],
+			[
+				"conflictfiles",
+				"Git Conflict Resolver: Show Conflict Files"
+			],
+			[
+				"conflic",
+				"Git Conflict Resolver: Find Next Conflict"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"merge",
+				"Sublimerge"
 			],
 			[
 				"checkout",
 				"Git: Checkout Current File"
 			],
 			[
-				"renam",
-				"File: Rename"
+				"checkou",
+				"Git: Checkout Current File"
+			],
+			[
+				"fom",
+				"Format: Javascript"
 			],
 			[
 				"gitdiff",
 				"Git: Diff All Files"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"check",
+				"Git: Checkout Current File"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"jshint",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"jshin",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"fomr",
+				"Format: Javascript"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"renam",
+				"File: Rename"
 			],
 			[
 				"chekcout",
@@ -130,16 +184,8 @@
 				"Git: Checkout Current File"
 			],
 			[
-				"check",
-				"Git: Checkout Current File"
-			],
-			[
 				"de",
 				"File: Delete"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"chekcou",
@@ -154,10 +200,6 @@
 				"File: Duplicate"
 			],
 			[
-				"diff",
-				"Git: Diff All Files"
-			],
-			[
 				"jsformat",
 				"Pretty JSON: Format (Pretty Print) JSON"
 			],
@@ -170,20 +212,12 @@
 				"Set Syntax: SQL"
 			],
 			[
-				"isntall",
-				"Package Control: Install Package"
-			],
-			[
 				"lower",
 				"Convert Case: Lower Case"
 			],
 			[
 				"renaem",
 				"File: Rename"
-			],
-			[
-				"jshint",
-				"JSHint: Set Linting Preferences"
 			],
 			[
 				"remove p",
@@ -208,14 +242,6 @@
 			[
 				"lint",
 				"Preferences: SublimeLinter Settings – User"
-			],
-			[
-				"project",
-				"Project: Edit Project"
-			],
-			[
-				"jshin",
-				"JSHint: Set `node` Path"
 			],
 			[
 				"package",
@@ -282,7 +308,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 561.0
+		"width": 531.0
 	},
 	"console":
 	{
@@ -303,155 +329,155 @@
 	"expanded_folders":
 	[
 		"/Users/bzang/Projects/haystack/dev",
+		"/Users/bzang/Projects/haystack/dev/containers",
 		"/Users/bzang/Projects/haystack/dev/source",
 		"/Users/bzang/Projects/haystack/dev/source/app",
-		"/Users/bzang/Projects/haystack/dev/source/app/securables",
 		"/Users/bzang/Projects/haystack/dev/source/app/web",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/pairings",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/uilib",
 		"/Users/bzang/Projects/haystack/dev/source/core",
-		"/Users/bzang/Projects/haystack/dev/source/core/schema"
+		"/Users/bzang/Projects/haystack/dev/source/core/events",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema",
+		"/Users/bzang/Projects/haystack/dev/source/h-server",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/event",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/messaging"
 	],
 	"file_history":
 	[
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-card.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/timeline.tooltip.title.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-list.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/data-handler.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/h-server/haystore/investigations.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/pager.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/timeline.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/lenses/timeline/timeline.js",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/User/SublimeGrunt.sublime-settings",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/Grunt/SublimeGrunt.sublime-settings",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Projects/haystack.sublime-project",
+		"/Users/bzang/Projects/haystack/dev/source/app/etc/tasks/messages.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/details-zone.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-card.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/exploration.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/providers/provider-card.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/cards.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/dashboard.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/investigation.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/widgets/person.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/patients/patient-card.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create-patient-row.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/detail-panel.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/pairings/pairing.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/lists.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tabs.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/events/event-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/events/event-detail-panel.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/pairings/pair-card.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/explore-details.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/patients/patient.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/patient-list.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/table-sort.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/page.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/description.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/description.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/widgets/medium-editor.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/panels.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/body.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/page.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/details/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/medium-editor.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/details/index.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/etl/lib/bootstrap.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/variables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/document-properties.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/document-properties.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/summary.js",
-		"/Users/bzang/Projects/haystack/dev/source/core/schema/patient.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/metric-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/persons/provider-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/provider-summary.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/core/schema/investigation.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/providers/provider.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/person.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/note.view.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/plain.view.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/investigation.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-card.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/scroller.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/pager.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-card.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/notifications.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/encounter.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/layout.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/data-binder.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/events/event-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/encounters/encounter-card.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/components/network-graph.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/lenses/relationships/relationships.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/network-graph.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/watch.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/patients/patient.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/editor.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/notifications.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/collection.js",
+		"/Users/bzang/Projects/haystack/dev/source/i18n/etc/translations.json",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/cards.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/widgets/encounters.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/editlist.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/editor.ejs",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/TodoReview/TodoReview.sublime-settings",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/editlist.ejs",
+		"/Users/bzang/Library/Application Support/Sublime Text 3/Packages/User/TodoReview.sublime-settings",
+		"/Users/bzang/Projects/haystack/dev/source/i18n/worker.js",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/worker.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/metric-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/modal.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/view.js",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema/model.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/histogram-details-row.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/histogram.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/persons/provider-detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/persons/provider-detail-panel.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/detail-panel.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/icons.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/risk-list.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/widgets/person.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/layouts/dashboard.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/input.daterange.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/uilib/vis.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/histogram-details.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/identity/passwords.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/edit.js",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/package.json",
+		"/Users/bzang/Projects/haystack/dev/source/core/package.json",
+		"/Users/bzang/Projects/haystack/dev/source/h-server/messaging/event.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap-variables.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/templates/recover.gather.email.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/templates/recover.password.wait.ejs",
+		"/Users/bzang/Projects/haystack/dev/Find Results",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/package.json",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/bower.json",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/files.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/configuration.json",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/loader.js",
-		"/Users/bzang/Projects/haystack/dev/source/core/schema/provider.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/zone.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/name-and-status.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/note.view.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incidents/incident-info.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/investigation.view.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/contacts/contact.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incidents/incident-info.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/details/finalize.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/package.json",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-row.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/create/create-patient-row.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/notes.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incidents/involved-parties.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incidents/involved-parties.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/lists.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list/vip-list-row.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/edit/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/details/index.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/investigation.view.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/description.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/document-properties.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incidents/notice-actions.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incidents/notice-actions.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/input.daterange.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/components/daterange.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/finalize.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-details/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/router.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/chart.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/risk-list.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/tables.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/investigation-row.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/metric-panel.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/progress-bar.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/mixins/type.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/base/scaffolding.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/forms.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/person.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incidents/incident-info.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/lenses/timeline/timeline.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/table.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/base/collection.js",
-		"/Users/bzang/Projects/haystack/dev/sync.rb",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/due-list.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/dashboard.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/editlist.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/histogram.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/persons/provider-detail-panel.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/editlist.js",
-		"/Users/bzang/Projects/haystack/dev/source/h-server/messaging/provider.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/messages/provider.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/persons/patient-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/notice-actions.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/lenses/relationships/relationships.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/lenses/timeline.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/patients/patient-card.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/detail-panel.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/common/event-list.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/history/history-table.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/event.view.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/note-edit-buttons.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/patient.view.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list/vip.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/provider.view.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/note-metadata.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/note-item.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/core/schema/investigation.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/less/bootstrap/bootstrap.less",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/table-host.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/pairings/pair-card.ejs",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list/vip-list.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list/vip-list-row.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/detail.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/details-zone.js",
-		"/Users/bzang/Projects/haystack/dev/source/etl/sql/days.to.purge.sql",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/vip-list/vip-list-row.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/search-bar.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/collection.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/details/details.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/identity/users.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/dashboard/risk-list.js",
 		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/lenses/lenses.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/lenses/relationships/relationships.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/core/index.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/context-zone.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.ejs",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/zones/lenses/lenses.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/main.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-card.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/investigation/incident-details/involved-parties.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/provider-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/patient-detail-panel.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/entities/event-card.js",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/less/components/histogram.less",
-		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/notes/provider.view.ejs"
+		"/Users/bzang/Projects/haystack/dev/source/h-server/haystore/investigations.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/lenses/timeline/timeline.ejs",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/Gruntfile.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/main.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/controls/overlay.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/etc/tasks/lib.js",
+		"/Users/bzang/Projects/haystack/dev/source/app/web/src/app/index.js"
 	],
 	"find":
 	{
@@ -462,6 +488,12 @@
 		"height": 154.0,
 		"where_history":
 		[
+			"*",
+			"*.less",
+			"*",
+			"*.less",
+			"",
+			"*.js",
 			"*",
 			"*.less",
 			"*.ejs",
@@ -581,141 +613,142 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"behavior",
-			"editBehavior",
-			"edit behavior",
-			"that",
-			"event-list",
-			"right-pane",
-			"scroll",
-			"scrollStart",
-			"load:data",
-			"composePayload",
-			"load:data",
-			":data",
-			"load:data",
+			"audit-log",
+			"				callback: function () {\n					that.publish( \"notifications\", \"success\", {\n						title: main.t( \"legends:save.success\" ),\n						text: main.t( \"messages:patient.starred.save.success\" )\n					} );\n\n					that.publish( that.personType, \"star.changed\", {\n						id: that.model.get( that.primaryKeyName ),\n						val: val\n					} );\n				}",
+			"is-star",
+			"\"files\"",
+			"\"files",
+			"\"files.",
+			"files.",
+			"file-list",
+			"trigger( \"data",
+			"on( \"data",
+			"_pageData",
+			"add",
+			"_onAddModel",
+			"add",
+			"resetcollect",
+			"_interpretSchema",
+			"task:",
+			"/encounters/find/",
+			"encounter",
+			"compose:params",
+			"composeparams",
+			"compose:params",
 			"_loadPagedData",
-			"get:data",
-			"_getPagedData",
-			"pagedDataTopic",
-			"getEvents",
-			"findAll",
-			"events/all",
+			"on( \"load:data\"",
+			"onloaddat",
+			"load:data",
+			"publish",
+			"data:bind",
+			"listAllEncounters",
+			"onEncounterDrilldown",
+			"openEncounter",
+			"_renderChild",
+			"person.selected",
+			"setSelectedPerson",
+			".format",
+			"selectedprovider",
+			"nodetype",
+			"selected",
+			"selectedprovider",
+			"selectnode",
+			".node.remove",
+			"node.remove",
+			".remove",
+			"remove",
+			".remove",
+			"node.",
+			"that",
+			"personselected",
+			"node._source",
+			"selectedProviderNode",
+			"get",
+			".get",
+			"open",
+			"null",
+			"note.success",
+			"note.successful",
+			"note saved",
+			"collection.push",
+			"_childrenByView",
+			"_renderChild",
+			"'",
+			"cb-show-editor",
+			"todo",
+			"subtitle",
+			"person.selected",
+			"note:saved",
+			"push",
+			"note:saved",
+			"_renderCollection",
+			"_renderChild",
+			"_renderchild",
+			"append",
+			"show",
+			".modal",
+			"noteEditor",
+			"note:saved",
+			"delegateEvents",
+			"undelega",
+			"_unbindUIElements",
+			"destroy",
+			"		\n",
+			"popover",
+			"remove",
+			"destroy",
+			"{\n",
+			"_removeElement",
+			"build",
+			"template",
+			"onOpenNoteEditor",
+			"add-note-button",
+			"modal",
+			"addnote",
+			"add note",
+			"anomalous activity",
+			"data:bind",
+			"onDataBind",
+			"data:bind",
+			"databind(",
+			"databind",
+			"dataBindings",
+			"binders",
+			"interpret",
+			"calculateSummaryDates",
+			"_interpretSchema",
+			"interperet",
+			"ProviderDetailPanel",
+			"provider-detail-panel",
+			"yesterday",
+			"3-days",
+			"prev week",
+			"container",
+			"popover",
+			"modal-header",
 			"dl-horizontal",
-			"card-body",
-			"is-star",
-			"is-start",
-			"is-star",
-			"pairing-card",
-			"btn-investigation",
-			"text-center",
-			".event-list",
-			"EventDetailPanel",
-			"pair",
-			"patientZone",
-			"openProvider",
-			"openPatient",
-			"openPerson",
-			"openPatient",
-			"age",
-			"person-card",
-			"btn",
-			"remove-patient",
-			"card-shim",
-			"patientName",
-			"day",
-			">\n",
-			"include",
-			"search-for-name",
-			"div",
-			"body-zone",
-			"page.ejs",
-			"cb-content",
-			"investigation name",
-			"investigation",
-			"border",
-			"textarea",
-			"medium-editor-placeholder",
-			"name",
-			"saveButton",
-			"Searching",
-			"save-button",
-			"'",
-			"description",
-			"Description",
-			"</div>",
-			"20px",
-			"investigation-patients",
-			"description-zone",
-			" class=\"caption-style-small no-underline\"",
-			"closed-panel",
-			"&nbsp;",
-			"meta-data",
-			"data-info-stamp",
-			"startDate1",
-			"databindings:",
-			"InvestigationModel",
-			"investigation-is-closed",
-			"final-disposition",
-			"providerSummaryZone",
-			"tabs-body-background",
-			"investigation-details-panel",
-			"template",
-			"onBeforeMount",
-			"render",
-			"opened",
-			"zoneOptions:",
-			"provider-summary",
-			"onControllerReady",
-			"summaryZone",
-			"providerSummaryZone",
-			"displayZone",
-			"status",
-			"&nbsp;",
-			"name-and-status",
-			".main",
-			"main",
-			"setOptions",
-			"_getView",
-			"openView",
-			"params",
-			"openView",
-			"subscribe",
-			"\"body\"",
-			"lookups",
-			"index",
-			"Index",
-			"zone",
-			"Index",
-			"index",
-			"Index",
-			"\"notes\"",
-			"\"investigation\"",
-			"investigation",
-			"investigatin",
-			"InvestigationView",
-			"investigation.view.ejs",
-			"investigation-note-contents",
-			"\"-caption",
-			"note-contents",
-			"contents-caption",
-			"note-contents-caption",
-			"investigation-note-contents-caption",
-			"investigation-note-contents-captio",
-			"investigation-note-contents-caption",
-			"templates",
-			"template",
-			"contact-first-name",
-			"type=\"date-range\"",
-			"'",
-			"incidentDate"
+			"dd",
+			"recover.password",
+			"forcePasswordChange",
+			"setpassword",
+			"identity/edit",
+			"captureEmail",
+			"recover.",
+			"all/starred",
+			"polyfill",
+			"poly",
+			"veloci",
+			"vertical",
+			"pagination",
+			"upload"
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": false,
+		"preserve_case": true,
 		"regex": false,
 		"replace_history":
 		[
+			"daterange.changed",
 			"base/pager",
 			"data-binder",
 			"column-searcher",
@@ -762,19 +795,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/components/card-list.js",
+					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/person.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 3704,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								535,
-								535
+								2952,
+								2952
 							]
 						],
 						"settings":
@@ -794,777 +827,8 @@
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6050,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								912,
-								912
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 538.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25365,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										178,
-										191
-									],
-									[
-										314,
-										327
-									],
-									[
-										618,
-										630
-									],
-									[
-										893,
-										901
-									],
-									[
-										1117,
-										1125
-									],
-									[
-										1307,
-										1315
-									],
-									[
-										1532,
-										1540
-									],
-									[
-										1727,
-										1735
-									],
-									[
-										1888,
-										1896
-									],
-									[
-										1993,
-										2001
-									],
-									[
-										2198,
-										2206
-									],
-									[
-										2348,
-										2356
-									],
-									[
-										2483,
-										2491
-									],
-									[
-										2574,
-										2582
-									],
-									[
-										2716,
-										2724
-									],
-									[
-										2811,
-										2819
-									],
-									[
-										2980,
-										2988
-									],
-									[
-										3229,
-										3237
-									],
-									[
-										3419,
-										3427
-									],
-									[
-										3640,
-										3648
-									],
-									[
-										3835,
-										3843
-									],
-									[
-										3984,
-										3992
-									],
-									[
-										4085,
-										4093
-									],
-									[
-										4286,
-										4294
-									],
-									[
-										4436,
-										4444
-									],
-									[
-										4563,
-										4571
-									],
-									[
-										4650,
-										4658
-									],
-									[
-										4784,
-										4792
-									],
-									[
-										4875,
-										4883
-									],
-									[
-										5044,
-										5052
-									],
-									[
-										5305,
-										5313
-									],
-									[
-										5495,
-										5503
-									],
-									[
-										5722,
-										5730
-									],
-									[
-										5917,
-										5925
-									],
-									[
-										6084,
-										6092
-									],
-									[
-										6191,
-										6199
-									],
-									[
-										6398,
-										6406
-									],
-									[
-										6548,
-										6556
-									],
-									[
-										6687,
-										6695
-									],
-									[
-										6780,
-										6788
-									],
-									[
-										6926,
-										6934
-									],
-									[
-										7023,
-										7031
-									],
-									[
-										7192,
-										7200
-									],
-									[
-										7444,
-										7452
-									],
-									[
-										7622,
-										7630
-									],
-									[
-										7684,
-										7692
-									],
-									[
-										7850,
-										7858
-									],
-									[
-										7944,
-										7952
-									],
-									[
-										8041,
-										8049
-									],
-									[
-										8123,
-										8131
-									],
-									[
-										8305,
-										8313
-									],
-									[
-										8392,
-										8400
-									],
-									[
-										8492,
-										8500
-									],
-									[
-										8587,
-										8595
-									],
-									[
-										8665,
-										8673
-									],
-									[
-										8847,
-										8855
-									],
-									[
-										8969,
-										8977
-									],
-									[
-										9069,
-										9077
-									],
-									[
-										9170,
-										9178
-									],
-									[
-										9254,
-										9262
-									],
-									[
-										9436,
-										9444
-									],
-									[
-										9677,
-										9685
-									],
-									[
-										9807,
-										9815
-									],
-									[
-										10016,
-										10024
-									],
-									[
-										10085,
-										10093
-									],
-									[
-										10172,
-										10180
-									],
-									[
-										10397,
-										10405
-									],
-									[
-										10533,
-										10541
-									],
-									[
-										10754,
-										10762
-									],
-									[
-										10842,
-										10850
-									],
-									[
-										10941,
-										10949
-									],
-									[
-										11184,
-										11192
-									],
-									[
-										11318,
-										11326
-									],
-									[
-										11534,
-										11542
-									],
-									[
-										11615,
-										11623
-									],
-									[
-										11709,
-										11717
-									],
-									[
-										11989,
-										11997
-									],
-									[
-										12117,
-										12125
-									],
-									[
-										12326,
-										12334
-									],
-									[
-										12395,
-										12403
-									],
-									[
-										12482,
-										12490
-									],
-									[
-										12703,
-										12711
-									],
-									[
-										12837,
-										12845
-									],
-									[
-										13058,
-										13066
-									],
-									[
-										13146,
-										13154
-									],
-									[
-										13245,
-										13253
-									],
-									[
-										13484,
-										13492
-									],
-									[
-										13616,
-										13624
-									],
-									[
-										13832,
-										13840
-									],
-									[
-										13913,
-										13921
-									],
-									[
-										14007,
-										14015
-									],
-									[
-										14315,
-										14323
-									],
-									[
-										14484,
-										14492
-									],
-									[
-										14671,
-										14679
-									],
-									[
-										14820,
-										14828
-									],
-									[
-										14895,
-										14903
-									],
-									[
-										15058,
-										15066
-									],
-									[
-										15248,
-										15256
-									],
-									[
-										15365,
-										15373
-									],
-									[
-										15564,
-										15572
-									],
-									[
-										15593,
-										15601
-									],
-									[
-										15638,
-										15646
-									],
-									[
-										15880,
-										15888
-									],
-									[
-										16005,
-										16013
-									],
-									[
-										16201,
-										16209
-									],
-									[
-										16482,
-										16490
-									],
-									[
-										16603,
-										16611
-									],
-									[
-										16901,
-										16909
-									],
-									[
-										17189,
-										17197
-									],
-									[
-										17316,
-										17324
-									],
-									[
-										17639,
-										17647
-									],
-									[
-										17825,
-										17833
-									],
-									[
-										17879,
-										17887
-									],
-									[
-										18084,
-										18092
-									],
-									[
-										18134,
-										18142
-									],
-									[
-										18349,
-										18357
-									],
-									[
-										18405,
-										18413
-									],
-									[
-										18607,
-										18615
-									],
-									[
-										18841,
-										18849
-									],
-									[
-										18908,
-										18916
-									],
-									[
-										19217,
-										19225
-									],
-									[
-										19239,
-										19247
-									],
-									[
-										19392,
-										19400
-									],
-									[
-										19537,
-										19545
-									],
-									[
-										19830,
-										19838
-									],
-									[
-										20064,
-										20072
-									],
-									[
-										20127,
-										20135
-									],
-									[
-										20443,
-										20451
-									],
-									[
-										20465,
-										20473
-									],
-									[
-										20538,
-										20546
-									],
-									[
-										20679,
-										20687
-									],
-									[
-										20984,
-										20992
-									],
-									[
-										21218,
-										21226
-									],
-									[
-										21287,
-										21295
-									],
-									[
-										21611,
-										21619
-									],
-									[
-										21633,
-										21641
-									],
-									[
-										21706,
-										21714
-									],
-									[
-										21854,
-										21862
-									],
-									[
-										22637,
-										22645
-									],
-									[
-										22810,
-										22818
-									],
-									[
-										23321,
-										23329
-									],
-									[
-										23643,
-										23651
-									],
-									[
-										23663,
-										23671
-									],
-									[
-										23687,
-										23695
-									],
-									[
-										23861,
-										23869
-									],
-									[
-										24025,
-										24033
-									],
-									[
-										24150,
-										24158
-									],
-									[
-										24217,
-										24225
-									],
-									[
-										24358,
-										24366
-									],
-									[
-										24505,
-										24513
-									],
-									[
-										24670,
-										24678
-									],
-									[
-										24707,
-										24715
-									],
-									[
-										24837,
-										24845
-									],
-									[
-										24963,
-										24971
-									],
-									[
-										24980,
-										24988
-									],
-									[
-										25099,
-										25107
-									],
-									[
-										25116,
-										25124
-									],
-									[
-										25296,
-										25304
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								7855,
-								7855
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"default_dir": "/Users/bzang/Projects/haystack/dev",
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 3,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 14538.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/ui/widgets/events/event-list.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2928,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1962,
-								1964
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 280.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/bzang/Projects/haystack/dev/source/app/web/src/exploration/explore.ejs",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 254,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								218,
-								225
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL) (SublimePythonIDE).tmTheme",
-							"syntax": "Packages/EJS/EJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1596,7 +860,7 @@
 		"cols":
 		[
 			0.0,
-			0.434931425584,
+			0.544671346522,
 			1.0
 		],
 		"rows":
@@ -1632,516 +896,516 @@
 		"selected_items":
 		[
 			[
-				"tooltip.title",
-				"source/app/web/src/exploration/timeline.tooltip.title.ejs"
-			],
-			[
-				"eventlist.js",
-				"source/app/web/src/ui/widgets/events/event-list.js"
-			],
-			[
-				"eventlist",
-				"source/app/web/src/ui/widgets/events/event-list.ejs"
-			],
-			[
-				"event-list",
-				"source/app/web/src/ui/widgets/events/event-list.ejs"
-			],
-			[
-				"dashboard",
-				"source/app/web/less/layouts/dashboard.less"
-			],
-			[
-				"card",
-				"source/app/web/less/components/cards.less"
-			],
-			[
-				"proivdercard",
-				"source/app/web/src/ui/widgets/providers/provider-card.ejs"
-			],
-			[
-				"explore",
-				"source/app/web/less/layouts/exploration.less"
-			],
-			[
-				"paring-card",
-				"source/app/web/src/ui/widgets/pairings/pairing-card.ejs"
-			],
-			[
-				"exploreless",
-				"source/app/web/less/zones/explore-details.less"
-			],
-			[
-				"tab.l",
-				"source/app/web/less/components/tabs.less"
-			],
-			[
-				"openpatient",
-				"source/app/web/src/ui/widgets/patients/patient.js"
-			],
-			[
-				"inveles",
-				"source/app/web/less/layouts/investigation.less"
-			],
-			[
-				"invesless",
-				"source/app/web/less/layouts/investigation.less"
-			],
-			[
-				"trans",
-				"source/i18n/etc/translations.json"
-			],
-			[
-				"boot",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"view.js",
-				"source/app/web/src/base/view.js"
-			],
-			[
-				"bootstrap",
-				"source/etl/lib/bootstrap.js"
-			],
-			[
-				"var",
-				"source/app/web/less/variables.less"
-			],
-			[
-				"panels",
-				"source/app/web/less/components/panels.less"
-			],
-			[
-				"schema",
-				"source/core/schema/patient.js"
-			],
-			[
-				"databind",
-				"source/app/web/src/base/data-binder.js"
-			],
-			[
-				"person",
-				"source/app/web/src/ui/widgets/person.js"
-			],
-			[
-				"provider",
-				"source/app/web/src/ui/widgets/providers/provider.js"
-			],
-			[
-				"povider",
-				"source/core/schema/provider.js"
-			],
-			[
-				"layout",
-				"source/app/web/src/base/layout.js"
-			],
-			[
-				"loader",
-				"source/app/web/src/base/loader.js"
-			],
-			[
-				"view",
-				"source/app/web/src/base/view.js"
-			],
-			[
-				"person.js",
-				"source/app/web/src/ui/widgets/person.js"
-			],
-			[
-				"transl",
-				"source/i18n/etc/translations.json"
+				"plain",
+				"source/app/web/src/ui/widgets/notes/plain.view.ejs"
 			],
 			[
 				"note.view",
 				"source/app/web/src/ui/widgets/notes/note.view.js"
 			],
 			[
-				"daterange",
-				"source/app/web/src/ui/controls/input.daterange.js"
+				"pager",
+				"source/app/web/src/base/pager.js"
 			],
 			[
-				"collect",
-				"source/app/web/src/base/collection.js"
-			],
-			[
-				"tab",
-				"source/app/web/less/components/tabs.less"
-			],
-			[
-				"sync.",
-				"sync.rb"
-			],
-			[
-				"metricpa",
-				"source/app/web/src/ui/components/metric-panel.js"
-			],
-			[
-				"providerdeta",
-				"source/app/web/src/exploration/details/persons/provider-detail-panel.js"
-			],
-			[
-				"hisogram.js",
-				"source/app/web/src/ui/components/histogram.js"
-			],
-			[
-				"histogram.js",
-				"source/app/web/src/ui/components/histogram.js"
-			],
-			[
-				"editlist",
-				"source/app/web/src/ui/widgets/notes/editlist.js"
-			],
-			[
-				"detail",
-				"source/app/web/src/exploration/details/detail-panel.js"
-			],
-			[
-				"datahandl",
-				"source/app/web/src/exploration/data-handler.js"
-			],
-			[
-				"patientdetail",
-				"source/app/web/src/exploration/details/persons/patient-detail-panel.js"
-			],
-			[
-				"detailpan",
-				"source/app/web/src/exploration/details/detail-panel.js"
-			],
-			[
-				"relationship",
-				"source/app/web/src/exploration/lenses/relationships/relationships.js"
-			],
-			[
-				"patientdeta",
-				"source/app/web/src/exploration/details/persons/patient-detail-panel.js"
-			],
-			[
-				"patient-detail",
-				"source/app/web/src/exploration/details/persons/patient-detail-panel.js"
-			],
-			[
-				"layou",
-				"source/app/web/src/base/layout.js"
-			],
-			[
-				"vip",
-				"source/app/web/src/dashboard/vip-list/vip.js"
-			],
-			[
-				"vipli",
-				"source/app/web/src/dashboard/vip-list/vip-list.js"
-			],
-			[
-				"laytou",
-				"source/etl/sql/days.to.purge.sql"
-			],
-			[
-				"zone",
-				"source/app/web/src/base/zone.js"
-			],
-			[
-				"vip-list",
-				"source/app/web/src/dashboard/vip-list/vip-list.js"
-			],
-			[
-				"patient.js",
-				"source/app/web/src/ui/widgets/patients/patient.js"
+				"scroll",
+				"source/app/web/src/ui/scroller.js"
 			],
 			[
 				"collection",
 				"source/app/web/src/base/collection.js"
 			],
 			[
-				"load",
-				"source/app/web/src/base/loader.js"
+				"eventcardej",
+				"source/app/web/src/ui/widgets/events/event-card.ejs"
 			],
 			[
-				"timeline",
-				"source/app/web/src/exploration/lenses/timeline/timeline.js"
+				"card.ejs",
+				"source/app/web/src/investigation/common/patient-card.ejs"
 			],
 			[
-				"lenses/relation/rel",
-				"source/app/web/src/exploration/lenses/relationships/relationships.ejs"
-			],
-			[
-				"explor",
-				"source/app/web/src/exploration/explore.js"
-			],
-			[
-				"index.js",
-				"source/core/index.js"
-			],
-			[
-				"patien",
-				"source/app/web/src/ui/widgets/patients/patient.js"
-			],
-			[
-				"table",
-				"source/app/web/less/components/tables.less"
-			],
-			[
-				"main.less",
-				"source/app/web/less/main.less"
-			],
-			[
-				"provider-dea",
-				"source/app/web/src/exploration/provider-detail-panel.ejs"
-			],
-			[
-				"rovider.ejs",
-				"source/app/web/src/ui/widgets/notes/provider.view.ejs"
-			],
-			[
-				"provider.js",
-				"source/app/web/src/ui/widgets/providers/provider.js"
-			],
-			[
-				"timelinetool",
-				"source/app/web/src/exploration/timeline.tooltip.title.ejs"
-			],
-			[
-				"timeline-i",
-				"source/app/web/src/exploration/lenses/timeline/timeline-item.ejs"
-			],
-			[
-				"timelineejs",
-				"source/app/web/src/exploration/lenses/timeline/timeline-item.ejs"
-			],
-			[
-				"mainle",
-				"source/app/web/less/main.less"
-			],
-			[
-				"widgetpatient",
-				"source/app/web/src/ui/widgets/patients/patient.js"
-			],
-			[
-				"notific",
-				"source/app/web/src/ui/notifications.js"
-			],
-			[
-				"widgetpatien",
-				"source/app/web/src/ui/widgets/patients/patient.js"
-			],
-			[
-				"risklistrow",
-				"source/app/web/src/dashboard/risk-list-row.js"
-			],
-			[
-				"viplist",
-				"source/app/web/src/dashboard/vip-list/vip-list.js"
-			],
-			[
-				"schema/provider",
-				"source/core/schema/provider.js"
-			],
-			[
-				"schemapro",
-				"source/core/schema/provider.js"
-			],
-			[
-				"patient",
-				"source/app/web/src/app/messages/patient.js"
-			],
-			[
-				"viprow",
-				"source/app/web/src/dashboard/vip-list/vip-list-row.js"
-			],
-			[
-				"risklist-row",
-				"source/app/web/src/dashboard/risk-list-row.js"
-			],
-			[
-				"eventabl",
-				"source/core/events/eventable.js"
-			],
-			[
-				"la",
+				"layout",
 				"source/app/web/src/base/layout.js"
 			],
 			[
-				"histogram",
-				"source/app/web/src/ui/controls/histogram.js"
+				"databinder",
+				"source/app/web/src/base/data-binder.js"
 			],
 			[
-				"tablehost",
-				"source/app/web/src/dashboard/table-host.js"
+				"eventlist",
+				"source/app/web/src/ui/widgets/events/event-list.js"
 			],
 			[
-				"patientlist",
-				"source/app/web/src/investigation/common/patient-list.js"
-			],
-			[
-				"auto-er",
-				"source/app/web/src/ui/widgets/auto-person-type.js"
-			],
-			[
-				"schemapatien",
-				"source/core/schema/patient.js"
-			],
-			[
-				"schemapatient",
-				"source/core/schema/patient.js"
-			],
-			[
-				"view.j",
-				"source/app/web/src/base/view.js"
-			],
-			[
-				"eventcardjs",
-				"source/app/web/src/entities/event-card.js"
-			],
-			[
-				"evencard",
-				"source/app/web/src/entities/event-card.ejs"
-			],
-			[
-				"event-card",
-				"source/app/web/src/entities/event-card.js"
-			],
-			[
-				"eventcard",
-				"source/app/web/src/entities/event-card.ejs"
-			],
-			[
-				"encounter",
-				"source/app/web/src/ui/widgets/encounters/encounter-card.ejs"
-			],
-			[
-				"layout.",
-				"source/app/web/src/base/layout.js"
-			],
-			[
-				"providercard",
-				"source/app/web/src/ui/widgets/providers/provider-card.ejs"
-			],
-			[
-				"patientcard",
-				"source/app/web/src/ui/widgets/patients/patient-card.ejs"
-			],
-			[
-				"vend",
-				"source/app/web/less/vendor.less"
-			],
-			[
-				"view.",
-				"source/app/web/src/base/view.js"
-			],
-			[
-				"vendor.",
-				"source/app/web/less/vendor.less"
-			],
-			[
-				"bower",
-				"source/app/web/bower.json"
-			],
-			[
-				"sca",
-				"source/app/web/less/base/scaffolding.less"
-			],
-			[
-				"scaf",
-				"source/app/web/less/base/scaffolding.less"
-			],
-			[
-				"bootstr",
-				"source/app/web/less/bootstrap/bootstrap-variables.less"
-			],
-			[
-				"lense.js",
-				"source/app/web/src/exploration/lenses/lenses.js"
-			],
-			[
-				"lens",
-				"source/app/web/less/zones/lenses.less"
-			],
-			[
-				"lense",
-				"source/app/web/less/zones/lenses.less"
-			],
-			[
-				"expore",
-				"source/app/web/src/exploration/explore.ejs"
-			],
-			[
-				"lenss",
-				"source/app/web/less/zones/lenses.less"
-			],
-			[
-				"teimline.ej",
-				"source/app/web/src/exploration/lenses/timeline/timeline.ejs"
-			],
-			[
-				"relat",
-				"source/app/web/src/exploration/lenses/relationships/relationships.js"
+				"cardlist",
+				"source/app/web/src/ui/components/card-list.js"
 			],
 			[
 				"encounterlist",
 				"source/app/web/src/ui/widgets/encounters/encounter-list.js"
 			],
 			[
-				"encounter-list",
-				"source/app/web/src/ui/widgets/encounters/encounter-list.js"
+				"eventdetail",
+				"source/app/web/src/exploration/details/events/event-detail-panel.js"
+			],
+			[
+				"collectino",
+				"source/app/web/src/base/collection.js"
+			],
+			[
+				"network",
+				"source/app/web/src/exploration/components/network-graph.js"
+			],
+			[
+				"net",
+				"source/app/web/src/ui/components/network-graph.js"
+			],
+			[
+				"detailzone",
+				"source/app/web/src/exploration/details/details-zone.js"
+			],
+			[
+				"netwr",
+				"source/app/web/src/ui/components/network-graph.js"
+			],
+			[
+				"open",
+				"source/app/web/src/ui/widgets/patients/patient.js"
+			],
+			[
+				"relation",
+				"source/app/web/src/exploration/lenses/relationships/relationships.js"
+			],
+			[
+				"notifi",
+				"source/app/web/less/components/notifications.less"
+			],
+			[
+				"notif",
+				"source/app/web/src/ui/notifications.js"
+			],
+			[
+				"collec",
+				"source/app/web/src/base/collection.js"
+			],
+			[
+				"notecolle",
+				"source/app/web/src/ui/widgets/notes/collection.js"
+			],
+			[
+				"translat",
+				"source/i18n/etc/translations.json"
+			],
+			[
+				"editor.ejs",
+				"source/app/web/src/ui/widgets/notes/editor.ejs"
+			],
+			[
+				"worker",
+				"source/i18n/worker.js"
+			],
+			[
+				"encounterless",
+				"source/app/web/less/widgets/encounters.less"
+			],
+			[
+				"card",
+				"source/app/web/less/components/cards.less"
+			],
+			[
+				"encounter-card",
+				"source/app/web/src/ui/widgets/encounters/encounter-card.js"
+			],
+			[
+				"detail",
+				"source/app/web/src/exploration/details/details-zone.js"
+			],
+			[
+				"details",
+				"source/app/web/src/exploration/details/details-zone.js"
+			],
+			[
+				"editor",
+				"source/app/web/src/ui/widgets/notes/editor.js"
+			],
+			[
+				"notifica",
+				"source/app/web/src/ui/notifications.js"
+			],
+			[
+				"editor.js",
+				"source/app/web/src/ui/widgets/notes/editor.ejs"
+			],
+			[
+				"modal",
+				"source/app/web/src/ui/components/modal.js"
+			],
+			[
+				"metric",
+				"source/app/web/src/ui/components/metric-panel.js"
+			],
+			[
+				"view",
+				"source/app/web/src/base/view.js"
+			],
+			[
+				"modal.j",
+				"source/app/web/src/ui/components/modal.js"
+			],
+			[
+				"mod",
+				"source/core/schema/model.js"
+			],
+			[
+				"provider-deta",
+				"source/app/web/src/exploration/details/persons/provider-detail-panel.js"
+			],
+			[
+				"risk-list",
+				"source/app/web/less/zones/risk-list.less"
+			],
+			[
+				"dahsb",
+				"source/app/web/less/layouts/dashboard.less"
+			],
+			[
+				"person",
+				"source/app/web/less/widgets/person.less"
+			],
+			[
+				"icon",
+				"source/app/web/less/base/icons.less"
+			],
+			[
+				"chart",
+				"source/app/web/src/dashboard/chart.js"
+			],
+			[
+				"boot",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"investigation-row",
+				"source/app/web/src/investigation/investigation-row.ejs"
+			],
+			[
+				"note",
+				"source/app/web/less/zones/notes.less"
+			],
+			[
+				"loader",
+				"source/app/web/src/base/loader.js"
+			],
+			[
+				"layou",
+				"source/app/web/src/base/layout.js"
+			],
+			[
+				"type",
+				"source/app/web/less/mixins/type.less"
+			],
+			[
+				"progress",
+				"source/app/web/src/ui/components/progress-bar.ejs"
+			],
+			[
+				"forms",
+				"source/app/web/less/components/forms.less"
 			],
 			[
 				"form",
 				"source/app/web/less/components/forms.less"
 			],
 			[
-				"vair",
-				"source/app/web/less/variables.less"
+				"transl",
+				"source/i18n/etc/translations.json"
 			],
 			[
-				"main",
-				"source/app/web/src/main.js"
+				"investigation.view",
+				"source/app/web/src/ui/widgets/notes/investigation.view.ejs"
 			],
 			[
-				"vai",
-				"source/app/web/less/variables.less"
+				"table.js",
+				"source/app/web/src/investigation/table.js"
 			],
 			[
-				"pane",
-				"source/app/web/less/components/panels.less"
-			],
-			[
-				"schemaevent",
-				"source/core/schema/event.js"
-			],
-			[
-				"event-detail",
-				"source/app/web/src/exploration/event-detail-panel.js"
+				"timeline",
+				"source/app/web/less/zones/lenses/timeline.less"
 			],
 			[
 				"bootstra",
 				"source/app/web/less/bootstrap/bootstrap-variables.less"
 			],
 			[
-				"panel",
-				"source/app/web/less/components/panels.less"
+				"icons",
+				"source/app/web/less/base/icons.less"
 			],
 			[
-				"noteview",
-				"source/app/web/src/ui/widgets/notes/note.view.js"
+				"patient-card",
+				"source/app/web/src/ui/widgets/patients/patient-card.ejs"
 			],
 			[
-				"searchbox",
-				"source/app/web/src/overview/search-box.ejs"
+				"event-list",
+				"source/app/web/src/investigation/common/event-list.js"
 			],
 			[
-				"patient-sear",
-				"source/app/web/src/ui/controls/patient-search.ejs"
+				"bootva",
+				"source/app/web/less/bootstrap/bootstrap-variables.less"
+			],
+			[
+				"dashboard",
+				"source/app/web/less/layouts/dashboard.less"
+			],
+			[
+				"risklist",
+				"source/app/web/less/zones/risk-list.less"
+			],
+			[
+				"explore.js",
+				"source/app/web/src/exploration/explore.js"
+			],
+			[
+				"relationship",
+				"source/app/web/src/exploration/lenses/relationships/relationships.js"
+			],
+			[
+				"pairing",
+				"source/app/web/src/ui/widgets/pairings/pair-card.ejs"
+			],
+			[
+				"rela",
+				"source/app/web/src/exploration/lenses/relationships/relationships.js"
+			],
+			[
+				"timelineej",
+				"source/app/web/src/exploration/lenses/timeline/timeline.ejs"
+			],
+			[
+				"bower",
+				"source/app/web/bower.json"
+			],
+			[
+				"network-",
+				"source/app/web/src/ui/components/network-graph.js"
+			],
+			[
+				"expl",
+				"source/app/web/src/exploration/explore.js"
+			],
+			[
+				"body",
+				"source/app/web/src/base/body.js"
+			],
+			[
+				"relations",
+				"source/app/web/src/exploration/lenses/relationships/relationships.js"
+			],
+			[
+				"relatin",
+				"source/app/web/less/zones/lenses/relationships.less"
+			],
+			[
+				"controlsnetwork",
+				"source/app/web/src/ui/controls/network.graph.js"
+			],
+			[
+				"datahandler",
+				"source/app/web/src/exploration/data-handler.js"
+			],
+			[
+				"zone",
+				"source/app/web/src/base/zone.js"
+			],
+			[
+				"colle",
+				"source/app/web/src/base/collection.js"
+			],
+			[
+				"vip.js",
+				"source/app/web/src/dashboard/vip-list/vip.js"
+			],
+			[
+				"coll",
+				"source/app/web/src/base/collection.js"
+			],
+			[
+				"lay",
+				"source/app/web/src/base/layout.js"
+			],
+			[
+				"viplistrow",
+				"source/app/web/src/dashboard/vip-list/vip-list-row.js"
+			],
+			[
+				"core/index",
+				"source/core/base/index.js"
+			],
+			[
+				"metricpan",
+				"source/app/web/src/ui/components/metric-panel.js"
+			],
+			[
+				"loade",
+				"source/app/web/src/base/loader.js"
+			],
+			[
+				"chain",
+				"source/core/base/chains.js"
+			],
+			[
+				"data-handler",
+				"source/app/web/src/base/data-handler.js"
+			],
+			[
+				"metric-pane",
+				"source/app/web/src/ui/components/metric-panel.js"
+			],
+			[
+				"databind",
+				"source/app/web/src/base/data-binder.js"
+			],
+			[
+				"bussa",
+				"source/core/events/bussable.js"
+			],
+			[
+				"eventa",
+				"source/core/events/eventable.js"
+			],
+			[
+				"dataha",
+				"source/app/web/src/base/data-handler.js"
+			],
+			[
+				"dash",
+				"source/app/web/src/dashboard/dashboard.js"
+			],
+			[
+				"explore",
+				"source/app/web/src/exploration/explore.js"
+			],
+			[
+				"data",
+				"source/app/web/src/base/data-binder.js"
+			],
+			[
+				"person.js",
+				"source/app/web/src/ui/widgets/person.js"
+			],
+			[
+				"patient.js",
+				"source/app/web/src/ui/widgets/patients/patient.js"
+			],
+			[
+				"vip",
+				"source/app/web/src/dashboard/vip-list/vip.js"
+			],
+			[
+				"vip-listrow",
+				"source/app/web/src/dashboard/vip-list/vip-list-row.js"
+			],
+			[
+				"daterange",
+				"source/app/web/src/exploration/components/daterange.js"
+			],
+			[
+				"editlist",
+				"source/app/web/src/ui/widgets/notes/editlist.js"
+			],
+			[
+				"metricpa",
+				"source/app/web/src/ui/components/metric-panel.js"
+			],
+			[
+				"cahrt",
+				"source/app/web/src/dashboard/chart.js"
+			],
+			[
+				"body.ejs",
+				"source/app/web/src/base/body.ejs"
+			],
+			[
+				"header.js",
+				"source/app/web/src/base/header.js"
+			],
+			[
+				"metricp",
+				"source/app/web/src/ui/components/metric-panel.js"
+			],
+			[
+				"chart.js",
+				"source/app/web/src/dashboard/chart.js"
+			],
+			[
+				"risk-listrow",
+				"source/app/web/src/dashboard/risk-list-row.js"
+			],
+			[
+				"vipli",
+				"source/app/web/src/dashboard/vip-list/vip-list.js"
+			],
+			[
+				"view.js",
+				"source/app/web/src/base/view.js"
+			],
+			[
+				"loa",
+				"source/app/web/src/base/loader.js"
+			],
+			[
+				"zone.js",
+				"source/app/web/src/base/zone.js"
+			],
+			[
+				"explorationindex",
+				"source/app/web/src/exploration/index.js"
+			],
+			[
+				"even",
+				"source/core/events/eventable.js"
+			],
+			[
+				"event",
+				"source/core/events/eventable.js"
+			],
+			[
+				"lens",
+				"source/app/web/src/exploration/lenses/lenses.ejs"
+			],
+			[
+				"eventable",
+				"source/core/events/eventable.js"
+			],
+			[
+				"network-gra",
+				"source/app/web/src/exploration/components/network-graph.js"
+			],
+			[
+				"pack",
+				"package.json"
 			],
 			[
 				"search-box",
-				"source/app/web/src/overview/search-box.ejs"
+				"source/app/web/src/ui/search-box.js"
 			],
 			[
-				"risk-li",
-				"source/app/web/src/dashboard/risk-list.ejs"
+				"daterang",
+				"source/app/web/src/exploration/components/daterange.js"
 			],
 			[
-				"selec",
-				"source/app/web/less/components/select.less"
+				"core/base.js",
+				"source/core/base/index.js"
+			],
+			[
+				"viplist",
+				"source/app/web/src/dashboard/vip-list/vip-list-row.ejs"
+			],
+			[
+				"tooltip.title",
+				"source/app/web/src/exploration/timeline.tooltip.title.ejs"
+			],
+			[
+				"eventlist.js",
+				"source/app/web/src/ui/widgets/events/event-list.js"
 			]
 		],
 		"width": 0.0
@@ -2164,7 +1428,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -2172,7 +1436,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 375.0,
+	"side_bar_width": 353.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
