@@ -3,4 +3,5 @@ Backup
 Cache
 Index
 Local
+*.sublime-workspace
 *Package\ Control.cache*
