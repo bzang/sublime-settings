@@ -4,6 +4,14 @@
 	"color_scheme": "Packages/User/Predawn Monokai (SL) (SublimePythonIDE).tmTheme",
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
 	"font_face": "Inconsolata for Powerline",
 	"font_size": 17,
 	"highlight_line": true,
@@ -46,9 +54,10 @@
 	],
 	"sidebar_medium": false,
 	"spell_check": true,
+	"tab_size": 2,
 	"tabs_small": true,
 	"theme": "predawn-DEV.sublime-theme",
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"word_wrap": true

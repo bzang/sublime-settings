@@ -1,4 +1,7 @@
 {
-	"tab_size": 2,
-	"convert_tabs_to_spaces": true
+	"convert_tabs_to_spaces": true,
+	"extensions":
+	[
+	],
+	"tab_size": 2
 }

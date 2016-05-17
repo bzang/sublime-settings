@@ -1,11 +1,11 @@
 {
 	// exposed jsbeautifier options
-	"indent_with_tabs": true,
+	"indent_with_tabs": false,
 	"preserve_newlines": true,
-	"max_preserve_newlines": 3,
+	"max_preserve_newlines": 2,
 	"space_in_paren": true,
 	"jslint_happy": false,
-	"brace_style": "collapse",
+	"brace_style": "none",
 	"keep_array_indentation": false,
 	"keep_function_indentation": false,
 	"space_after_anon_function": true,
